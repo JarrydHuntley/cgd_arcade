@@ -21,15 +21,20 @@ namespace CGDArcade_WPF
     public partial class EntryDetailWindow : Window
     {
         GenericArcadeEntity entity;
+        MainWindow mainWindow;
 
-        public EntryDetailWindow()
+        public EntryDetailWindow(MainWindow mainWindow)
         {
             InitializeComponent();
+            this.mainWindow = mainWindow;
             AddHandler(Keyboard.KeyDownEvent, (KeyEventHandler)KeyPressed);
         }
 
         private void img_btn_GridLayout_MouseDown(object sender, MouseButtonEventArgs e)
         {
+            this.mainWindow.Focus();
+
+            this.Hide();
             this.Close();
         }
 

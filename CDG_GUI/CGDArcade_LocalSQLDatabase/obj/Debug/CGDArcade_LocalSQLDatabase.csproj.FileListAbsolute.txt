@@ -2,4 +2,3 @@ C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_LocalSQLDatabase\bin\Debug\CGDArcade_LocalSQ
 C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_LocalSQLDatabase\bin\Debug\CGDArcade_LocalSQLDatabase.pdb
 C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_LocalSQLDatabase\obj\Debug\CGDArcade_LocalSQLDatabase.dll
 C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_LocalSQLDatabase\obj\Debug\CGDArcade_LocalSQLDatabase.pdb
-C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_LocalSQLDatabase\obj\Debug\CGDArcade_LocalSQLDatabase.csprojResolveAssemblyReference.cache

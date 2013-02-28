@@ -23,7 +23,7 @@ namespace CGDArcade_WPF
     public partial class MainWindow : Window
     {
         ArcadeEntryManager arcadeEntityManager;
-        EntitySelectionControl activeEntity;
+        public EntitySelectionControl activeEntity;
         int activeRow;
         int activeCol;
 
@@ -33,7 +33,7 @@ namespace CGDArcade_WPF
         public MainWindow()
         {
             InitializeComponent();
-            AddHandler(Keyboard.KeyDownEvent, (KeyEventHandler)KeyPressed);
+            //AddHandler(Keyboard.KeyDownEvent, (KeyEventHandler)KeyPressed);
             this.arcadeEntityManager = new ArcadeEntryManager();
 
             foreach (GenericArcadeEntity entity in this.arcadeEntityManager.arcadeEntities)
@@ -63,6 +63,14 @@ namespace CGDArcade_WPF
                       KillThisApp();
                       break;
 
+                  case Key.F5:
+                      DiagnosticStuff("F5");
+                      break;
+
+                  case Key.C:
+                      DiagnosticStuff("C");
+                      break;
+
                   case Key.Up:
                       MoveActiveEntityMarker(-1, 0);
                       break;
@@ -72,32 +80,37 @@ namespace CGDArcade_WPF
                       break;
                   
                   case Key.Left:
+                      debugLog.Content = "LEFT!";
                       MoveActiveEntityMarker(0, -1);
                       break;
             
                   case Key.Right:
+                      debugLog.Content = "RIGHT!";
                       MoveActiveEntityMarker(0, 1);
                       break;
               }
         }
 
+        private void DiagnosticStuff(string debugmsg)
+        {
+            // Keyboard.FocusedElement;
+            debugLog.Content = debugmsg;
+        }
 
         private void MoveActiveEntityMarker(int vertical, int horizontal)
         {
+            
             int activeIndex = this.mainWrapPanel.Children.IndexOf(this.activeEntity);
 
             int newIndex = activeIndex + (this.panelCols * vertical) + horizontal;
-            debugLog.Content = "NEW INDEX: " + newIndex.ToString();
+           // debugLog.Content = "NEW INDEX: " + newIndex.ToString();
 
             if ((newIndex < 0) || (newIndex >= this.mainWrapPanel.Children.Count))
             {
                 return;
             }
 
-            this.activeEntity.SetAsInactiveEntity();
-            this.activeEntity = this.mainWrapPanel.Children[newIndex] as EntitySelectionControl;
-            this.activeEntity.SetAsActiveEntity();
-            this.activeEntity.BringIntoView();
+            SwapActiveEntity(this.mainWrapPanel.Children[newIndex] as EntitySelectionControl);
         }
 
 
@@ -138,7 +151,7 @@ namespace CGDArcade_WPF
 
         private void img_btn_PagedLayout_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            EntryDetailWindow win = new EntryDetailWindow();
+            EntryDetailWindow win = new EntryDetailWindow(this);
             win.Show();
             win.Width = this.Width;
             win.Height = this.Height;
@@ -148,6 +161,25 @@ namespace CGDArcade_WPF
         }
 
 
+        public void SwapActiveEntity(EntitySelectionControl newEntity)
+        {
+            this.activeEntity.SetAsInactiveEntity();
 
+            this.activeEntity = newEntity; 
+            this.activeEntity.SetAsActiveEntity();
+            this.activeEntity.BringIntoView();
+        }
+
+        private void Window_KeyDown_1(object sender, KeyEventArgs e)
+        {
+            //KeyPressed(sender, e);
+        }
+
+        private void Window_PreviewKeyDown_1(object sender, KeyEventArgs e)
+        {
+            KeyPressed(sender, e);
+        }
+
+        
     }
 }

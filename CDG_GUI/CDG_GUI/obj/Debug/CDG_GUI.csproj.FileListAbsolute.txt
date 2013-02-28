@@ -26,4 +26,3 @@ C:\DEV\cgd_arcade\CDG_GUI\CDG_GUI\bin\Debug\CDG_GUI.pdb
 C:\DEV\cgd_arcade\CDG_GUI\CDG_GUI\obj\Debug\CDG_GUI.Form1.resources
 C:\DEV\cgd_arcade\CDG_GUI\CDG_GUI\obj\Debug\CDG_GUI.Properties.Resources.resources
 C:\DEV\cgd_arcade\CDG_GUI\CDG_GUI\obj\Debug\CDG_GUI.csproj.GenerateResource.Cache
-C:\DEV\cgd_arcade\CDG_GUI\CDG_GUI\obj\Debug\CDG_GUI.csprojResolveAssemblyReference.cache

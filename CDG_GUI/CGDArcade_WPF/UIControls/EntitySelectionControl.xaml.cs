@@ -22,9 +22,9 @@ namespace CGDArcade_WPF.UIControls
     public partial class EntitySelectionControl : UserControl
     {
         public GenericArcadeEntity arcadeEntity;
-        public Window mainWindow;
+        public MainWindow mainWindow;
 
-        public EntitySelectionControl(Window mainWindow)
+        public EntitySelectionControl(MainWindow mainWindow)
         {
             InitializeComponent();
             this.mainWindow = mainWindow;
@@ -52,7 +52,9 @@ namespace CGDArcade_WPF.UIControls
 
         private void entityControl_MouseUp(object sender, MouseButtonEventArgs e)
         {
-            EntryDetailWindow win = new EntryDetailWindow();
+            this.mainWindow.SwapActiveEntity(this);
+
+            EntryDetailWindow win = new EntryDetailWindow(this.mainWindow);
             
             win.Show();
             win.Width = this.mainWindow.Width;
