@@ -53,12 +53,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="BrowserEmbeddedEntity.xaml.cs">
+      <DependentUpon>BrowserEmbeddedEntity.xaml</DependentUpon>
+    </Compile>
     <Compile Include="EntryDetailWindow.xaml.cs">
       <DependentUpon>EntryDetailWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="UIControls\EntitySelectionControl.xaml.cs">
       <DependentUpon>EntitySelectionControl.xaml</DependentUpon>
     </Compile>
+    <Page Include="BrowserEmbeddedEntity.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="EntryDetailWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

@@ -170,11 +170,6 @@ namespace CGDArcade_WPF
             this.activeEntity.BringIntoView();
         }
 
-        private void Window_KeyDown_1(object sender, KeyEventArgs e)
-        {
-            //KeyPressed(sender, e);
-        }
-
         private void Window_PreviewKeyDown_1(object sender, KeyEventArgs e)
         {
             KeyPressed(sender, e);

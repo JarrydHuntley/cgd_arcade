@@ -30,6 +30,10 @@ namespace CGDArcade_CommonLibrary
         public string entityAuthor = "M PERRIN";
         public string entityDescription = "A wacky funny way to test this amazingly cool app";
 
+        public string playPath = "http://dl.dropbox.com/u/3670347/TheCube/TheCubeWeb.html";
+        //public string playPath = "http://www.cnn.com";
+
+
         public void SetSelectionControlMedia(string path, string type)
         {
             this.selectionControlMediaPath = path;

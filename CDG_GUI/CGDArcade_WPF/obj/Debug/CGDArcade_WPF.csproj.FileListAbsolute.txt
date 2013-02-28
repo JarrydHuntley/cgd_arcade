@@ -34,3 +34,5 @@ C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\obj\Debug\UIControls\EntitySelectionCont
 C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\obj\Debug\UIControls\EntitySelectionControl.g.cs
 C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\obj\Debug\EntryDetailWindow.baml
 C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\obj\Debug\EntryDetailWindow.g.cs
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\obj\Debug\BrowserEmbeddedEntity.baml
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\obj\Debug\BrowserEmbeddedEntity.g.cs

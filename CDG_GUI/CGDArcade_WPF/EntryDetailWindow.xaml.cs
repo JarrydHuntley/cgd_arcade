@@ -68,6 +68,16 @@ namespace CGDArcade_WPF
             this.lbl_Description.Text = this.entity.entityDescription;
         }
 
+        private void Image_MouseDown_1(object sender, MouseButtonEventArgs e)
+        {
+            BrowserEmbeddedEntity newEmbed = new BrowserEmbeddedEntity(this, this.entity);
+
+            newEmbed.Show();
+            newEmbed.Width = this.Width;
+            newEmbed.Height = this.Height;
+            newEmbed.WindowState = this.WindowState;
+        }
+
 
     }
 }

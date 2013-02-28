@@ -1,0 +1,11 @@
+﻿<Window x:Class="CGDArcade_WPF.BrowserEmbeddedEntity"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="BrowserEmbeddedEntity" Height="700" Width="1000" Background="Black" WindowStartupLocation="CenterScreen" WindowState="Maximized" WindowStyle="None">
+    <Grid>
+        <Button Content="Exit Game" HorizontalAlignment="Left" Margin="917,0,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <WebBrowser x:Name="webbrowser_Game" HorizontalAlignment="Center" Height="660" Margin="0,22,0,0" VerticalAlignment="Top" Width="992"/>
+        <Label x:Name="lbl_titleBar" Content="Now Playing:" HorizontalAlignment="Left" Margin="10,1,0,0" VerticalAlignment="Top" Width="755" Foreground="White"/>
+
+    </Grid>
+</Window>
