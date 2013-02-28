@@ -1,7 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Express 2012 for Windows Desktop
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDG_GUI", "CDG_GUI\CDG_GUI.csproj", "{D36EC386-49EE-46CF-85F3-A3E278E75443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGDArcade_LocalSQLDatabase", "CGDArcade_LocalSQLDatabase\CGDArcade_LocalSQLDatabase.csproj", "{6472407F-9990-49FC-9263-EB3CFA16EAED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGDArcade_WPF", "CGDArcade_WPF\CGDArcade_WPF.csproj", "{E44126A5-1D60-43E7-B5F7-BB9F5CE3A88B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGDArcade_CommonLibrary", "CGDArcade_CommonLibrary\CGDArcade_CommonLibrary.csproj", "{2FE1D796-2DDB-4A10-B116-CA82E40B2127}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +19,18 @@ Global
 		{D36EC386-49EE-46CF-85F3-A3E278E75443}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D36EC386-49EE-46CF-85F3-A3E278E75443}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D36EC386-49EE-46CF-85F3-A3E278E75443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6472407F-9990-49FC-9263-EB3CFA16EAED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6472407F-9990-49FC-9263-EB3CFA16EAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6472407F-9990-49FC-9263-EB3CFA16EAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6472407F-9990-49FC-9263-EB3CFA16EAED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E44126A5-1D60-43E7-B5F7-BB9F5CE3A88B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E44126A5-1D60-43E7-B5F7-BB9F5CE3A88B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E44126A5-1D60-43E7-B5F7-BB9F5CE3A88B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E44126A5-1D60-43E7-B5F7-BB9F5CE3A88B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FE1D796-2DDB-4A10-B116-CA82E40B2127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE1D796-2DDB-4A10-B116-CA82E40B2127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE1D796-2DDB-4A10-B116-CA82E40B2127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE1D796-2DDB-4A10-B116-CA82E40B2127}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

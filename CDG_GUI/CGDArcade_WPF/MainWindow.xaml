@@ -1,0 +1,19 @@
+﻿<Window x:Class="CGDArcade_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CGD Arcade" Height="700" Width="1000" WindowState="Maximized" WindowStartupLocation="CenterScreen" WindowStyle="None" SizeChanged="Window_SizeChanged_1">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/Textures/Backgrounds/BlackLights1440x900.jpg"/>
+        </Grid.Background>
+        <Label HorizontalAlignment="Center" Content="CLEVELAND GAME DEVS" VerticalAlignment="Top" Foreground="White" 
+               HorizontalContentAlignment="Center" 
+               FontFamily="/CGDArcade_WPF;component/Assets/Fonts/#Atari Font Full Version" FontSize="24" Margin="176,25,170,0" Width="646"/>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,112,0,0">
+            <WrapPanel Name="mainWrapPanel" HorizontalAlignment="Center" Margin="20,0,20,20" VerticalAlignment="Top"/>
+        </ScrollViewer >
+        <Label x:Name="debugLog" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="972" Foreground="White">
+        </Label>
+        <Image x:Name="img_btn_PagedLayout" Height="40" Width="40" Margin="0,10,10,0" HorizontalAlignment="Right" VerticalAlignment="Top" Source="Assets/UI/UIbtn_PagedLayout.png" MouseDown="img_btn_PagedLayout_MouseDown"/>
+    </Grid>
+</Window>
