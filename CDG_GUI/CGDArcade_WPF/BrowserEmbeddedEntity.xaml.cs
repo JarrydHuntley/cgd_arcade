@@ -49,6 +49,7 @@ namespace CGDArcade_WPF
         private void LoadWebBrowser()
         {
             this.webbrowser_Game.Navigate(new Uri(this.entity.playPath, UriKind.RelativeOrAbsolute));
+            this.webbrowser_Game.Focus();
 
             //this.webbrowser_Game.Source = this.entity.playPath;
         }

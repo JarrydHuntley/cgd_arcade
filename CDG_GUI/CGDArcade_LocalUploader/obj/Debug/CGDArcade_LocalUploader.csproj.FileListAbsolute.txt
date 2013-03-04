@@ -1,0 +1,13 @@
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_LocalUploader\bin\Debug\CGDArcade_LocalUploader.exe.config
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_LocalUploader\bin\Debug\CGDArcade_LocalUploader.exe
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_LocalUploader\bin\Debug\CGDArcade_LocalUploader.pdb
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_LocalUploader\obj\Debug\CGDArcade_LocalUploader.csprojResolveAssemblyReference.cache
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_LocalUploader\obj\Debug\CGDArcade_LocalUploader.Form1.resources
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_LocalUploader\obj\Debug\CGDArcade_LocalUploader.Properties.Resources.resources
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_LocalUploader\obj\Debug\CGDArcade_LocalUploader.csproj.GenerateResource.Cache
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_LocalUploader\obj\Debug\CGDArcade_LocalUploader.exe
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_LocalUploader\obj\Debug\CGDArcade_LocalUploader.pdb
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_LocalUploader\bin\Debug\CGDArcade_CommonLibrary.dll
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_LocalUploader\bin\Debug\MySql.Data.dll
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_LocalUploader\bin\Debug\CGDArcade_CommonLibrary.pdb
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_LocalUploader\obj\Debug\CGDArcade_LocalUploader.RecordSelector.resources

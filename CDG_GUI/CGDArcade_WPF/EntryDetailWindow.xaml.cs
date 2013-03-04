@@ -60,7 +60,7 @@ namespace CGDArcade_WPF
             this.entityMediaElement.Source = new Uri(this.entity.selectionControlMediaPath);
 
             this.entityMedia1.Source = new Uri(this.entity.selectionControlMediaPath);
-            this.entityMedia2.Source = new Uri(this.entity.entity2);
+            this.entityMedia2.Source = new Uri(this.entity.selectionControlMediaPath);
             this.entityMedia3.Source = new Uri(this.entity.selectionControlMediaPath);
 
             this.lbl_Title.Content = this.entity.entityTitle;

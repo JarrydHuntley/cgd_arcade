@@ -22,17 +22,27 @@ namespace CGDArcade_CommonLibrary
         public string selectionControlMediaPath = "";
         public string selectionControlMediaType = "";
         public Image selectionControlMediaImage;
+        public string recordSelectorText;
 
-        public string entity2 = "http://www.youtube.com/embed/lnwABVxcl3s"; 
+        
 
-
+        public int id = -1;
         public string entityTitle = "TITLE TEST HERE";
         public string entityAuthor = "M PERRIN";
         public string entityDescription = "A wacky funny way to test this amazingly cool app";
 
+        public string processType = "BROWSER";
         public string playPath = "http://dl.dropbox.com/u/3670347/TheCube/TheCubeWeb.html";
+
+        //public string playPath = "http://dl.dropbox.com/u/3670347/Life/index.html";
         //public string playPath = "http://www.cnn.com";
 
+
+
+        public void SetRecordSelectorText()
+        {
+            this.recordSelectorText = string.Format("ID: {0} - TITLE: {1}", entity.id.ToString(), entity.entityTitle);
+        }
 
         public void SetSelectionControlMedia(string path, string type)
         {
