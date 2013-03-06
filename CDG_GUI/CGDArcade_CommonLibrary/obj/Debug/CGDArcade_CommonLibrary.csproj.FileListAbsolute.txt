@@ -3,4 +3,3 @@ C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_CommonLibrary\bin\Debug\CGDArcade_CommonLibr
 C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_CommonLibrary\obj\Debug\CGDArcade_CommonLibrary.dll
 C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_CommonLibrary\obj\Debug\CGDArcade_CommonLibrary.pdb
 C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_CommonLibrary\bin\Debug\MySql.Data.dll
-C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_CommonLibrary\obj\Debug\CGDArcade_CommonLibrary.csprojResolveAssemblyReference.cache

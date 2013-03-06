@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\App.xaml
-41142989669
-16-786170565
-13-1278269673
+51372393964
+
+14459147809
 131812812647
-BrowserEmbeddedEntity.xaml;EntryDetailWindow.xaml;MainWindow.xaml;UIControls\EntitySelectionControl.xaml;
+ArcadeSettings.xaml;BrowserEmbeddedEntity.xaml;EntryDetailWindow.xaml;MainWindow.xaml;UIControls\EntitySelectionControl.xaml;
 
 False
 

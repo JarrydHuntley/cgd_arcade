@@ -95,6 +95,34 @@ namespace CGDArcade_CommonLibrary
             }
         }
 
+        //  CONNECTION TEST
+        public void DBConnectionTest()
+        {
+            string query = "SELECT * FROM Entities";
+            //Open connection
+            if (this.OpenConnection() == true)
+            {
+                //Create Command
+                MySqlCommand cmd = new MySqlCommand(query, this.mysqlConnection);
+
+                try
+                {
+                    //Create a data reader and Execute the command
+                     cmd.ExecuteReader();
+                }
+                catch (MySqlException ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+
+                //close Connection
+                this.CloseConnection();
+            }
+
+            MessageBox.Show("Test successful!");            
+        }
+
+
         //  =--==--==-==--==--==-==--==--==-==--==--==-=
         //  QUERY FRAMEWORKS
         private int ExecuteQuery(string query, bool returnLastInsertID)
@@ -161,106 +189,88 @@ namespace CGDArcade_CommonLibrary
 
 
         //  =--==--==-==--==--==-==--==--==-==--==--==-=
-        //  COLLECTION QUERIES
-        public List<GenericArcadeCollection> RetrieveListOfCollections()
+        //  IMG QUERIES
+        public GenericImageDBObject RetrieveImageFromDB(string imgID)
         {
-            string query = string.Format("SELECT * FROM Collections");
+            //Set Query
+            string query = string.Format("SELECT * FROM Images WHERE id = '{0}'", imgID);
 
+            //Execute
             ExecuteQuery(query, false);
-
-            //Create a list to store the result
-            List<GenericArcadeCollection> arcadeCollectionList = new List<GenericArcadeCollection>();
+            
             MySqlDataReader dataReader = ExecuteQuery(query);
 
-            //Read the data and store them in the generic
-            while (dataReader.Read())
-            {
-                GenericArcadeCollection newCollection = new GenericArcadeCollection();
-                newCollection.id = (int)dataReader["id"];
-                newCollection.collection_Title = dataReader["title"] as string;
-                newCollection.collection_Description = dataReader["desc"] as string;
-                newCollection.collection_ImageID = (int)dataReader["img"];
-                newCollection.SetRecordSelectorText();
+            GenericImageDBObject tempImgDBObj = new GenericImageDBObject();
+            tempImgDBObj.extn = (string)dataReader["extn"];
+            tempImgDBObj.imgdata = (byte[])dataReader["imgdata"];
+            tempImgDBObj.ConvertImgDataToImage();
 
-                arcadeCollectionList.Add(newCollection);
-            }
-
-            //close Data Reader
-            dataReader.Close();
-            //return list to be displayed
-            return arcadeCollectionList;
-        }
-
-        public GenericArcadeCollection RetrieveCollection(string id)
-        {
-            string query = string.Format("SELECT * FROM Collections where id='{0}'", id);
-            ExecuteQuery(query, false);
-
-            //Create a list to store the result
-            MySqlDataReader dataReader = ExecuteQuery(query);
-
-            //Read the data and store them in the generic
-            while (dataReader.Read())
-            {
-                GenericArcadeCollection newCollection = new GenericArcadeCollection();
-                newCollection.id = (int)dataReader["id"];
-                newCollection.collection_Title = dataReader["title"] as string;
-                newCollection.collection_Description = dataReader["desc"] as string;
-                newCollection.collection_ImageID = (int)dataReader["img"];
-                newCollection.SetRecordSelectorText();
-            }
-
-            //close Data Reader
-            dataReader.Close();
-            //return list to be displayed
-            return newCollection;
-        }
-
-
-
-
-        public void CreateNewCollection(string title, string desc, string filepath)
-        {
-            int lastInsertId;
-            string query;
-            if ((filepath != null) || (filepath != null))
-            {
-                string extn = Path.GetExtension(filepath);
-                byte[] imgdata = ConvertImageFileToByteArray(filepath);
-                query = string.Format("INSERT INTO Images VALUES(NULL,'{0}',{1},{2}; select last_insert_id();", extn, imgdata);
-                lastInsertId = ExecuteQuery(query, true);
-            }
-
-            query = string.Format("INSERT INTO Collections VALUES(NULL,'{0}',{1},{2}", title, desc, lastInsertId);
-            ExecuteQuery(query, false);
-        }
-
-
-        public void DeleteCollection(string id)
-        {
-            string query = string.Format("DELETE FROM Collections WHERE id='{0}'", extn, imgdata);
-                
-            if (this.OpenConnection() == true)
-            {
-                MySqlCommand cmd = new MySqlCommand(query, this.mysqlConnection);
-                cmd.ExecuteNonQuery();
-                this.CloseConnection();
-            }
-
+            return tempImgDBObj;
 
         }
-
 
         //  =--==--==-==--==--==-==--==--==-==--==--==-=
         //  ENTITY QUERIES
+        public List<GenericArcadeEntity> RetrieveEntitiesFromDB()
+        {
+            //Create a list to store the result
+            List<GenericArcadeEntity> entityList = new List<GenericArcadeEntity>();
+
+            //Set Query
+            string query = string.Format("SELECT * FROM Entities");
+
+            //Execute
+            ExecuteQuery(query, false);
+
+            //
+            MySqlDataReader dataReader = ExecuteQuery(query);
+
+            //Read the data and store them in the generic
+            while (dataReader.Read())
+            {
+                GenericArcadeEntity newEntity = new GenericArcadeEntity();
+                newEntity.entityTitle = dataReader["title"] as string;
+                newEntity.entityAuthor = dataReader["author"] as string;
+                newEntity.entityDescription = dataReader["desc"] as string;
+
+                newEntity.playPath = dataReader["play_path"] as string;
+                newEntity.pathArgs = dataReader["play_type"] as string;
+                
+                /*
+                string imgValue = dataReader["img1"] as string;
+                if ((imgValue != null) || (imgValue != ""))
+                {
+                    newEntity.img1 = this.RetrieveImageFromDB(imgValue);
+                }
+
+                imgValue = dataReader["img2"] as string;
+                if ((imgValue != null) || (imgValue != ""))
+                {
+                    newEntity.img1 = this.RetrieveImageFromDB(imgValue);
+                }
+
+
+
+                newEntity.imgID2 = dataReader["img2"] as string;
+                newEntity.imgID3 = dataReader["img3"] as string;
+                newEntity.logoImgID = dataReader["logoimg"] as string;*/
+            }
+
+            //close Data Reader
+            dataReader.Close();
+            //return list to be displayed
+            
 
 
 
 
+            return entityList;
+        }
 
 
 
 
+        /*
 
 
         //Insert statement
@@ -372,7 +382,7 @@ namespace CGDArcade_CommonLibrary
             }
         }
 
-        
+        */
 
 
 

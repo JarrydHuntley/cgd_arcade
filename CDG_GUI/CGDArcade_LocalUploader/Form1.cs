@@ -15,7 +15,7 @@ namespace CGDArcade_LocalUploader
     {
 
         CGDArcadeDBHandler arcadeDBHandler;
-        int currentCollectionID;
+        RecordSelector recordSelector;
 
         public Form1()
         {
@@ -23,6 +23,8 @@ namespace CGDArcade_LocalUploader
             this.arcadeDBHandler = new CGDArcadeDBHandler();
             this.arcadeDBHandler.InitializeValues(this.txt_SettingsServer.Text,
                 this.txt_SettingsDB.Text, this.txt_SettingsUsername.Text, this.txt_SettingsPassword.Text);
+            
+            this.recordSelector = new RecordSelector(this);
         }
 
 
@@ -33,52 +35,43 @@ namespace CGDArcade_LocalUploader
         //  SETTINGS
         private void btn_SettingsTest_Click(object sender, EventArgs e)
         {
-            this.arcadeDBHandler.Select();
+            this.arcadeDBHandler.DBConnectionTest();
         }
+
+
 
 
         //  =--==--==--==--==--==--==--==--==--==--==--==--=
-        //  COLLECTIONS
-        private void btn_CollectionsNew_Click(object sender, EventArgs e)
+        //  ENTITY
+        private void btn_EntityNew_Click(object sender, EventArgs e)
         {
-            this.txt_CollectionsTitle.Text = "";
-            this.txt_CollectionsDesc.Text = "";
-            this.txt_CollectionsImg.Text = "";
-            this.currentCollectionID = -1;
+            this.txt_entityTitle.Text = "";
+            this.txt_entityAuthor.Text = "";
+            this.txt_entityDesc.Text = "";
+            this.cbox_EntityProcessType.SelectedIndex = 0;
+            this.txt_entityProcessPath.Text = "";
+            this.txt_entityLogoImgPath.Text = "";
+            this.txt_entityImg1Path.Text = "";
+            this.txt_entityImg2Path.Text = "";
+            this.txt_entityImg3Path.Text = "";
         }
 
-        private void bnt_CollectionsOpen_Click(object sender, EventArgs e)
-        {
-            currentCollectionID = -1;
-            RecordSelector recordSelect = new RecordSelector(this);
-            recordSelect.LoadCollectionData(this.arcadeDBHandler.RetrieveListOfCollections());
-        }
-
-        private void LoadCollectionData(string id)
+        private void btn_EntityOpen_Click(object sender, EventArgs e)
         {
             
-
+            //this.recordSelector.LoadEntityData(this.arcadeDBHandler.RetrieveEntitiesFromDB);
             
         }
 
-
-
-        private void btn_CollectionsSave_Click(object sender, EventArgs e)
-        {
-            this.arcadeDBHandler.CreateNewCollection(this.txt_CollectionsTitle.Text, this.txt_CollectionsDesc.Text, this.txt_CollectionsImg.Text);
-        }
-
-        private void btn_CollectionsDelete_Click(object sender, EventArgs e)
+        private void btn_EntitySave_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void btn_CollectionsImgBrowse_Click(object sender, EventArgs e)
+        private void btn_EntityDelete_Click(object sender, EventArgs e)
         {
 
         }
-
-
 
 
 

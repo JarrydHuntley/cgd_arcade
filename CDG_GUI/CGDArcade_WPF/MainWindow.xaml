@@ -6,14 +6,20 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Assets/Textures/Backgrounds/BlackLights1440x900.jpg"/>
         </Grid.Background>
-        <Label HorizontalAlignment="Center" Content="CLEVELAND GAME DEVS" VerticalAlignment="Top" Foreground="White" 
-               HorizontalContentAlignment="Center" 
-               FontFamily="/CGDArcade_WPF;component/Assets/Fonts/#Atari Font Full Version" FontSize="24" Margin="176,25,170,0" Width="646"/>
         <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,112,0,0">
             <WrapPanel Name="mainWrapPanel" HorizontalAlignment="Center" Margin="20,0,20,20" VerticalAlignment="Top"/>
         </ScrollViewer >
-        <Label x:Name="debugLog" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="972" Foreground="White">
-        </Label>
-        <Image x:Name="img_btn_PagedLayout" Height="40" Width="40" Margin="0,10,10,0" HorizontalAlignment="Right" VerticalAlignment="Top" Source="Assets/UI/UIbtn_PagedLayout.png" MouseDown="img_btn_PagedLayout_MouseDown"/>
+        <Label x:Name="debugLog" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="972" Foreground="White"/>
+        <Image x:Name="btn_Close" HorizontalAlignment="Right" Height="40" Margin="952,0,0,0" VerticalAlignment="Top" Width="40" Source="Assets/UI/split-cross.png" MouseDown="btn_Close_MouseDown">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="Assets/UI/split-cross.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <Image x:Name="btn_Settings" HorizontalAlignment="Right" Height="40" Margin="0,0,40,0" VerticalAlignment="Top" Width="40" Source="Assets/UI/gears.png" MouseDown="btn_Settings_MouseDown"/>
+        <Image HorizontalAlignment="Center" Height="100" Margin="307,7,307,0" VerticalAlignment="Top" Width="378" Source="Assets/UI/cgd_white.gif">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="Assets/UI/cgd_white.gif"/>
+            </Image.OpacityMask>
+        </Image>
     </Grid>
 </Window>

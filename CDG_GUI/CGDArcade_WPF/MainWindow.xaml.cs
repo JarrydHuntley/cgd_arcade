@@ -22,7 +22,8 @@ namespace CGDArcade_WPF
     /// </summary>
     public partial class MainWindow : Window
     {
-        ArcadeEntryManager arcadeEntityManager;
+        bool readyToDisplayEntities = false;
+        ArcadeEntityManager arcadeEntityManager;
         public EntitySelectionControl activeEntity;
         int activeRow;
         int activeCol;
@@ -34,7 +35,15 @@ namespace CGDArcade_WPF
         {
             InitializeComponent();
             //AddHandler(Keyboard.KeyDownEvent, (KeyEventHandler)KeyPressed);
-            this.arcadeEntityManager = new ArcadeEntryManager();
+            this.arcadeEntityManager = new ArcadeEntityManager();
+            this.arcadeEntityManager.CreateArcadeEntitiesList();
+            CreateEntitySelectionControls();
+        }
+
+
+        public void CreateEntitySelectionControls()
+        {
+            this.mainWrapPanel.Children.Clear();
 
             foreach (GenericArcadeEntity entity in this.arcadeEntityManager.arcadeEntities)
             {
@@ -45,22 +54,33 @@ namespace CGDArcade_WPF
             }
 
             //SET ACTIVE ENTITYSELECTIONCONTROL
-            this.activeEntity = this.mainWrapPanel.Children[0] as EntitySelectionControl;
-            this.activeEntity.SetAsActiveEntity();
-            this.activeRow = 1;
-            this.activeCol = 1;
+
+            if (this.mainWrapPanel.Children.Count > 0)
+            {
+                this.activeEntity = this.mainWrapPanel.Children[0] as EntitySelectionControl;
+                this.activeEntity.SetAsActiveEntity();
+                this.activeRow = 1;
+                this.activeCol = 1;
+                this.readyToDisplayEntities = true;
+            }
+            else
+            {
+                MessageBox.Show("Error - No entities found in XML");
+            }
         }
+
+
                
         private void KeyPressed(object sender, KeyEventArgs e)
         {
               switch (e.Key)
               {
                   case Key.Escape:
-                      ToggleFullScreen();
+                      KillThisApp();
                       break;
 
                   case Key.F1:
-                      KillThisApp();
+                      ToggleFullScreen();
                       break;
 
                   case Key.F5:
@@ -99,18 +119,20 @@ namespace CGDArcade_WPF
 
         private void MoveActiveEntityMarker(int vertical, int horizontal)
         {
-            
-            int activeIndex = this.mainWrapPanel.Children.IndexOf(this.activeEntity);
-
-            int newIndex = activeIndex + (this.panelCols * vertical) + horizontal;
-           // debugLog.Content = "NEW INDEX: " + newIndex.ToString();
-
-            if ((newIndex < 0) || (newIndex >= this.mainWrapPanel.Children.Count))
+            if (this.readyToDisplayEntities)
             {
-                return;
-            }
+                int activeIndex = this.mainWrapPanel.Children.IndexOf(this.activeEntity);
 
-            SwapActiveEntity(this.mainWrapPanel.Children[newIndex] as EntitySelectionControl);
+                int newIndex = activeIndex + (this.panelCols * vertical) + horizontal;
+                // debugLog.Content = "NEW INDEX: " + newIndex.ToString();
+
+                if ((newIndex < 0) || (newIndex >= this.mainWrapPanel.Children.Count))
+                {
+                    return;
+                }
+
+                SwapActiveEntity(this.mainWrapPanel.Children[newIndex] as EntitySelectionControl);
+            }
         }
 
 
@@ -137,16 +159,22 @@ namespace CGDArcade_WPF
 
         private void Window_SizeChanged_1(object sender, SizeChangedEventArgs e)
         {
-            this.mainWrapPanel.Width = this.Width - 100;
-            ResetWarpPanelPositionalSizing();
+            if (this.readyToDisplayEntities)
+            {
+                this.mainWrapPanel.Width = this.Width - 100;
+                ResetWarpPanelPositionalSizing();
+            }
         }
 
 
         private void ResetWarpPanelPositionalSizing()
         {
-            this.panelRows = 1 + (int)(this.mainWrapPanel.ActualHeight / this.activeEntity.ActualHeight);
-            this.panelCols = (int)(this.mainWrapPanel.ActualWidth / this.activeEntity.ActualWidth);
-            this.activeEntity.BringIntoView();
+            if (this.readyToDisplayEntities)
+            {
+                this.panelRows = 1 + (int)(this.mainWrapPanel.ActualHeight / this.activeEntity.ActualHeight);
+                this.panelCols = (int)(this.mainWrapPanel.ActualWidth / this.activeEntity.ActualWidth);
+                this.activeEntity.BringIntoView();
+            }
         }
 
         private void img_btn_PagedLayout_MouseDown(object sender, MouseButtonEventArgs e)
@@ -163,16 +191,37 @@ namespace CGDArcade_WPF
 
         public void SwapActiveEntity(EntitySelectionControl newEntity)
         {
-            this.activeEntity.SetAsInactiveEntity();
+            if (this.readyToDisplayEntities)
+            {
+                this.activeEntity.SetAsInactiveEntity();
 
-            this.activeEntity = newEntity; 
-            this.activeEntity.SetAsActiveEntity();
-            this.activeEntity.BringIntoView();
+                this.activeEntity = newEntity;
+                this.activeEntity.SetAsActiveEntity();
+                this.activeEntity.BringIntoView();
+            }
         }
 
         private void Window_PreviewKeyDown_1(object sender, KeyEventArgs e)
         {
             KeyPressed(sender, e);
+        }
+
+
+
+        private void btn_Settings_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            ArcadeSettings win = new ArcadeSettings(this, this.arcadeEntityManager);
+            win.Show();
+            win.Width = this.Width;
+            win.Height = this.Height;
+            win.WindowState = this.WindowState;
+
+            //  win.UpdateValuesFromEntity(this.activeEntity.arcadeEntity);
+        }
+
+        private void btn_Close_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            KillThisApp();
         }
 
         

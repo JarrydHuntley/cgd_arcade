@@ -19,31 +19,25 @@ namespace CGDArcade_CommonLibrary
 
     public class GenericArcadeEntity
     {
-        public string selectionControlMediaPath = "";
-        public string selectionControlMediaType = "";
-        public Image selectionControlMediaImage;
-        public string recordSelectorText;
 
-        
+        //public int id;
+        public string entityTitle;
+        public string entityAuthor;
+        public string entityDescription;
 
-        public int id = -1;
-        public string entityTitle = "TITLE TEST HERE";
-        public string entityAuthor = "M PERRIN";
-        public string entityDescription = "A wacky funny way to test this amazingly cool app";
+        public string playPath = "";
+        public string pathArgs = "";
 
-        public string processType = "BROWSER";
-        public string playPath = "http://dl.dropbox.com/u/3670347/TheCube/TheCubeWeb.html";
-
-        //public string playPath = "http://dl.dropbox.com/u/3670347/Life/index.html";
-        //public string playPath = "http://www.cnn.com";
+        public string img1Path;
+        public string img2Path;
+        public string img3Path;
+        public string logoImgPath;
 
 
 
-        public void SetRecordSelectorText()
-        {
-            this.recordSelectorText = string.Format("ID: {0} - TITLE: {1}", entity.id.ToString(), entity.entityTitle);
-        }
-
+	 	 	 	 	 	 	 
+	 	 	 	 
+/*
         public void SetSelectionControlMedia(string path, string type)
         {
             this.selectionControlMediaPath = path;
@@ -71,6 +65,7 @@ namespace CGDArcade_CommonLibrary
             newImage.Source = (new ImageSourceConverter()).ConvertFromString(this.selectionControlMediaPath) as ImageSource;
             return newImage;
         }
+ */
 
 
     }

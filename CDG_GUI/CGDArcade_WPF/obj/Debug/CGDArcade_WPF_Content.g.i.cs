@@ -8,21 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("testdata/images/1.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("testdata/images/10.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("testdata/images/11.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("testdata/images/12.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("testdata/images/13.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("testdata/images/14.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("testdata/images/15.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("testdata/images/16.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("testdata/images/2.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("testdata/images/3.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("testdata/images/4.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("testdata/images/5.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("testdata/images/6.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("testdata/images/7.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("testdata/images/8.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("testdata/images/9.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/ui/gears.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/ui/split-cross.png")]
 
 

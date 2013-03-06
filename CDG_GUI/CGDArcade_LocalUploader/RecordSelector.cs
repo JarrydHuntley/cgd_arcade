@@ -25,7 +25,7 @@ namespace CGDArcade_LocalUploader
 
         //  =--==--==-==--==--==-==--==--==-==--==--==-=
         //DATA LOADER
-
+        /*
         public void LoadCollectionData(List<GenericArcadeCollection> arcadeCollectionList)
         {
             this.cBox_RecordSelector.Items.Clear();
@@ -34,7 +34,7 @@ namespace CGDArcade_LocalUploader
                 this.cBox_RecordSelector.Items.Add(collection.recordSelectorText);
             }
             this.Show();
-        }
+        }*/
 
         public void LoadEntityData(List<GenericArcadeEntity> arcadeEntityList)
         {
@@ -42,7 +42,7 @@ namespace CGDArcade_LocalUploader
             foreach (GenericArcadeEntity entity in arcadeEntityList)
             {
 
-                this.cBox_RecordSelector.Items.Add(entity.recordSelectorText);
+                this.cBox_RecordSelector.Items.Add(entity.entityTitle);
             }
             this.Show();
         }

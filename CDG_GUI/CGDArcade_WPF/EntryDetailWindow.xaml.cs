@@ -57,11 +57,11 @@ namespace CGDArcade_WPF
         {
             this.entity = entity;
 
-            this.entityMediaElement.Source = new Uri(this.entity.selectionControlMediaPath);
+            this.entityMediaElement.Source = new Uri(this.entity.logoImgPath);
 
-            this.entityMedia1.Source = new Uri(this.entity.selectionControlMediaPath);
-            this.entityMedia2.Source = new Uri(this.entity.selectionControlMediaPath);
-            this.entityMedia3.Source = new Uri(this.entity.selectionControlMediaPath);
+            this.entityMedia1.Source = new Uri(this.entity.img1Path);
+            this.entityMedia2.Source = new Uri(this.entity.img2Path);
+            this.entityMedia3.Source = new Uri(this.entity.img3Path);
 
             this.lbl_Title.Content = this.entity.entityTitle;
             this.lbl_Author.Content = "Created by " + this.entity.entityAuthor;
