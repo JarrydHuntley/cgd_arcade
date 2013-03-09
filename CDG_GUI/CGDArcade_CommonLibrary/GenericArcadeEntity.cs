@@ -20,7 +20,6 @@ namespace CGDArcade_CommonLibrary
     public class GenericArcadeEntity
     {
 
-        //public int id;
         public string entityTitle;
         public string entityAuthor;
         public string entityDescription;
@@ -32,41 +31,5 @@ namespace CGDArcade_CommonLibrary
         public string img2Path;
         public string img3Path;
         public string logoImgPath;
-
-
-
-	 	 	 	 	 	 	 
-	 	 	 	 
-/*
-        public void SetSelectionControlMedia(string path, string type)
-        {
-            this.selectionControlMediaPath = path;
-            this.selectionControlMediaType = type;
-
-            switch (type.ToUpper())
-            {
-                case "IMAGE":
-                    this.selectionControlMediaImage = RetrieveImageFromPath(this.selectionControlMediaPath);
-                    break;
-            }
-        }
-
-        public void SetEntityTitle(string title)
-        {
-            this.entityTitle = title;
-        }
-
-
-        //  =--==--==--==--==--==--==--==--==--==--==--==--=
-        //  ASSET RETRIEVAL
-        public Image RetrieveImageFromPath(string path)
-        {
-            Image newImage = new Image();
-            newImage.Source = (new ImageSourceConverter()).ConvertFromString(this.selectionControlMediaPath) as ImageSource;
-            return newImage;
-        }
- */
-
-
     }
 }

@@ -1,4 +1,5 @@
 ﻿using CGDArcade_CommonLibrary;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -122,6 +123,42 @@ namespace CGDArcade_WPF
                 this.list_Entries.Items.Add(entity.entityTitle);
             }            
         }
+
+        private void btn_PathBrowse_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog fileDlg = new OpenFileDialog();
+            fileDlg.ShowDialog();
+            this.txt_Path.Text = fileDlg.FileName;
+        }
+
+        private void btn_LogoBrowse_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog fileDlg = new OpenFileDialog();
+            fileDlg.ShowDialog();
+            this.txt_LogoImgPath.Text = fileDlg.FileName;
+        }
+
+        private void btn_Img1Browse_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog fileDlg = new OpenFileDialog();
+            fileDlg.ShowDialog();
+            this.txt_img1Path.Text = fileDlg.FileName;
+        }
+
+        private void btn_Img2Browse_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog fileDlg = new OpenFileDialog();
+            fileDlg.ShowDialog();
+            this.txt_img2Path.Text = fileDlg.FileName;
+        }
+
+        private void btn_Img3Browse_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog fileDlg = new OpenFileDialog();
+            fileDlg.ShowDialog();
+            this.txt_img3Path.Text = fileDlg.FileName;
+        }
+
 
 
 

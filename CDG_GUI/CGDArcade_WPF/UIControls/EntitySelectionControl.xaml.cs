@@ -55,7 +55,7 @@ namespace CGDArcade_WPF.UIControls
             this.entityControl.BorderThickness = new Thickness(0.0);
         }
 
-        private void entityControl_MouseUp(object sender, MouseButtonEventArgs e)
+        public void entityControl_MouseUp(object sender, MouseButtonEventArgs e)
         {
             this.mainWindow.SwapActiveEntity(this);
 

@@ -1,6 +1,7 @@
 ﻿using CGDArcade_CommonLibrary;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace CGDArcade_WPF
 {
@@ -22,6 +24,8 @@ namespace CGDArcade_WPF
     {
         GenericArcadeEntity entity;
         MainWindow mainWindow;
+        private Process gameProcess;
+
 
         public EntryDetailWindow(MainWindow mainWindow)
         {
@@ -32,8 +36,13 @@ namespace CGDArcade_WPF
 
         private void img_btn_GridLayout_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            this.mainWindow.Focus();
+            CloseThisWindow();
+        }
 
+
+        private void CloseThisWindow()
+        {
+            this.mainWindow.Focus();
             this.Hide();
             this.Close();
         }
@@ -44,6 +53,11 @@ namespace CGDArcade_WPF
             {
                 case Key.F1:
                     KillThisApp();
+                    break;
+
+                case Key.Escape:
+                    this.mainWindow.selectionChangeSFX.Play();
+                    CloseThisWindow();
                     break;
             }
         }
@@ -70,13 +84,41 @@ namespace CGDArcade_WPF
 
         private void Image_MouseDown_1(object sender, MouseButtonEventArgs e)
         {
-            BrowserEmbeddedEntity newEmbed = new BrowserEmbeddedEntity(this, this.entity);
+            this.mainWindow.selectionChangeSFX.Play();
 
-            newEmbed.Show();
-            newEmbed.Width = this.Width;
-            newEmbed.Height = this.Height;
-            newEmbed.WindowState = this.WindowState;
+            this.gameProcess = new Process();
+
+            try
+            {
+                this.gameProcess.StartInfo.FileName = this.entity.playPath;
+                this.gameProcess.StartInfo.Arguments = this.entity.pathArgs;
+                this.gameProcess.StartInfo.CreateNoWindow = true;
+                this.gameProcess.EnableRaisingEvents = true;
+                //this.gameProcess.Exited += new EventHandler(gameProcess_Exited);
+                this.gameProcess.Start();
+                this.gameProcess.WaitForExit();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(string.Format("An error occurred trying to launch game. {0} :\n {1}" + ex.Message, this.entity.playPath));
+            }
         }
+
+
+        // Handle Exited event and display process information. 
+        private void gameProcess_Exited(object sender, System.EventArgs e)
+        {
+
+            //this.eventHandled = true;
+           // this.Focus();
+
+            //Console.WriteLine("Exit time:    {0}\r\n" + 
+            //    "Exit code:    {1}\r\nElapsed time: {2}", myProcess.ExitTime, myProcess.ExitCode, elapsedTime);
+
+            MessageBox.Show("TEST OK");
+        }
+
+
 
 
     }

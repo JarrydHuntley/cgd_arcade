@@ -3,6 +3,7 @@ using CGDArcade_WPF.UIControls;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -31,6 +32,9 @@ namespace CGDArcade_WPF
         int panelRows;
         int panelCols;
 
+        public SoundPlayer selectionChangeSFX;
+        public SoundPlayer selectionMadeSFX;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -38,6 +42,9 @@ namespace CGDArcade_WPF
             this.arcadeEntityManager = new ArcadeEntityManager();
             this.arcadeEntityManager.CreateArcadeEntitiesList();
             CreateEntitySelectionControls();
+
+            this.selectionChangeSFX = new SoundPlayer("Assets\\Sfx\\Pickup_Coin17.wav");
+            this.selectionMadeSFX = new SoundPlayer("Assets\\Sfx\\Blip_Select12.wav");
         }
 
 
@@ -75,11 +82,17 @@ namespace CGDArcade_WPF
         {
               switch (e.Key)
               {
+                  case Key.Enter:
+                      this.selectionMadeSFX.Play();
+                      this.activeEntity.entityControl_MouseUp(null, null);
+                      break;
+
                   case Key.Escape:
                       KillThisApp();
                       break;
 
                   case Key.F1:
+                      this.selectionChangeSFX.Play();
                       ToggleFullScreen();
                       break;
 
@@ -119,6 +132,10 @@ namespace CGDArcade_WPF
 
         private void MoveActiveEntityMarker(int vertical, int horizontal)
         {
+
+
+            this.selectionChangeSFX.Play();
+
             if (this.readyToDisplayEntities)
             {
                 int activeIndex = this.mainWrapPanel.Children.IndexOf(this.activeEntity);
@@ -179,6 +196,7 @@ namespace CGDArcade_WPF
 
         private void img_btn_PagedLayout_MouseDown(object sender, MouseButtonEventArgs e)
         {
+            this.selectionMadeSFX.Play();
             EntryDetailWindow win = new EntryDetailWindow(this);
             win.Show();
             win.Width = this.Width;

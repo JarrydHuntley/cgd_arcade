@@ -53,11 +53,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ArcadeProcess.cs" />
     <Compile Include="ArcadeSettings.xaml.cs">
       <DependentUpon>ArcadeSettings.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="BrowserEmbeddedEntity.xaml.cs">
-      <DependentUpon>BrowserEmbeddedEntity.xaml</DependentUpon>
     </Compile>
     <Compile Include="EntryDetailWindow.xaml.cs">
       <DependentUpon>EntryDetailWindow.xaml</DependentUpon>
@@ -66,10 +64,6 @@
       <DependentUpon>EntitySelectionControl.xaml</DependentUpon>
     </Compile>
     <Page Include="ArcadeSettings.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="BrowserEmbeddedEntity.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -147,6 +141,17 @@
   <ItemGroup>
     <Resource Include="Assets\UI\gears.png" />
     <Resource Include="Assets\UI\split-cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Sfx\Blip_Select12.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Sfx\Pickup_Coin10.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Sfx\Pickup_Coin17.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

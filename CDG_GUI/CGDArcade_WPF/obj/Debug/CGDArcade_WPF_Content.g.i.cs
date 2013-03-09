@@ -8,7 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/ui/gears.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/ui/split-cross.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sfx/blip_select12.wav")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sfx/pickup_coin10.wav")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sfx/pickup_coin17.wav")]
 
 

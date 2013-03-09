@@ -17,8 +17,10 @@ C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\obj\Debug\UIControls\EntitySelectionCont
 C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\obj\Debug\UIControls\EntitySelectionControl.g.cs
 C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\obj\Debug\EntryDetailWindow.baml
 C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\obj\Debug\EntryDetailWindow.g.cs
-C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\obj\Debug\BrowserEmbeddedEntity.baml
-C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\obj\Debug\BrowserEmbeddedEntity.g.cs
 C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\MySql.Data.dll
 C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\obj\Debug\ArcadeSettings.baml
 C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\obj\Debug\ArcadeSettings.g.cs
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\obj\Debug\CGDArcade_WPF_Content.g.cs
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Assets\Sfx\Blip_Select12.wav
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Assets\Sfx\Pickup_Coin10.wav
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Assets\Sfx\Pickup_Coin17.wav

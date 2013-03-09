@@ -24,11 +24,11 @@
         <TextBox x:Name="txt_img1Path" HorizontalAlignment="Left" Height="24" Margin="382,318,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="364"/>
         <TextBox x:Name="txt_img2Path" HorizontalAlignment="Left" Height="24" Margin="382,346,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="364"/>
         <TextBox x:Name="txt_img3Path" HorizontalAlignment="Left" Height="24" Margin="382,374,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="364"/>
-        <Button Content="Browse" HorizontalAlignment="Left" Margin="752,212,0,0" VerticalAlignment="Top" Width="74"/>
-        <Button Content="Browse" HorizontalAlignment="Left" Margin="752,290,0,0" VerticalAlignment="Top" Width="74"/>
-        <Button Content="Browse" HorizontalAlignment="Left" Margin="752,318,0,0" VerticalAlignment="Top" Width="74"/>
-        <Button Content="Browse" HorizontalAlignment="Left" Margin="752,346,0,0" VerticalAlignment="Top" Width="74"/>
-        <Button Content="Browse" HorizontalAlignment="Left" Margin="752,376,0,0" VerticalAlignment="Top" Width="74"/>
+        <Button x:Name="btn_PathBrowse" Content="Browse" HorizontalAlignment="Left" Margin="752,212,0,0" VerticalAlignment="Top" Width="74" Click="btn_PathBrowse_Click"/>
+        <Button x:Name="btn_LogoBrowse" Content="Browse" HorizontalAlignment="Left" Margin="752,290,0,0" VerticalAlignment="Top" Width="74" Click="btn_LogoBrowse_Click"/>
+        <Button x:Name="btn_Img1Browse" Content="Browse" HorizontalAlignment="Left" Margin="752,318,0,0" VerticalAlignment="Top" Width="74" Click="btn_Img1Browse_Click"/>
+        <Button x:Name="btn_Img2Browse" Content="Browse" HorizontalAlignment="Left" Margin="752,346,0,0" VerticalAlignment="Top" Width="74" Click="btn_Img2Browse_Click"/>
+        <Button x:Name="btn_Img3Browse" Content="Browse" HorizontalAlignment="Left" Margin="752,376,0,0" VerticalAlignment="Top" Width="74" Click="btn_Img3Browse_Click"/>
         <Button x:Name="btn_New" Content="New" HorizontalAlignment="Left" Margin="382,46,0,0" VerticalAlignment="Top" Width="74" Click="btn_New_Click"/>
         <Button x:Name="btn_Save" Content="Save" HorizontalAlignment="Left" Margin="461,46,0,0" VerticalAlignment="Top" Width="74" Click="btn_Save_Click"/>
         <Button x:Name="btn_Delete" Content="Delete" HorizontalAlignment="Left" Margin="540,46,0,0" VerticalAlignment="Top" Width="74" Click="btn_Delete_Click"/>

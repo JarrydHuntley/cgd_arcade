@@ -47,6 +47,9 @@ namespace CGDArcade_WPF
         }
 
 
+
+
+
         //  =--==--==--==--==--==--==--==--==--==--=
         //  XML INTERACTIONS
         public void AddEntityToManifest(GenericArcadeEntity arcadeEntity)
