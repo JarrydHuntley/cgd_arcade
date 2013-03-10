@@ -34,10 +34,11 @@ namespace CGDArcade_WPF.UIControls
         public void SetAssociatedEntity(GenericArcadeEntity entity)
         {
             this.arcadeEntity = entity;
+            string exePath = AppDomain.CurrentDomain.BaseDirectory; 
 
             if (this.arcadeEntity.logoImgPath != "")
             {
-                this.entityMediaElement.Source = new Uri(this.arcadeEntity.logoImgPath); //TODO ACCESS IT LIKE THIS
+                this.entityMediaElement.Source = new Uri(this.arcadeEntity.logoImgPath.Replace(@"\\EXEPATH\", exePath)); //TODO ACCESS IT LIKE THIS
             }
             
             string tempString = this.arcadeEntity.entityTitle;

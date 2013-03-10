@@ -70,12 +70,13 @@ namespace CGDArcade_WPF
         public void UpdateValuesFromEntity(GenericArcadeEntity entity)
         {
             this.entity = entity;
+            string exePath = AppDomain.CurrentDomain.BaseDirectory;// .Replace(@"\\EXEPATH\", exePath);
 
-            this.entityMediaElement.Source = new Uri(this.entity.logoImgPath);
+            this.entityMediaElement.Source = new Uri(this.entity.logoImgPath.Replace(@"\\EXEPATH\", exePath));
 
-            if (this.entity.img1Path != "") { this.entityMedia1.Source = new Uri(this.entity.img1Path); }
-            if (this.entity.img2Path != "") { this.entityMedia2.Source = new Uri(this.entity.img2Path); }
-            if (this.entity.img3Path != "") { this.entityMedia3.Source = new Uri(this.entity.img3Path); }
+            if (this.entity.img1Path != "") { this.entityMedia1.Source = new Uri(this.entity.img1Path.Replace(@"\\EXEPATH\", exePath)); }
+            if (this.entity.img2Path != "") { this.entityMedia2.Source = new Uri(this.entity.img2Path.Replace(@"\\EXEPATH\", exePath)); }
+            if (this.entity.img3Path != "") { this.entityMedia3.Source = new Uri(this.entity.img3Path.Replace(@"\\EXEPATH\", exePath)); }
 
             string tempString = this.entity.entityTitle;
             this.lbl_Title.Text = tempString.Replace(@"\\r\\n", System.Environment.NewLine);
@@ -95,8 +96,14 @@ namespace CGDArcade_WPF
 
             try
             {
-                this.gameProcess.StartInfo.FileName = this.entity.playPath;
-                this.gameProcess.StartInfo.Arguments = this.entity.pathArgs;
+                string exePath = AppDomain.CurrentDomain.BaseDirectory;
+
+                string tempString = this.entity.playPath;
+                this.gameProcess.StartInfo.FileName = tempString.Replace(@"\\EXEPATH\", exePath);
+
+                tempString = this.entity.pathArgs;
+                this.gameProcess.StartInfo.Arguments = tempString.Replace(@"\\EXEPATH\", exePath);
+
                 this.gameProcess.StartInfo.CreateNoWindow = true;
                 this.gameProcess.EnableRaisingEvents = true;
                 //this.gameProcess.Exited += new EventHandler(gameProcess_Exited);

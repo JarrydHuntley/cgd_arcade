@@ -1,0 +1,122 @@
+<html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="jquery.js"> </script>
+		<script type="text/javascript" src="canvas.js"> </script>
+		<script type="text/javascript" src="main.js"> </script>
+		<script type="text/javascript" src="input.js"> </script>
+		<script type="text/javascript" src="gameWorld.js"> </script>
+		<script type="text/javascript" src="gameLevel.js"> </script>
+		<script type="text/javascript" src="entity.js"> </script>
+		<script type="text/javascript" src="audio.js"> </script>
+		<style>
+			body {
+				background-color: #555555;
+				font-family: "Lucide Console", Monaco, monospace;
+				color: #ffffff;
+				margin: 0;
+			}
+			#mainHeader {
+				width: 100%;
+				color: #ffffff;
+				margin-top: 40px;
+				margin-bottom: 40px;
+			}
+			h2.bodyText{
+				text-align: center;
+			}
+			p.centered{
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 50px;
+				width: 40em;
+			}
+			/* this is a bunch of css jank script to get the game centered */
+			.superWrapper {
+				text-align: center;
+			}
+			.wrapper {
+				position: relative;
+				width: 600;
+				height: 600;
+				display: inline-block;
+			}
+			/* end of jank */
+			#twinbeat {
+				position: absolute;
+				width: 600;
+				height: 600;
+				background-color: #808080;
+				border-style: solid;
+				border-width: 2px;
+				overflow: hidden;
+				display: inline-block;
+				z-index: 1;
+			}
+			#gameText {
+				position: relative;
+				width: 600;
+				height: 600;
+				font-family: 'VT323', cursive;
+				font-size: 60px;
+				text-align: center;
+				display: inline-block;
+				z-index: 2;
+			}
+			#gameText p {margin: 0;}
+
+			#uprTxt {line-height: 300px;}
+			#midTxt {line-height: 0px;}
+			#lwrTxt {line-height: 200px;}
+
+			canvas {
+				text-align: center;
+			}
+			#padding {
+				height: 200;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="mainHeader">
+			<h2 class="bodyText">Dodge</h2>
+		</div>
+		<hr>
+		<p class="centered">
+			This game has been tested for working in Chrome and Safari. Performance in other
+			browsers is not guaranteed.
+		<p class="centered">
+			Playing is easy. Just try and survive longer than the other player
+			by not hitting the walls or the obstacles or coming at you. Watch out for when the
+			game starts changing, though.
+		</p>
+		<p class="centered">
+			How to play: <br>
+			<span style="color: #800000">Player 1 </span>uses the S key to control their character
+			and dodge <span style="color: #ff0000">obstacles</span>. <span style="color: #000080">Player 2</span>
+			uses the L key to control their character and dodge <span style="color: #0000ff">obstacles.</span>
+			To boost your character up press on your key twice, like the pulse of a heart.
+			A quick pulse provides a big boost, a slow pulse a small one. Pulsing quickly will let
+			you climb, slowly will let you fall. Be careful not to build up too much momentum.
+		</p>
+		<div class="superWrapper">
+			<div class="wrapper">
+				<div id="twinbeat">
+				</div>
+				<audio id="thememp3" src="theme.mp3" type="audio/mp3"> </audio>
+				<audio id="themeogg" src="theme.ogg" type="audio/ogg"> </audio>
+				<div id="gameText">
+					<p id="uprTxt" ></p>
+					<p id="midTxt" ></p>
+					<p id="lwrTxt" ></p>
+				</div>
+			</div>
+		</div>
+		<p class="centered">
+		A game by Owen Bell <br>
+		Music provided by Ian Faleer
+		</p>
+		<div id="padding">
+		</div>
+	</body>
+</html>

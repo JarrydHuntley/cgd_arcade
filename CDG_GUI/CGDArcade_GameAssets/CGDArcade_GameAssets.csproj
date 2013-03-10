@@ -41,10 +41,155 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Games\Heartbeater\" />
-  </ItemGroup>
-  <ItemGroup>
+    <Content Include="Games\BeatStalk\ScreenShot_15.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Blip\BlipTitle.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Cardio54\Cardio 54 Screenshot.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Cardio54\Cardio 54 Splash.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Cardio54\Cardio54Win.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Cardio54\Cardio54Win_Data\Managed\Assembly-CSharp.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Cardio54\Cardio54Win_Data\Managed\mscorlib.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Cardio54\Cardio54Win_Data\Managed\UnityEngine.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Cardio54\Cardio54Win_Data\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Cardio54\Cardio54Win_Data\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Cardio54\Cardio54Win_Data\Mono\etc\mono\mconfig\config.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Cardio54\Cardio54Win_Data\Mono\mono.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Cardio54\Instructions_1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Cells\Screen Shot.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Dodge\audio.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Dodge\canvas.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Dodge\dodge.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Dodge\Dodge_screenShot.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Dodge\entity.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Dodge\gameLevel.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Dodge\gameWorld.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Dodge\HowToPlay.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Dodge\input.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Dodge\jquery.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Dodge\main.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Dodge\theme.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\DownTheWitchingWell\DownTheWitchingWellThumb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\DownTheWitchingWell\PirateSkeletonModel.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\EAP\3_3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\EAP\Eduardo Aluicous Prendergast.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Flashback\TitleImage.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Heartbeater\bronana_0.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Heartbeater\HEARTBEATER.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Heartbeater\HEARTBEATER_Data\Managed\Assembly-CSharp.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Heartbeater\HEARTBEATER_Data\Managed\Assembly-UnityScript.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Heartbeater\HEARTBEATER_Data\Managed\Boo.Lang.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Heartbeater\HEARTBEATER_Data\Managed\Mono.Security.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Heartbeater\HEARTBEATER_Data\Managed\mscorlib.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Heartbeater\HEARTBEATER_Data\Managed\System.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Heartbeater\HEARTBEATER_Data\Managed\UnityEngine.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Heartbeater\HEARTBEATER_Data\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Heartbeater\HEARTBEATER_Data\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Heartbeater\HEARTBEATER_Data\Mono\etc\mono\mconfig\config.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Heartbeater\HEARTBEATER_Data\Mono\mono.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Heartbeater\HEARTBEATER_Data\ScreenSelector.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Heartbeater\HeartBeater_Logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Heartbeater\Icon2_0.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\HH\hh.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Slambulance\new_logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Games\TheCubeWeb\TheCube.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -57,9 +202,204 @@
     <Content Include="Games\TheCubeWeb\TheCubeWeb.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Games\TheLine\SheepLogo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\TheLine\The Line.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\TheLine\The Line.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\TheLine\The Line_Data\Managed\Assembly-CSharp-firstpass.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\TheLine\The Line_Data\Managed\Assembly-CSharp.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\TheLine\The Line_Data\Managed\Assembly-UnityScript-firstpass.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\TheLine\The Line_Data\Managed\Assembly-UnityScript.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\TheLine\The Line_Data\Managed\Boo.Lang.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\TheLine\The Line_Data\Managed\Mono.Security.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\TheLine\The Line_Data\Managed\mscorlib.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\TheLine\The Line_Data\Managed\System.Configuration.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\TheLine\The Line_Data\Managed\System.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\TheLine\The Line_Data\Managed\System.Security.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\TheLine\The Line_Data\Managed\System.Xml.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\TheLine\The Line_Data\Managed\UnityEngine.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\TheLine\The Line_Data\Managed\UnityScript.Lang.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\TheLine\The Line_Data\Mono\etc\mono\1.0\DefaultWsdlHelpGenerator.aspx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\TheLine\The Line_Data\Mono\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\TheLine\The Line_Data\Mono\etc\mono\mconfig\config.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\TheLine\The Line_Data\Mono\mono.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\TheLine\The Line_Data\ScreenSelector.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Trampoline\screenshot1_6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Transplant\1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Transplant\2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Transplant\team_3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Type2Live\1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Games\Cardio54\Cardio54Win_Data\mainData">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Cardio54\Cardio54Win_Data\Mono\etc\mono\1.0\machine.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Cardio54\Cardio54Win_Data\Mono\etc\mono\2.0\Browsers\Compat.browser">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Cardio54\Cardio54Win_Data\Mono\etc\mono\2.0\machine.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Cardio54\Cardio54Win_Data\Mono\etc\mono\2.0\settings.map">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Cardio54\Cardio54Win_Data\Mono\etc\mono\2.0\web.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Cardio54\Cardio54Win_Data\Mono\etc\mono\browscap.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Cardio54\Cardio54Win_Data\Mono\etc\mono\config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Cardio54\Cardio54Win_Data\PlayerConnectionConfigFile">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Cardio54\Cardio54Win_Data\Resources\unity default resources">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Cardio54\Cardio54Win_Data\sharedassets0.assets">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Dodge\.DS_Store">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Dodge\theme.ogg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Heartbeater\HEARTBEATER_Data\level0">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Heartbeater\HEARTBEATER_Data\mainData">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Heartbeater\HEARTBEATER_Data\Mono\etc\mono\1.0\machine.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Heartbeater\HEARTBEATER_Data\Mono\etc\mono\2.0\Browsers\Compat.browser">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Heartbeater\HEARTBEATER_Data\Mono\etc\mono\2.0\machine.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Heartbeater\HEARTBEATER_Data\Mono\etc\mono\2.0\settings.map">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Heartbeater\HEARTBEATER_Data\Mono\etc\mono\2.0\web.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Heartbeater\HEARTBEATER_Data\Mono\etc\mono\browscap.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Heartbeater\HEARTBEATER_Data\Mono\etc\mono\config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Heartbeater\HEARTBEATER_Data\PlayerConnectionConfigFile">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Heartbeater\HEARTBEATER_Data\Resources\unity default resources">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Heartbeater\HEARTBEATER_Data\sharedassets0.assets">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\Heartbeater\HEARTBEATER_Data\sharedassets1.assets">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Games\TheCubeWeb\TheCubeWeb.unity3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\TheLine\The Line_Data\level0">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\TheLine\The Line_Data\mainData">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\TheLine\The Line_Data\Mono\etc\mono\1.0\machine.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\TheLine\The Line_Data\Mono\etc\mono\2.0\Browsers\Compat.browser">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\TheLine\The Line_Data\Mono\etc\mono\2.0\machine.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\TheLine\The Line_Data\Mono\etc\mono\2.0\settings.map">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\TheLine\The Line_Data\Mono\etc\mono\2.0\web.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\TheLine\The Line_Data\Mono\etc\mono\browscap.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\TheLine\The Line_Data\Mono\etc\mono\config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\TheLine\The Line_Data\PlayerConnectionConfigFile">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\TheLine\The Line_Data\Resources\unity default resources">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\TheLine\The Line_Data\sharedassets0.assets">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\TheLine\The Line_Data\sharedassets1.assets">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

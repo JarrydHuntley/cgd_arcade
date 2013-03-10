@@ -1,0 +1,5 @@
+How To Play:
+
+Since I didn't have time to get this hosted on a server you'll just have to run it locally.
+
+Just open dodge.html file in your browser of choice. I've tested in the most recent versions of Firefox and Chrome. Other browsers may work but I have not checked.
