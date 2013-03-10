@@ -53,7 +53,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="ArcadeProcess.cs" />
     <Compile Include="ArcadeSettings.xaml.cs">
       <DependentUpon>ArcadeSettings.xaml</DependentUpon>
     </Compile>
@@ -125,6 +124,10 @@
     <ProjectReference Include="..\CGDArcade_CommonLibrary\CGDArcade_CommonLibrary.csproj">
       <Project>{2fe1d796-2ddb-4a10-b116-ca82e40b2127}</Project>
       <Name>CGDArcade_CommonLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CGDArcade_GameAssets\CGDArcade_GameAssets.csproj">
+      <Project>{18025f40-632b-4ac7-b46a-89f30a57750f}</Project>
+      <Name>CGDArcade_GameAssets</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

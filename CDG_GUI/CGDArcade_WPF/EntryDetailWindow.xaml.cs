@@ -73,13 +73,18 @@ namespace CGDArcade_WPF
 
             this.entityMediaElement.Source = new Uri(this.entity.logoImgPath);
 
-            this.entityMedia1.Source = new Uri(this.entity.img1Path);
-            this.entityMedia2.Source = new Uri(this.entity.img2Path);
-            this.entityMedia3.Source = new Uri(this.entity.img3Path);
+            if (this.entity.img1Path != "") { this.entityMedia1.Source = new Uri(this.entity.img1Path); }
+            if (this.entity.img2Path != "") { this.entityMedia2.Source = new Uri(this.entity.img2Path); }
+            if (this.entity.img3Path != "") { this.entityMedia3.Source = new Uri(this.entity.img3Path); }
 
-            this.lbl_Title.Content = this.entity.entityTitle;
-            this.lbl_Author.Content = "Created by " + this.entity.entityAuthor;
-            this.lbl_Description.Text = this.entity.entityDescription;
+            string tempString = this.entity.entityTitle;
+            this.lbl_Title.Text = tempString.Replace(@"\\r\\n", System.Environment.NewLine);
+            
+            tempString = this.entity.entityAuthor;
+            this.lbl_Author.Text = "Created by " + tempString.Replace(@"\\r\\n", System.Environment.NewLine);
+
+            tempString = this.entity.entityDescription;
+            this.lbl_Description.Text = tempString.Replace(@"\\r\\n", System.Environment.NewLine);
         }
 
         private void Image_MouseDown_1(object sender, MouseButtonEventArgs e)

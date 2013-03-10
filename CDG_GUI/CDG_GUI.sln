@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGDArcade_CommonLibrary", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGDArcade_LocalUploader", "CGDArcade_LocalUploader\CGDArcade_LocalUploader.csproj", "{02357249-26CA-41A7-8AC5-5C75DB886BEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGDArcade_GameAssets", "CGDArcade_GameAssets\CGDArcade_GameAssets.csproj", "{18025F40-632B-4AC7-B46A-89F30A57750F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{02357249-26CA-41A7-8AC5-5C75DB886BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02357249-26CA-41A7-8AC5-5C75DB886BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02357249-26CA-41A7-8AC5-5C75DB886BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18025F40-632B-4AC7-B46A-89F30A57750F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18025F40-632B-4AC7-B46A-89F30A57750F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18025F40-632B-4AC7-B46A-89F30A57750F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18025F40-632B-4AC7-B46A-89F30A57750F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

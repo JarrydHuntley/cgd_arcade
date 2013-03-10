@@ -1,0 +1,9 @@
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_GameAssets\bin\Debug\CGDArcade_GameAssets.dll
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_GameAssets\bin\Debug\CGDArcade_GameAssets.pdb
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_GameAssets\obj\Debug\CGDArcade_GameAssets.dll
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_GameAssets\obj\Debug\CGDArcade_GameAssets.pdb
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_GameAssets\bin\Debug\Games\TheCubeWeb\TheCube.jpg
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_GameAssets\bin\Debug\Games\TheCubeWeb\TheCube1.jpg
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_GameAssets\bin\Debug\Games\TheCubeWeb\TheCube2.jpg
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_GameAssets\bin\Debug\Games\TheCubeWeb\TheCubeWeb.html
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_GameAssets\bin\Debug\Games\TheCubeWeb\TheCubeWeb.unity3d

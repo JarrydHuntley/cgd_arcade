@@ -7,9 +7,7 @@
              d:DesignHeight="240" d:DesignWidth="300" BorderThickness="2" BorderBrush="White" MouseUp="entityControl_MouseUp">
     <Grid x:Name="entityGrid">
         <MediaElement x:Name="entityMediaElement" HorizontalAlignment="Center" Height="169" VerticalAlignment="Top" Width="300"/>
-        <Label x:Name="entityTitle" Content="Label" HorizontalAlignment="Center" Margin="0,174,0,0" VerticalAlignment="Top" Width="300" Height="56" 
-               HorizontalContentAlignment="Center"
-               FontFamily="/CGDArcade_WPF;component/Assets/Fonts/#Atari Font Full Version" BorderBrush="Black" Foreground="White"/>
-
+        <TextBlock x:Name="entityTitle" Text="Label" HorizontalAlignment="Center" Margin="0,174,0,0" VerticalAlignment="Top" Width="300" Height="56" 
+               FontFamily="/CGDArcade_WPF;component/Assets/Fonts/#Atari Font Full Version" Foreground="White" TextWrapping="Wrap"/>
     </Grid>
 </UserControl>

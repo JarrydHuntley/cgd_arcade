@@ -40,7 +40,8 @@ namespace CGDArcade_WPF.UIControls
                 this.entityMediaElement.Source = new Uri(this.arcadeEntity.logoImgPath); //TODO ACCESS IT LIKE THIS
             }
             
-            this.entityTitle.Content = this.arcadeEntity.entityTitle;
+            string tempString = this.arcadeEntity.entityTitle;
+            this.entityTitle.Text = tempString.Replace(@"\\r\\n", System.Environment.NewLine);
         }
 
         public void SetAsActiveEntity()
