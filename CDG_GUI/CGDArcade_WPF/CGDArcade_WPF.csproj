@@ -59,6 +59,9 @@
     <Compile Include="EntryDetailWindow.xaml.cs">
       <DependentUpon>EntryDetailWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UIControls\ClickToPlay.xaml.cs">
+      <DependentUpon>ClickToPlay.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UIControls\EntitySelectionControl.xaml.cs">
       <DependentUpon>EntitySelectionControl.xaml</DependentUpon>
     </Compile>
@@ -83,6 +86,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="UIControls\ClickToPlay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UIControls\EntitySelectionControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -155,6 +162,7 @@
     <Content Include="Assets\Sfx\Pickup_Coin17.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Resource Include="Assets\UI\ClickToPlayWithTransparencies.png" />
     <Resource Include="EntityManifest.bck.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>

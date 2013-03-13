@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tiny Dungeon</title>
+        <link rel="stylesheet" href="jquery.mobile-1.0b2.css" />
+        <script type="text/javascript" charset="utf-8" src="jquery-1.6.2.js"></script>
+	    <script type="text/javascript" charset="utf-8" src="jquery.mobile-1.0b2.js"></script>
+        <script type="text/javascript" charset="utf-8">
+
+
+
+        var currentlevel;
+        var leveldesc;
+        var monsterdesc;
+        var monsterhp = 0;
+        var monsteratk = 1;
+        var monsterdef = 1;
+        var monsterdmg = 1;
+
+        var herolvl = 1;
+        var herohp = 2;
+        var heroatk = 1;
+        var herodef = 1;
+        var herodmg = 1;
+        var heropotions = 1;
+
+        var monsterTimer = setInterval(monsterattack, 3000);
+
+
+        function onload(){
+
+                        var myDiv = $("#textdiv");
+            myDiv.animate({ scrollTop: myDiv.attr("scrollHeight") - myDiv.height() }, 3000);
+        }
+
+
+        function startGame() {
+
+
+            herohp = 2;
+            herolvl = 1;
+            heropotions = 0;
+            heroatk = 1;
+            herodef = 1;
+            herodmg = 1;
+
+            monsterhp = 0;
+            monsteratk = 0;
+            monsterdef = 0;
+            monsterdmg = 0;
+            currentlevel = 1;
+
+            loadLevel();
+        }
+
+        function monsterattack() {
+            if (herohp > 0){
+                if (monsterhp > 0){
+                    pushmsgtotextbox('The monster attacks and...');
+
+                    var atkRoll = Math.round(0 + Math.random()*(100-0)) + monsteratk;
+                    var defRoll = Math.round(0 + Math.random()*(100-0)) + herodef;
+
+                    if (atkRoll > defRoll) {
+                        herohp -= monsterdmg;
+                        pushmsgtotextbox('Hits you!');
+                        checkHeroDeath();
+                    } else {
+                        pushmsgtotextbox('Misses you!');
+                    }
+                }
+            } else {
+                pushmsgtotextbox('The monster gnaws on your corpse.');
+            }
+        }
+
+        function checkHeroDeath() {
+            if (herohp <= 0) {
+                pushmsgtotextbox('You have been slain. Minstrels will sing songs of the legendary coward that died foolishly in the dungeon.');
+            }
+
+        }
+
+
+        function heroattack() {
+
+            if (herohp <= 0) {
+                pushmsgtotextbox('Um, your dead dude and undead are not being included until version 5... Better start over.');
+            } else {
+
+                if (monsterhp > 0){
+                    var atkRoll = Math.round(0 + Math.random()*(100-0)) + heroatk;
+                    var defRoll = Math.round(0 + Math.random()*(100-0)) + monsterdef;
+
+                    if (atkRoll > defRoll) {
+                        monsterhp -= herodmg;
+                        pushmsgtotextbox('You hit it!');
+                    } else {
+                        pushmsgtotextbox('You missed and pissed it off!');
+                    }
+
+                    checkMonsterDeath();
+
+                } else {
+                   pushmsgtotextbox('You swing at the darkness... Nothing is here.');
+                }
+            }
+        }
+
+        function checkMonsterDeath() {
+            if (monsterhp <= 0) {
+                pushmsgtotextbox('You have slain the monster!');
+                pushmsgtotextbox('Your stats went up...');
+
+                var randValue = Math.round(0 + Math.random()*(7-0));
+
+                switch (randValue) {
+                    case 0:
+                        herohp += 10;
+                        pushmsgtotextbox('You feel a surge of energy...');
+                        break;
+                    case 1:
+                        heropotions += 1;
+                        pushmsgtotextbox('You found a potion...');
+                        break;
+                    case 2:
+                        heroatk += 2;
+                        break;
+                    case 3:
+                        herodef += 2;
+                        break;
+                    case 4:
+                        heroatk += 2;
+                        herodef += 2;
+                        pushmsgtotextbox('You feel more skilled...');
+                        break;
+                    case 5:
+                        herodmg += 2;
+                        pushmsgtotextbox('You feel stronger...');
+                        break;
+                    case 6:
+                        herohp += 20;
+                        pushmsgtotextbox('You feel an AWESOME surge of energy...');
+                        break;
+                }
+
+                pushmsgtotextbox('HP:' + herohp + ' ATK:' + heroatk + " DEF:" + herodef + " DMG" + herodmg);
+            }
+        }
+
+
+
+        function up() {
+            if (herohp <= 0) {
+                pushmsgtotextbox('Um, your dead dude and undead are not being included until version 5... Better start over.');
+            } else {
+
+                currentlevel -= 1;
+                if (currentlevel < 1) {currentlevel = 1;}
+                    loadLevel();
+                }
+        }
+
+        function down() {
+            if (herohp <= 0) {
+                pushmsgtotextbox('Um, your dead dude and undead are not being included until version 5... Better start over.');
+            } else {
+                currentlevel += 1;
+                if (currentlevel < 1) {currentlevel = 1;}
+                loadLevel();
+            }
+        }
+
+        function drink() {
+            if (herohp <= 0) {
+                pushmsgtotextbox('Um, your dead dude and undead are not being included until version 5... Better start over.');
+            } else {
+
+                if (heropotions > 0) {
+                    heropotions -= 1;
+                    herohp += 10;
+                    pushmsgtotextbox('You drink a potion that reminds you of cheap beer.  HP:' + herohp);
+                } else {
+                    pushmsgtotextbox('You have nothing to drink...');
+                }
+            }
+
+        }
+
+        function stats() {
+            pushmsgtotextbox('HP:' + herohp + ' ATK:' + heroatk + " DEF:" + herodef + " DMG" + herodmg);
+        }
+
+
+
+
+
+        function loadLevel() {
+
+            if (currentlevel > 1) {
+                generateMonster();
+            } else {
+                pushmsgtotextbox("This is the top of the dungeon. Head down to face the horde of monsters!");
+            }
+            
+            pushmsgtotextbox("You are now on Level " + currentlevel);
+        }
+
+        function generateMonster() {
+            var randValue = 0;
+            monsterhp = 1;
+            monsterdmg = 1;
+            monsteratk = 1;
+            monsterdef = 1;
+            
+            for (i=0;i<=currentlevel;i++)
+            {
+                randValue = Math.round(0 + Math.random()*(7-0));
+
+                switch (randValue) {
+                    case 0:
+                        monsterdmg += 2;
+                        break;
+                    case 1:
+                        monsterhp += 1;
+                        break;
+                    case 2:
+                        monsteratk += 1;
+                        break;
+                    case 3:
+                        monsterdef += 1;
+                        break;
+                    case 4:
+                        monsteratk += 1;
+                        monsterdef += 1;
+                        break;
+                    case 5:
+                        monsterhp += 2;
+                        break;
+                    case 6:
+                        monsterhp += 3;
+                        break;
+
+                }
+            }
+
+            pushmsgtotextbox("A monster appears! - HP:" + monsterhp + ' ATK:' + monsteratk + ' DEF:' + monsterdef + 'DMG:' + monsterdmg);
+        }
+
+        function pushmsgtotextbox(message){
+            $('#textdiv').prepend('<p>' + message + '</p>');
+
+            //var myDiv = $("#textdiv");
+           // myDiv.animate({ scrollTop: myDiv.attr("scrollHeight") - myDiv.height() }, 3000);
+            $(document).scrollTop($(document).height());
+        }
+
+
+        </script>
+</head>
+
+<body>
+
+
+		<div data-role="page" id="home">
+			<div data-role="content">
+                <div>
+                    <p>Tiny Dungeon - A very simple dungeon delve... How far can you make it?</p>
+                    <p>Built by Matt Perrin for the zero hour game challenge. #0hgame</p>
+  		    	    <A href="#playgame" data-theme="a" data-role="button" id="home_btn_help" onclick="startGame();" >Enter the Dungeon</A>
+                </div>
+  		    </div>
+	  	</div>
+
+		<div data-role="page" id="playgame">
+
+            <div id="editeventdetailsheader"data-role="header" class="ui-bar" data-position="fixed">
+                <div  data-role="controlgroup" data-type="horizontal">
+                <div>
+                    <a data-role="button" data-inline="true" data-icon="plus" id="attackbtn" onclick="heroattack();">Attack</a>
+                    <a data-role="button" data-inline="true" data-icon="arrow-u" id="upbtn" onclick="up();">Go Upstairs</a>
+                    <a data-role="button" data-inline="true" data-icon="arrow-d" id="downbtn" onclick="down();">Go Downstairs</a>
+                </div>
+                <div>
+                    <a data-role="button" data-inline="true" data-icon="star" id="potionbtn" onclick="drink();">Drink Potion</a>
+                    <a data-role="button" data-inline="true" data-icon="star" id="statsbtn" onclick="stats();">Stats</a>
+                </div>
+                </div>
+            </div>
+	  		<div data-role="content">
+                <div id="textdiv" style='overflow:auto;border:solid black 1px;height:600px;width:480px;padding:10px'>
+
+                </div>
+            </div>
+	  	</div>
+
+
+
+</body>
+
+</html>

@@ -152,12 +152,16 @@ namespace CGDArcade_WPF
         public void CreateArcadeEntitiesList()
         {
             this.arcadeEntities = new List<GenericArcadeEntity>();
+            List<GenericArcadeEntity> unsortedEntities = new List<GenericArcadeEntity>();
+
             XmlNodeList nodeList = this.entityManifestXmlDoc.SelectNodes("Manifest/Entity");
 
             foreach(XmlNode node in nodeList)
             {
-                this.arcadeEntities.Add(CreateEntityFromXmlNode(node));
+                unsortedEntities.Add(CreateEntityFromXmlNode(node));
             }
+
+            this.arcadeEntities = unsortedEntities.OrderBy(o => o.entityTitle).ToList();
         }
 
         public GenericArcadeEntity CreateEntityFromXmlNode(XmlNode tempNode)

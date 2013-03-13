@@ -1,0 +1,50 @@
+#home_logo{
+    position:absolute;
+    left:0px;
+	top:0px;
+}
+
+#home_btn_help{
+	position:absolute;
+	left:10px;
+	top:480px;
+    width:150px;
+}
+
+#home_btn_about{
+	position:absolute;
+    left:10px;
+	top:530px;
+    width:150px;
+}
+
+.bck{
+    position:absolute;
+    left:0px;
+	top:0px;
+    width:100%;
+    height:100%;
+    background-color: #000000;
+}
+.actionpanel{
+    position:absolute;
+    left:0px;
+    top:200px;
+    width:200px;
+    height:400px;
+    background-color: #000000;
+}
+
+.btn_helpstart{
+	position:absolute;
+	left:10px;
+	top:480px;
+    width:150px;
+}
+
+.btn_about{
+	position:absolute;
+    left:10px;
+	top:530px;
+    width:150px;
+}

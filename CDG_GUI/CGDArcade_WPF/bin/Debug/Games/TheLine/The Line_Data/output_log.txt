@@ -8,16 +8,3 @@ Direct3D:
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-Initialize engine version: 3.5.4f1
-Begin MonoManager ReloadAssembly
-Platform assembly: C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\TheLine\The Line_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\TheLine\The Line_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\TheLine\The Line_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
-Loading C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\TheLine\The Line_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
-Platform assembly: C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\TheLine\The Line_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\TheLine\The Line_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\TheLine\The Line_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
-Loading C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\TheLine\The Line_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
-Platform assembly: C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\TheLine\The Line_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
-Loading C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\TheLine\The Line_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-- Completed reload, in  0.050 seconds

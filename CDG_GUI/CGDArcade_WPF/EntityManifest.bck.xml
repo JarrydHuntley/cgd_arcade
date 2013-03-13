@@ -1,150 +1,325 @@
 <Manifest>
-      <Entity entityTitle="The Cube\\r\\n(Global Game Jam 2013)" entityAuthor="Matt Perrin" 
-	  entityDescription="The Cube is hungry and roaming his dungeon, searching for tasty human morsels by their heartbeats. Will he find enough food to grow? Will the player get to the killscreen? Will the player realize that The Cube can ooze through the corner of walls? Who knows, in The Cube!" 
-	  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe" 
-	  pathArgs="--app=\\EXEPATH\Games\TheCubeWeb\TheCubeWeb.html -start-maximized" 
-	  img1Path="\\EXEPATH\Games\TheCubeWeb\TheCube1.jpg" 
-	  img2Path="\\EXEPATH\Games\TheCubeWeb\TheCube2.jpg" 
-	  img3Path="" 
-	  logoImgPath="\\EXEPATH\Games\TheCubeWeb\TheCube.jpg" />
-	  
-	  <Entity entityTitle="Heartbeater\\r\\n(Global Game Jam 2013)" entityAuthor="Mike Geig, Matt Seifert, Matt Muzzy" 
-	  entityDescription="The theme this year was the sound of a heartbeat. It just so happens that Jack likes to do 2 things: chop down trees, and liberate hearts from the tyranny of elven chest cavities. You must protect your manliness to win. Left or RIght arrow keys: Move Left or Right Mouse Button: Beat Hearts" 
-	  playPath="\\EXEPATH\Games\Heartbeater\HEARTBEATER.exe" 
-	  pathArgs="" 
-	  img1Path="\\EXEPATH\Games\Heartbeater\Icon2_0.jpg" 
-	  img2Path="\\EXEPATH\Games\Heartbeater\bronana_0.png" 
-	  img3Path="" 
-	  logoImgPath="\\EXEPATH\Games\Heartbeater\HeartBeater_Logo.png" />
-	  
-	  <Entity entityTitle="Dodge\\r\\n(Global Game Jam 2013)" entityAuthor="Owen Bell, Ian Faleer" 
-	  entityDescription="Competitive tunnel/helicopter game. Avoid the obstacles the longest." 
-	  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe" 
-	  pathArgs="--app=\\EXEPATH\Games\Dodge\dodge.html -start-maximized" 
-	  img1Path="\" 
-	  img2Path="" 
-	  img3Path="" 
-	  logoImgPath="\\EXEPATH\Games\Dodge\Dodge_screenShot.png" />
-	  
-	  <Entity entityTitle="Cells\\r\\n(Global Game Jam 2013)" entityAuthor="Spencer Balogh, Josh Kruszynski" 
-	  entityDescription="Use your four directional viruses to keep the white bloods cells inside the screen. Best experience on tablet! Enjoy w/ headphones. Requires HTML5-compatible browser." 
-	  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe" 
-	  pathArgs="--app=https://dl.dropbox.com/u/26730853/cells-GGJ2013-submission/index.html -start-maximized" 
-	  img1Path=""
-	  img2Path="" 
-	  img3Path="" 
-	  logoImgPath="\\EXEPATH\Games\Cells\Screen Shot.png" />
-	  
-	  <Entity entityTitle="Transplant\\r\\n(Global Game Jam 2013)" entityAuthor="Ruwani, Aaron Donahoo, Matthew barnes, Philip Hoyt, Heather Lynn, Justin Demetroff" 
-	  entityDescription="Play as Big Tony, a discarded product of mad science, as he transforms himself from a lowly animated toe to a patchwork monster. Select different hearts to customize your capabilities. Work with an entitled brain to navigate the labs of Dr. Vantis. Collect and swap out body parts to grow more powerful, and take on Corrugated Cathy, the lab's guardian." 
-	  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe" 
-	  pathArgs="--app=http://game.hashtagnerd.com/ -start-maximized" 
-	  img1Path="\\EXEPATH\Games\Transplant\2.png" 
-	  img2Path="\\EXEPATH\Games\Transplant\team_3.png" 
-	  img3Path="" 
-	  logoImgPath="\\EXEPATH\Games\Transplant\1.png" />
-	  
-	  <Entity entityTitle="Beat Stalk\\r\\n(Global Game Jam 2013)" entityAuthor="Luis Cabrera" 
-	  entityDescription="A simple game where you must track your target by listening for the heartbeat. Bring the target back to the safe zone to score extra points." 
-	  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe" 
-	  pathArgs="--app=http://loudigi.com/dev/game/ -start-maximized" 
-	  img1Path=""
-	  img2Path=""
-	  img3Path="" 
-	  logoImgPath="\\EXEPATH\Games\BeatStalk\ScreenShot_15.png" />
-	  
-	  <Entity entityTitle="Blip\\r\\n(Global Game Jam 2013)" entityAuthor="Nick Perna, Jarryd Huntley" 
-	  entityDescription="A game where the beats of your heart give you vision." 
-	  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe" 
-	  pathArgs="--app=https://dl.dropbox.com/u/5900779/Blip/index.html -start-maximized" 
-	  img1Path=""
-	  img2Path=""
-	  img3Path="" 
-	  logoImgPath="\\EXEPATH\Games\Blip\BlipTitle.png" />
-	  
+  <Entity entityTitle="The Cube\\r\\n(Global Game Jam 2013)" entityAuthor="Matt Perrin"
+entityDescription="The Cube is hungry and roaming his dungeon, searching for tasty human morsels by their heartbeats. Will he find enough food to grow? Will the player get to the killscreen? Will the player realize that The Cube can ooze through the corner of walls? Who knows, in The Cube!"
+playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
+pathArgs="--app=\\EXEPATH\Games\TheCubeWeb\TheCubeWeb.html -start-maximized"
+img1Path="\\EXEPATH\Games\TheCubeWeb\TheCube1.jpg"
+img2Path="\\EXEPATH\Games\TheCubeWeb\TheCube2.jpg"
+img3Path=""
+logoImgPath="\\EXEPATH\Games\TheCubeWeb\TheCube.jpg" />
 
-	  <Entity entityTitle="Trampoline\\r\\n(Global Game Jam 2013)" entityAuthor="Daniel Losch, Mike Geig,Maurice Wingfield, Jarryd Huntley" 
-	  entityDescription="Jump on a trampoline with your opponent and try and time your jumping to trip them as they land. Score points for time spent off-screen above, first to 250 wins. Single-button controls, more detailed info on the game's website." 
-	  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe" 
-	  pathArgs="--app=http://www.scirra.com/arcade/action/2822/trampoline -start-maximized" 
-	  img1Path=""
-	  img2Path=""
-	  img3Path="" 
-	  logoImgPath="\\EXEPATH\Games\Trampoline\screenshot1_6.png" />
-	  
-	  <Entity entityTitle="Down the Witching Well\\r\\n(Global Game Jam 2013)" entityAuthor="Brian Gesler, Jennifer Greene, Ruwani" 
-	  entityDescription="Help Skelly find his pirate stuff! Use arrows or W,A,S,D keys to move and spacebar to jump. " 
-	  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe" 
-	  pathArgs="--app=http://gamejolt.com/games/platformer/down-the-witching-well/11868/ -start-maximized" 
-	  img1Path="\\EXEPATH\Games\DownTheWitchingWell\PirateSkeletonModel.PNG" 
-	  img2Path=""
-	  img3Path="" 
-	  logoImgPath="\\EXEPATH\Games\DownTheWitchingWell\DownTheWitchingWellThumb.png" />
-	  
-	  <Entity entityTitle="Slambulance\\r\\n(Global Game Jam 2013)" entityAuthor="Austin Rushe, Wamsley, Carl Grose, Dave Smith, Blaine Heiser, Jarad Miller" 
-	  entityDescription="Navigate the city streets to get your patient to the hospital! To keep their heart rate up, collide with other vehicles on the road. Don't get their heart rate up too high though, or your patient will go into cardiac arrest." 
-	  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe" 
-	  pathArgs="--app=http://dl.dropbox.com/u/12337201/Slambulance/WebsiteExport/index.html -start-maximized" 
-	  img1Path=""
-	  img2Path=""
-	  img3Path="" 
-	  logoImgPath="\\EXEPATH\Games\Slambulance\new_logo.png" />
-	  
-	  <Entity entityTitle="The Line\\r\\n(Global Game Jam 2013)" entityAuthor="Stephanie Frankiewicz, Eagan Rackley, Ian Faleer" 
-	  entityDescription="A game that posits that our pain, suffering, disease, fear, hate, and insecurities are part of a dance; one that is beat out in the rhythm of our human hearts.You play as a girl that must escape a personification of 'Life is a bear' and unlock gates to reach her goal of balancing the dance of life against her own problems. You walk a line between two worlds, and the environment changes as you are swept between them." 
-	  playPath="\\EXEPATH\Games\TheLine\The Line.exe" 
-	  pathArgs="" 
-	  img1Path="\\EXEPATH\Games\TheLine\SheepLogo.png" 
-	  img2Path="" 
-	  img3Path="" 
-	  logoImgPath="\\EXEPATH\Games\TheLine\The Line.png" />
-	  
-	  <Entity entityTitle="Hummingbird Hailstorm\\r\\n(Global Game Jam 2013)" entityAuthor="Steve Felix" 
-	  entityDescription="The hummingbird perceives the flow of time inversely to its quick heartbeat." 
-	  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe" 
-	  pathArgs="--app=http://www.stevefelix.com/hummingbirdhailstorm -start-maximized" 
-	  img1Path=""
-	  img2Path="" 
-	  img3Path="" 
-	  logoImgPath="\\EXEPATH\Games\HH\hh.jpg" />
-	  
-	  <Entity entityTitle="Flashback\\r\\n(Global Game Jam 2013)" entityAuthor="Jeff Ziegener, Tamar Medina Jarryd Huntley, Scott" 
-	  entityDescription="Contra inspired shooter where you are a soldier feeling the panic of combat. As your pulse races you get faster, but less accurate. As you fight your way through the jungle the world gets more and more surreal" 
-	  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe" 
-	  pathArgs="--app=https://dl.dropbox.com/u/59404954/GGJ2013/applet/index.html -start-maximized" 
-	  img1Path=""
-	  img2Path=""
-	  img3Path="" 
-	  logoImgPath="\\EXEPATH\Games\Flashback\TitleImage.png" />
-	  
-	  <Entity entityTitle="Cardio 54\\r\\n(Global Game Jam 2013)" entityAuthor="Sam Marcus, Ian Faleer" 
-	  entityDescription="Cardio 54 is the hottest artery in the thoracic cavity and it's your job to make sure only the hippest, healthiest blood cells get in. Watch out- if you clear a cell for entrance there's no going back, even if its sickly vibe will mess up the groove! Also don't forget to keep that blood pumpin' by manually operating the heart. Because, you know. Blood. Controls: Left click- select a cell Space or Right click- beat heart (do this to the beat or you may make yourself worse off) Letter key- tap the key corresponding to letter the selected cell to let it in (only let healthy cells in!) Shift + Letter key- do this to boot sick cells from the waiting room" 
-	  playPath="\\EXEPATH\Games\Cardio54\Cardio54Win.exe" 
-	  pathArgs="" 
-	  img1Path="\\EXEPATH\Games\Cardio54\Cardio 54 Screenshot.png" 
-	  img2Path="\\EXEPATH\Games\Cardio54\Instructions_1.png" 
-	  img3Path="" 
-	  logoImgPath="\\EXEPATH\Games\Cardio54\Cardio 54 Splash.png" />
-	  
-	  <Entity entityTitle="type2live\\r\\n(Global Game Jam 2013)" entityAuthor="Jason Viers" 
-	  entityDescription="Survive through the ordeals as various creatures by typing to beat the heart." 
-	  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe" 
-	  pathArgs="--app=http://dl.dropbox.com/u/100707447/games/GlobalGameJam13/type2live.html -start-maximized" 
-	  img1Path="" 
-	  img2Path="" 
-	  img3Path="" 
-	  logoImgPath="\\EXEPATH\Games\Type2Live\1.jpg" />
-	  
-	  <Entity entityTitle="Eduardo Aluicous Prendergast\\r\\n(Global Game Jam 2013)" entityAuthor="Ian Lofgren" 
-	  entityDescription="Eduardo Aluicous Prendergast is a short somewhat abstract 2D survival-horror game. In this game the player uses the arrow keys to move the title character around the environment. However, the objective is never explained to the player and it is left for the player to figure it out." 
-	  playPath="\\EXEPATH\Games\EAP\Eduardo Aluicous Prendergast.exe" 
-	  pathArgs="" 
-	  img1Path=""
-	  img2Path=""
-	  img3Path="" 
-	  logoImgPath="\\EXEPATH\Games\EAP\3_3.png" />
-	  
-	  
-	  
-	  
+  <Entity entityTitle="Heartbeater\\r\\n(Global Game Jam 2013)" entityAuthor="Mike Geig, Matt Seifert, Matt Muzzy"
+  entityDescription="The theme this year was the sound of a heartbeat. It just so happens that Jack likes to do 2 things: chop down trees, and liberate hearts from the tyranny of elven chest cavities. You must protect your manliness to win. Left or RIght arrow keys: Move Left or Right Mouse Button: Beat Hearts"
+  playPath="\\EXEPATH\Games\Heartbeater\HEARTBEATER.exe"
+  pathArgs=""
+  img1Path="\\EXEPATH\Games\Heartbeater\Icon2_0.jpg"
+  img2Path="\\EXEPATH\Games\Heartbeater\bronana_0.png"
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\Heartbeater\HeartBeater_Logo.png" />
+
+  <Entity entityTitle="Dodge\\r\\n(Global Game Jam 2013)" entityAuthor="Owen Bell, Ian Faleer"
+  entityDescription="Competitive tunnel/helicopter game. Avoid the obstacles the longest."
+  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
+  pathArgs="--app=\\EXEPATH\Games\Dodge\dodge.html -start-maximized"
+  img1Path=""
+  img2Path=""
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\Dodge\Dodge_screenShot.png" />
+
+  <Entity entityTitle="Cells\\r\\n(Global Game Jam 2013)" entityAuthor="Spencer Balogh, Josh Kruszynski"
+  entityDescription="Use your four directional viruses to keep the white bloods cells inside the screen. Best experience on tablet! Enjoy w/ headphones. Requires HTML5-compatible browser."
+  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
+  pathArgs="--app=https://dl.dropbox.com/u/26730853/cells-GGJ2013-submission/index.html -start-maximized"
+  img1Path=""
+  img2Path=""
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\Cells\Screen Shot.png" />
+
+  <Entity entityTitle="Transplant\\r\\n(Global Game Jam 2013)" entityAuthor="Ruwani, Aaron Donahoo, Matthew Barnes, Philip Hoyt, Heather Lynn, Justin Demetroff"
+  entityDescription="Play as Big Tony, a discarded product of mad science, as he transforms himself from a lowly animated toe to a patchwork monster. Select different hearts to customize your capabilities. Work with an entitled brain to navigate the labs of Dr. Vantis. Collect and swap out body parts to grow more powerful, and take on Corrugated Cathy, the lab's guardian."
+  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
+  pathArgs="--app=http://game.hashtagnerd.com/ -start-maximized"
+  img1Path="\\EXEPATH\Games\Transplant\2.png"
+  img2Path="\\EXEPATH\Games\Transplant\team_3.png"
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\Transplant\1.png" />
+
+  <Entity entityTitle="Beat Stalk\\r\\n(Global Game Jam 2013)" entityAuthor="Luis Cabrera"
+  entityDescription="A simple game where you must track your target by listening for the heartbeat. Bring the target back to the safe zone to score extra points."
+  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
+  pathArgs="--app=http://loudigi.com/dev/game/ -start-maximized"
+  img1Path=""
+  img2Path=""
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\BeatStalk\ScreenShot_15.png" />
+
+  <Entity entityTitle="Blip\\r\\n(Global Game Jam 2013)" entityAuthor="Nick Perna, Jarryd Huntley"
+  entityDescription="A game where the beats of your heart give you vision."
+  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
+  pathArgs="--app=https://dl.dropbox.com/u/5900779/Blip/index.html -start-maximized"
+  img1Path=""
+  img2Path=""
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\Blip\BlipTitle.png" />
+
+
+  <Entity entityTitle="Trampoline\\r\\n(Global Game Jam 2013)" entityAuthor="Daniel Losch, Mike Geig,Maurice Wingfield, Jarryd Huntley"
+  entityDescription="Jump on a trampoline with your opponent and try and time your jumping to trip them as they land. Score points for time spent off-screen above, first to 250 wins. Single-button controls, more detailed info on the game's website."
+  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
+  pathArgs="--app=http://www.scirra.com/arcade/action/2822/trampoline -start-maximized"
+  img1Path=""
+  img2Path=""
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\Trampoline\screenshot1_6.png" />
+
+  <Entity entityTitle="Down the Witching Well\\r\\n(Global Game Jam 2013)" entityAuthor="Brian Gesler, Jennifer Greene, Ruwani"
+  entityDescription="Help Skelly find his pirate stuff! Use arrows or W,A,S,D keys to move and spacebar to jump. "
+  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
+  pathArgs="--app=http://gamejolt.com/games/platformer/down-the-witching-well/11868/ -start-maximized"
+  img1Path="\\EXEPATH\Games\DownTheWitchingWell\PirateSkeletonModel.PNG"
+  img2Path=""
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\DownTheWitchingWell\DownTheWitchingWellThumb.png" />
+
+  <Entity entityTitle="Slambulance\\r\\n(Global Game Jam 2013)" entityAuthor="Austin Rushe, Wamsley, Carl Grose, Dave Smith, Blaine Heiser, Jarad Miller"
+  entityDescription="Navigate the city streets to get your patient to the hospital! To keep their heart rate up, collide with other vehicles on the road. Don't get their heart rate up too high though, or your patient will go into cardiac arrest."
+  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
+  pathArgs="--app=http://dl.dropbox.com/u/12337201/Slambulance/WebsiteExport/index.html -start-maximized"
+  img1Path=""
+  img2Path=""
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\Slambulance\new_logo.png" />
+
+  <Entity entityTitle="The Line\\r\\n(Global Game Jam 2013)" entityAuthor="Stephanie Frankiewicz, Eagan Rackley, Ian Faleer"
+  entityDescription="A game that posits that our pain, suffering, disease, fear, hate, and insecurities are part of a dance; one that is beat out in the rhythm of our human hearts.You play as a girl that must escape a personification of 'Life is a bear' and unlock gates to reach her goal of balancing the dance of life against her own problems. You walk a line between two worlds, and the environment changes as you are swept between them."
+  playPath="\\EXEPATH\Games\TheLine\The Line.exe"
+  pathArgs=""
+  img1Path="\\EXEPATH\Games\TheLine\SheepLogo.png"
+  img2Path=""
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\TheLine\The Line.png" />
+
+  <Entity entityTitle="Hummingbird Hailstorm\\r\\n(Global Game Jam 2013)" entityAuthor="Steve Felix"
+  entityDescription="The hummingbird perceives the flow of time inversely to its quick heartbeat."
+  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
+  pathArgs="--app=http://www.stevefelix.com/hummingbirdhailstorm -start-maximized"
+  img1Path=""
+  img2Path=""
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\HH\hh.jpg" />
+
+  <Entity entityTitle="Flashback\\r\\n(Global Game Jam 2013)" entityAuthor="Jeff Ziegener, Tamar Medina Jarryd Huntley, Scott"
+  entityDescription="Contra inspired shooter where you are a soldier feeling the panic of combat. As your pulse races you get faster, but less accurate. As you fight your way through the jungle the world gets more and more surreal"
+  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
+  pathArgs="--app=https://dl.dropbox.com/u/59404954/GGJ2013/applet/index.html -start-maximized"
+  img1Path=""
+  img2Path=""
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\Flashback\TitleImage.png" />
+
+  <Entity entityTitle="Cardio 54\\r\\n(Global Game Jam 2013)" entityAuthor="Sam Marcus, Ian Faleer"
+  entityDescription="Cardio 54 is the hottest artery in the thoracic cavity and it's your job to make sure only the hippest, healthiest blood cells get in. Watch out- if you clear a cell for entrance there's no going back, even if its sickly vibe will mess up the groove! Also don't forget to keep that blood pumpin' by manually operating the heart. Because, you know. Blood. Controls: Left click- select a cell Space or Right click- beat heart (do this to the beat or you may make yourself worse off) Letter key- tap the key corresponding to letter the selected cell to let it in (only let healthy cells in!) Shift + Letter key- do this to boot sick cells from the waiting room"
+  playPath="\\EXEPATH\Games\Cardio54\Cardio54Win.exe"
+  pathArgs=""
+  img1Path="\\EXEPATH\Games\Cardio54\Cardio 54 Screenshot.png"
+  img2Path="\\EXEPATH\Games\Cardio54\Instructions_1.png"
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\Cardio54\Cardio 54 Splash.png" />
+
+  <Entity entityTitle="type2live\\r\\n(Global Game Jam 2013)" entityAuthor="Jason Viers"
+  entityDescription="Survive through the ordeals as various creatures by typing to beat the heart."
+  playPath="\\EXEPATH\Games\Type2Live\type2live.exe"
+  pathArgs=""
+  img1Path=""
+  img2Path=""
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\Type2Live\1.jpg" />
+
+  <Entity entityTitle="Eduardo Aluicous Prendergast\\r\\n(Global Game Jam 2013)" entityAuthor="Ian Lofgren"
+  entityDescription="Eduardo Aluicous Prendergast is a short somewhat abstract 2D survival-horror game. In this game the player uses the arrow keys to move the title character around the environment. However, the objective is never explained to the player and it is left for the player to figure it out."
+  playPath="\\EXEPATH\Games\EAP\Eduardo Aluicous Prendergast.exe"
+  pathArgs=""
+  img1Path=""
+  img2Path=""
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\EAP\3_3.png" />
+
+
+  <Entity entityTitle="Karyote\\r\\n(Ludum Dare 24 - Evolution)"
+  entityAuthor="Chris Sanyk"
+  entityDescription="You control a single-celled organism. You find food. When you eat enough food, you mutate. Your mutation depends on the type of food you've been eating. Some of the food is poisonous. If you eat too much of it, you will die. But try eating just a little, and see what happens. Find the food that heals you to eat more poison safely. Controls: Arrow keys L/R rotate, Up to move forward."
+  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
+  pathArgs="--app=http://csanyk.com/cs/releases/games/LD48-24_Karyote/enhanced -start-maximized"
+  img1Path="\\EXEPATH\Games\Karyote\Karyote 1.png"
+  img2Path="\\EXEPATH\Games\Karyote\Karyote 3.png"
+  img3Path="\\EXEPATH\Games\Karyote\Karyote 4.png"
+  logoImgPath="\\EXEPATH\Games\Karyote\Karyote 2.png" />
+
+  <Entity entityTitle="Bactarium\\r\\n(Ludum Dare 23 - Tiny World)"
+  entityAuthor="Chris Sanyk"
+  entityDescription="Bactarium takes place in a petri dish. Consume nutrients and replicate faster than your competition! [TIP: Press F1 to learn how to play.]"
+  playPath="\\EXEPATH\Games\Bactarium\bacterium.exe"
+  pathArgs=""
+  img1Path="\\EXEPATH\Games\Bactarium\Bactarium1.png"
+  img2Path="\\EXEPATH\Games\Bactarium\Bactarium2.png"
+  img3Path="\\EXEPATH\Games\Bactarium\Bactarium3.png"
+  logoImgPath="\\EXEPATH\Games\Bactarium\Bactariumlogo.png" />
+
+
+  <Entity entityTitle="Bad Puppy\\r\\n(Ludum Dare 25 - You are the Villain)"
+  entityAuthor="Chris Sanyk"
+  entityDescription="You are a bad puppy. Being that you are a puppy, all you can manage to do is bark at people. So, bark at them. Bark, bark, bark! The more you bark at people, the more points you get. Get all the points! But if people pet you, you can't be mean. Don't let them pet you! Bark! Bark, Bad Puppy! Controls: Arrow keys to run, Z to bark. Alt+F4 to exit. You get points if you bark at the people. You lose meanness if a person pets you"
+  playPath="\\EXEPATH\Games\BadPuppy\BadPuppy_skin.exe"
+  pathArgs=""
+  img1Path="\\EXEPATH\Games\BadPuppy\badpup1.png"
+  img2Path="\\EXEPATH\Games\BadPuppy\badpup2.jpg"
+  img3Path="\\EXEPATH\Games\BadPuppy\badpup3.png"
+  logoImgPath="\\EXEPATH\Games\BadPuppy\badpuplogo.png" />
+
+  <Entity entityTitle="Wackier Tracks"
+  entityAuthor="Jennifer Greene"
+  entityDescription="Collect cubes and balls to unlock the portals. Enter a portal to start a race, and be the first driver around the track 3 times to win! Hit the notes for energy boosts.Use the arrows or WASD keys to move and spacebar to jump."
+  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
+  pathArgs="--app=http://gamejolt.com/games/arcade/wackier-tracks/11442/ -start-maximized"
+  img1Path="\\EXEPATH\Games\WackierTracks\1.jpg"
+  img2Path="\\EXEPATH\Games\WackierTracks\2.jpg"
+  img3Path="\\EXEPATH\Games\WackierTracks\3.jpg"
+  logoImgPath="\\EXEPATH\Games\WackierTracks\wackylogo.jpg" />
+
+
+  <Entity entityTitle="Spindle Sun\\r\\n(Prototype)" entityAuthor="Brian Crick"
+  entityDescription="Spindle Sun is a science fiction themed 4x / shoot 'em up hybrid. Players will be able to build spaceships, colonize planets, and research new technologies as they would in typical galactic conquest games -- and at the same time command their own personal ship, defending and maintaining their empire though arcade-style gameplay. Spindle Sun is currently in the early stages of development."
+  playPath="\\EXEPATH\Games\SpindleSun\operetta 11 march 2013.exe"
+  pathArgs=""
+  img1Path="\\EXEPATH\Games\SpindleSun\1.png"
+  img2Path=""
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\SpindleSun\2.jpeg" />
+
+  <Entity entityTitle="Life"
+  entityAuthor="Matt Perrin"
+  entityDescription="Click the pulses to stay alive... but is it really worth it?"
+  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
+  pathArgs="--app=http://dl.dropbox.com/u/3670347/Life/index.html -start-maximized"
+  img1Path="\\EXEPATH\Games\Life\life1.png"
+  img2Path="\\EXEPATH\Games\Life\life2.png"
+  img3Path="\\EXEPATH\Games\Life\life3.png"
+  logoImgPath="\\EXEPATH\Games\Life\lifelogo.png" />
+
+
+  <Entity entityTitle="ESCape (Ludum Dare 21 - Escape)"
+  entityAuthor="Matt Perrin"
+  entityDescription="You are an 'Idea', a white block navigating a 'thought' maze. The player can use the arrow keys to navigate the maze and by pressing the Escape key, 'change their mind'. As the Idea travels into the thought maze, new obstacles such as grey permanent walls, 'Beliefs' (a 'beliefs set in stone') and red 'Doubts' that randomly toss the Idea into another part of the maze. Once the player gets through the game, they get a message that in my own heavy handed way, I was trying to convey."
+  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
+  pathArgs="--app=\\EXEPATH\Games\ESCape\index.html -start-maximized"
+  img1Path="\\EXEPATH\Games\ESCape\e1.png"
+  img2Path="\\EXEPATH\Games\ESCape\e2.png"
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\ESCape\elogo.png" />
+
+  <Entity entityTitle="Nanobot Adventures (Ludum Dare 23 - Tiny World)"
+  entityAuthor="Matt Perrin"
+  entityDescription="NanoBot Adventures is an old-school style 'viewport' adventure game. Players are a 'NERD', or NanoBot Emergency Repair Drone, and are tasked with navigating a system looking for a broken CPU Chip. The game randomly generates a system to explore and one of the dark grey 'Chips' on your mini-map must be Repaired to restore it to working order. In your way are other NanoBots that have gone rogue due to the defective Chip. You can fight, stun or attempt to flee the squishy MiniBot, the imposing GorillaBot or the all-mighty TankBot. Players can heal their NERD by traveling on the circuit traces in the system."
+  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
+  pathArgs="--app=\\EXEPATH\Games\Nanobot\index.html -start-maximized"
+  img1Path="\\EXEPATH\Games\Nanobot\n1.jpg"
+  img2Path="\\EXEPATH\Games\Nanobot\n2.jpg"
+  img3Path="\\EXEPATH\Games\Nanobot\n3.jpg"
+  logoImgPath="\\EXEPATH\Games\Nanobot\nanologo.jpg" />
+
+  <Entity entityTitle="Tiny Dungeon (#0Hour Game Jam)"
+  entityAuthor="Matt Perrin"
+  entityDescription="A simple dungeon RPG game made in an hour for the #0Hour Game Jam."
+  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
+  pathArgs="--app=\\EXEPATH\Games\TinyDungeon\index.html -start-maximized"
+  img1Path=""
+  img2Path=""
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\TinyDungeon\tinydungeonlogo.jpg" />
+
+  <Entity entityTitle="ASCIIBoros (Global Game Jam 2012)"
+  entityAuthor="Chris Sanyk"
+  entityDescription="YOU are trapped in a BYTE REGISTER. Keep moving! The BIT REFRESH will crash if it tries to read the bit you're stored in. You don't want to know what will happen in that event.The BIT REFRESH chases you through the register, one BIT at a time, reading the current VALUE stored in the bit and refreshing its value.In each bit, YOU can change its value, by flipping a SWITCH."
+  playPath="\\EXEPATH\Games\ASCIIBoros\ASCIIBoros2.exe"
+  pathArgs=""
+  img1Path=""
+  img2Path=""
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\ASCIIBoros\asciilogo.png" />
+
+  <Entity entityTitle="Orbrs (Global Game Jam 2012)"
+  entityAuthor="Stephanie Frankiewicz, Eagan Rackley, Elijah Rackley"
+  entityDescription="Click the pulses to stay alive... but is it really worth it?"
+  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
+  pathArgs="--app=http://greendoorgames.com/orbrs/Perspective/WebPlayer.html -start-maximized"
+  img1Path="\\EXEPATH\Games\Orbrs\SheepLogo.png"
+  img2Path=""
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\Orbrs\orbrs.png" />
+
+
+  <Entity entityTitle="A Short Tail (Global Game Jam 2012)"
+  entityAuthor="Philip Hoyt, Heather Lynn, Justin Demetroff"
+  entityDescription="An image assisted text based game."
+  playPath="\\EXEPATH\Games\AShortTail\A Short Tail.exe"
+  pathArgs=""
+  img1Path="\\EXEPATH\Games\AShortTail\tail2.jpg"
+  img2Path=""
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\AShortTail\tail1.jpg" />
+
+
+
+
+
+
+
+
+
+
+
+  <Entity entityTitle="EMPTY\\r\\n(Ludum Dare 24 - Evolution)"
+  entityAuthor=""
+  entityDescription=""
+  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
+  pathArgs="--app=http://csanyk.com/cs/releases/games/LD48-24_Karyote/enhanced -start-maximized"
+  img1Path="\\EXEPATH\Games\"
+  img2Path="\\EXEPATH\Games\"
+  img3Path="\\EXEPATH\Games\"
+  logoImgPath="\\EXEPATH\Games\" />
+
 </Manifest>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

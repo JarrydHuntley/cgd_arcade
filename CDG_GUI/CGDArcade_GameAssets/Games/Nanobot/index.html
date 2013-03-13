@@ -1,0 +1,446 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>NanoBot's Big Adventure</title>
+	<!-- Created by Matt Perrin -->
+    <!-- Engine: 08/21/2011 -->
+    <!-- Game: 04/20/2012 -->
+	<link rel="stylesheet" href="jquery.mobile-1.0.min.css" />
+	<link rel="stylesheet" href="stylesheet.css" />
+	<script type="text/javascript" charset="utf-8" src="modernizr-2.0.js"></script>
+	<script type="text/javascript" charset="utf-8" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="jquery.mobile-1.0.min.js"></script>
+    <!-- GAME OBJECTS -->
+    <script type="text/javascript" charset="utf-8" src="GameObjects/WorldObject.js"></script>
+    <script type="text/javascript" charset="utf-8" src="GameObjects/PlayerObject.js"></script>
+    <script type="text/javascript" charset="utf-8" src="GameObjects/TerrainTile.js"></script>
+    <script type="text/javascript" charset="utf-8" src="GameObjects/Viewport.js"></script>
+    <script type="text/javascript" charset="utf-8" src="GameObjects/Dialogport.js"></script>
+    <script type="text/javascript" charset="utf-8" src="GameObjects/Actionport.js"></script>
+    <script type="text/javascript" charset="utf-8" src="GameObjects/MonsterObject.js"></script>
+    <!-- UTILITIES -->
+    <script type="text/javascript" charset="utf-8" src="CanvasUtilities.js"></script>
+
+
+    <script type="text/javascript" charset="utf-8">
+
+    	var gameState;
+    	var theCanvas;
+    	var theContext;
+        var gameFPS = 30;
+       	var gameLoopTimer;
+
+    	var keyPressList = [];
+        var keyPressTrack;
+
+        var worldObject;
+        var playerObject;
+        var viewportObject;
+        var dialogportObject;
+        var actionportObject;
+        var monsterObject;
+
+        var redrawWorldFlag = true;
+
+        //	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+        function onLoad()
+        {
+            $('#playgame').live('pageshow',function(event, ui){
+                startMainGame();
+            });
+
+            $('#playgame').live('pagehide',function(event, ui){
+                endMainGame();
+            });
+
+            createKeyboardEvents();
+
+            initializeCanvas();
+
+
+        }
+
+
+
+        //	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+        //  KEYBOARD EVENTS
+        function createKeyboardEvents(){
+            document.onkeydown = function(e){
+                e.preventDefault();  //STOPS BROWSER SCROLL
+                //console.log("KEYDOWN KEYCODE " + e.keyCode);
+                e = e?e:window.event;
+                keyPressList[e.keyCode] = true;
+
+                keyPressTrack = e.keyCode;
+            }
+
+            document.onkeyup = function(e) {
+                e.preventDefault();  //STOPS BROWSER SCROLL
+                e = e?e:window.event;
+                keyPressList[e.keyCode] = false;
+
+                //FORCE THE FLAG OUTSIDE OF GAME LOOP
+                //if (e.keyCode == 27){ flagRegenerateMaze = true; }
+            }
+
+            // up    38
+            // left  37
+            // down  40
+            // right 39
+            // space 32
+        }
+
+
+        //	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+        //	CANVAS FUNCTIONS
+        function initializeCanvas(){
+            console.log("initializeCanvas");
+
+            if (!canvasSupport()) {
+                console.log("NO CANVAS FOUND");
+                return;
+            };
+
+            theCanvas = document.getElementById("playgameCanvas");
+            theContext = theCanvas.getContext("2d");
+        }
+
+        function canvasSupport () {
+            return Modernizr.canvas;
+        }
+
+	    
+	    //	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+        //  GAME OBJECTS
+		function createGameObjects(){
+            console.log("createGameObjects");
+
+            worldObject = new WorldObject();
+            worldObject.createWorld();
+
+            playerObject = new PlayerObject();
+
+            playerObject.initializeObject((worldObject.worldSizeX / 2), (worldObject.worldSizeY / 2), worldObject.terrainSpriteWidth, worldObject.terrainSpriteHeight);
+            worldObject.worldArray[playerObject.arrayX][playerObject.arrayY].initializeSprite(); //FORCE SILICON AS DEFAULT STARTING POINT
+
+            viewportObject = new Viewport();
+            viewportObject.initializeObject();
+            viewportObject.updatePortState(worldObject.worldArray[playerObject.arrayX][playerObject.arrayY].terrainCode);
+
+            dialogportObject = new Dialogport();
+            dialogportObject.initializeObject();
+
+            actionportObject = new Actionport();
+            actionportObject.initializeObject();
+		}
+
+
+		
+		//	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+        // GAME LOOP
+		function startMainGame() {
+            console.log("startMainGame");
+
+            createGameObjects();
+
+			gameState = "GAME_START";
+            redrawWorldFlag = true;  //TODO FIX THIS
+            gameLoopTimer = setInterval(mainGameLoop, (1000/gameFPS));
+            actionportObject.displayText("Booting up NanoBot Emergency Repair Drone (NERD)...");
+            actionportObject.displayText("Initializing Tiny World OS...");
+		}
+
+		function mainGameLoop() {
+            updateGameObjects();
+            drawGameObjects();
+		}
+		
+		
+		//	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+		function endMainGame() {
+            console.log("endMainGame");
+			gameState = "GAME_INACTIVE";
+			endGameLoop();
+			clearCanvas();
+		}
+        
+		function endGameLoop() {
+			// clearInterval(gameLoopTimer);
+            //clearInterval(monsterUpdateTimer);
+		}
+
+
+        //	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+        function updateGameObjects(){
+            for (var x=1; x <= worldObject.worldSizeX; x++) {
+                for (var y=1; y <= worldObject.worldSizeY; y++) {
+                    var terrain = worldObject.worldArray[x][y];
+                    terrain.updateTerrain();
+                }
+            }
+            playerObject.updatePlayer();
+            viewportObject.updateObject();
+
+            if (monsterObject != null) { monsterObject.updateObject(); }
+        }
+
+
+        //	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+		function drawGameObjects() {
+
+            //theContext.save();
+            var imageData;
+            imageData = theContext.createImageData((worldObject.worldSizeX * worldObject.terrainSpriteWidth), (worldObject.worldSizeY * worldObject.terrainSpriteHeight));
+
+            //DRAW THE WORLD
+            if (redrawWorldFlag)
+            {
+                for (var x=1; x <= worldObject.worldSizeX; x++) {
+                    for (var y=1; y <= worldObject.worldSizeY; y++) {
+                        var terrain = worldObject.worldArray[x][y];
+
+                        //OK, LET'S SCALE IT UP... NO IDEA WHY COLUMN 1 HAS AN OFFSET... GRRRRRRRRRRRRRR!
+                        for(w=0; w < terrain.spriteWidth; w++ ){
+                            for(h=0; h < terrain.spriteHeight; h++ ){
+                                //setPixel(imageData, terrain.spriteX + w, terrain.spriteY + h, terrain.R, terrain.G, terrain.B, terrain.A);
+                                setPixel(imageData, terrain.spriteX + w, terrain.spriteY + h, terrain.R[terrain.spriteState], terrain.G[terrain.spriteState], terrain.B[terrain.spriteState], terrain.A[terrain.spriteState]);
+                            }
+                        }
+                    }
+                }
+                //redrawWorldFlag = false;
+            }
+
+
+            //DRAW THE PLAYER
+            for(w=0; w < playerObject.spriteWidth; w++ ){
+                for(h=0; h < playerObject.spriteHeight; h++ ){
+                    setPixel(imageData, playerObject.spriteX + w, playerObject.spriteY + h, playerObject.R, playerObject.G, playerObject.B, playerObject.A);
+                }
+            }
+
+            //PUT THE PIXEL MANIPULATED DATA ON THE CANVAS
+            theContext.putImageData(imageData, 0, 0);
+
+            //DRAW THE VIEWPORT GRAPHIC
+            viewportObject.drawSprite();
+
+            //DRAW THE DIALOGPORT GRAPHIC
+            dialogportObject.drawSprite();
+
+            //DRAW THE ACTIONPORT GRAPHIC
+            actionportObject.drawSprite();
+
+            //DRAW THE MONSTER
+            if (monsterObject != null)
+            {
+                monsterObject.drawSprite();
+            }
+
+            //theContext.restore();
+		}
+
+
+
+        function redrawWorld() {
+            redrawWorldFlag = true;
+        }
+
+
+		function clearCanvas() {
+  			theContext.clearRect(0, 0, theCanvas.width, theCanvas.height);
+  			var w = theCanvas.width;
+  			theCanvas.width = 1;
+  			theCanvas.width = w;
+		}
+
+
+
+
+	    //	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+        //  GAME ACTIONS
+
+        function invokeAttack() {
+            if (monsterObject != null)
+            {
+                var randomRoll  = Math.round(0 + Math.random()*(100-0));
+                if (randomRoll < monsterObject.toHit)
+                {
+                    monsterObject.hp = monsterObject.hp - playerObject.atk; //HURT IT
+                    actionportObject.displayText("NERD damages the enemy for " + playerObject.atk + " damage");
+                } else {
+                    actionportObject.displayText("You missed!");
+                }
+
+                if (monsterObject.hp <= 0) {
+                    actionportObject.displayText("The enemy has been destroyed!");
+                    monsterObject = null; //KILL IT
+                }
+            }
+
+            monsterAttack();
+        }
+
+        function monsterAttack() {
+            //MONSTER'S ACTIONS
+            if (monsterObject != null)
+            {
+                if (monsterObject.stunned) {
+                    var randomRoll  = Math.round(0 + Math.random()*(1-0));
+                    if(randomRoll == 1)  //MONSTER REACTIVATES
+                    {
+                        monsterObject.stunned = false;
+                        actionportObject.displayText("The enemy is no longer stunned");
+                    }
+                } else {
+                    var randomRoll  = Math.round(0 + Math.random()*(100-0));
+                    if (randomRoll <= playerObject.toHit)
+                    {
+                        playerObject.hp = playerObject.hp - monsterObject.atk; //PLAYER GETS HURT
+                        actionportObject.displayText("The enemy hurts you for " + monsterObject.atk + " damage");
+                        actionportObject.displayText("You have " + playerObject.hp + " hit points");
+                    } else {
+                        actionportObject.displayText("The enemy misses you.");
+                    }
+
+                    if (playerObject.hp <= 0) {
+                        actionportObject.displayText("You have died!");
+                        $.mobile.changePage("#died", {transition:"none"} );
+                        //monsterObject = null; //PLAYER DIES!!! UH OH  TODO
+                    }
+                }
+            }
+        }
+
+        function invokeRetreat() {
+            if (monsterObject != null)
+            {
+               var randomRoll  = Math.round(0 + Math.random()*(1-0));
+               if (randomRoll  = 1)
+               {
+                   actionportObject.displayText("NERD successfully retreated.");
+                   playerObject.dirtyFlag = true;
+                   playerObject.arrayX = playerObject.prevX;
+                   playerObject.arrayY = playerObject.prevY;
+                   monsterObject = null; //TRUE
+                } else {
+                   actionportObject.displayText("The enemy blocks your escape!");
+               }
+            }
+
+            monsterAttack();
+        }
+
+        function invokeSpecial() {
+            if (monsterObject != null)
+            {
+               var randomRoll  = Math.round(0 + Math.random()*(100-0));
+               if (randomRoll < monsterObject.toHit)
+               {
+                   actionportObject.displayText("NERD has stunned the enemy!");
+                   monsterObject.stunned = true; //TRUE
+               } else {
+                   actionportObject.displayText("You missed!");
+               }
+               if (monsterObject.hp <= 0) {
+                   actionportObject.displayText("The enemy has been destroyed!");
+                   monsterObject = null; //KILL IT
+               }
+            }
+
+            monsterAttack();
+        }
+
+        function invokeRepair(){
+            if (monsterObject == null)
+            {
+                if (worldObject.worldArray[playerObject.arrayX][playerObject.arrayY].questNode)
+                {
+                    //actionportObject.displayText("You fix the damaged node! You have saved the world.");
+                    $.mobile.changePage("#win", {transition:"none"} );
+                }
+            }
+        }
+
+	</script>
+
+	
+</head>
+
+	<body onload="onLoad()">
+	  
+		<div data-role="page" id="home">
+			<div data-role="content" class="bck">
+                <div>
+				    <A HREF="#help" id="home_logo"><img width="100%" src="Images/NanoBotAdventures_Title.jpg" role=�button�/></A>
+                </div>
+                <div>
+  		    	    <A href="#help" data-theme="a" data-role="button" class="btn_helpstart">Help</A>
+  		    	    <A href="#about" data-theme="a" data-role="button" class="btn_about">About</A>
+                </div>
+  		    </div>
+	  	</div>
+
+		<div data-role="page" id="help">
+	  		<div data-role="content" class="bck">
+                 <img src="Images/Help.jpg">
+                  <div>
+                    <A href="#playgame" data-theme="a" data-role="button" class="btn_helpstart" >Start Game</A>
+                    <A href="#about" data-theme="a" data-role="button" class="btn_about">About</A>
+                  </div>
+  		    </div> 
+	  	</div>
+
+		<div data-role="page" id="about">
+	  		<div data-role="content" class="bck">
+                <img src="Images/about.jpg">
+                <div>
+                    <A href="#help" data-theme="a" data-role="button" class="btn_helpstart">Help</A>
+                    <A href="#about" data-theme="a" data-role="button" class="btn_about">About</A>
+                </div>
+            </div>
+        </div>
+
+		<div data-role="page" id="playgame">
+	  		<div data-role="content" class="bck">
+				<canvas id="playgameCanvas" width="800" height="600" style="z-index:1; position:absolute; left:0px; top:0px;">
+                    Your browser does not support HTML5 Canvas</canvas>
+                  <div class="actionpanel">
+                    <input type="button" onclick="invokeAttack();" value="Attack">
+                    <input type="button" onclick="invokeRetreat();" value="Retreat">
+                    <input type="button" onclick="invokeSpecial();" value="Special Attack">
+                    <input type="button" onclick="invokeRepair();" value="Repair Node">
+                    <!-- <input type="button" onclick="viewportObject.updatePortState(4);" value="clear Local Vars">
+                    <input type="button" onclick="viewportObject.updatePortState(5);" value="clear Local Vars">
+                    <input type="button" onclick="viewportObject.updatePortState(5);" value="clear Local Vars">
+                    <input type="button" onclick="viewportObject.updatePortState(5);" value="clear Local Vars"> -->
+                  </div>
+                  <div class="dialogpanel">
+                      </div>
+            </div>
+	  	</div>
+
+        <div data-role="page" id="died">
+      	  		<div data-role="content" class="bck">
+                       <img src="Images/deadscreen.jpg">
+                        <div>
+                          <A href="#playgame" data-theme="a" data-role="button" class="btn_helpstart" >Start Game</A>
+                          <A href="#about" data-theme="a" data-role="button" class="btn_about">About</A>
+                        </div>
+        		    </div>
+      	  	</div>
+
+        <div data-role="page" id="win">
+      	  	<div data-role="content" class="bck">
+                <img src="Images/Success.jpg">
+                <div>
+                    <A href="#playgame" data-theme="a" data-role="button" class="btn_helpstart" >Start Game</A>
+                    <A href="#about" data-theme="a" data-role="button" class="btn_about">About</A>
+                </div>
+            </div>
+      	</div>
+
+
+
+	</body>
+</html>

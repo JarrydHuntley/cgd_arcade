@@ -1,0 +1,525 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>The ESCape</title>
+	<!-- Created by Matt Perrin -->
+    <!-- 08/21/2011 -->
+    <!-- www.pxlgames.com -->
+    <!-- Copyright PXLGames.Com 2011 -->
+	<link rel="stylesheet" href="jquery.mobile-1.0b2.css" />
+	<link rel="stylesheet" href="stylesheet.css" />
+	<script type="text/javascript" charset="utf-8" src="phonegap.1.0.0.js"></script>
+	<script type="text/javascript" charset="utf-8" src="modernizr-2.0.js"></script>
+	<script type="text/javascript" charset="utf-8" src="jquery-1.6.2.js"></script>
+	<script type="text/javascript" charset="utf-8" src="jquery.mobile-1.0b2.js"></script>
+    <script type="text/javascript" charset="utf-8" src="gameobjects/canvasevent.js"></script>
+    <script type="text/javascript" charset="utf-8" src="gameobjects/canvaseventhandler.js"></script>
+	<script type="text/javascript" charset="utf-8" src="gameobjects/tile.js"></script>
+    <script type="text/javascript" charset="utf-8" src="gameobjects/playerobj.js"></script>
+    <script type="text/javascript" charset="utf-8" src="gameobjects/monsterobj.js"></script>
+    <script type="text/javascript" charset="utf-8" src="gameobjects/finale.js"></script>
+	
+    <script type="text/javascript" charset="utf-8">
+
+    	var mazeArray = new Array(19);
+        var monsterArray = new Array();
+        var finaleObject;
+    	var gameState;
+    	var theCanvas;
+    	var theContext;
+    	var touchEnabled = false;
+    	var gameLoopTimer;
+        var gameStateTimer;
+        var monsterUpdateTimer;
+
+    	var theCanvasEventHandler;
+    	var canvasEventCaptureMode = "";
+    	var trackMoveEvents = false;
+    	
+    	var keyPressList = [];
+        var keyPressTrack;
+
+    	var flagRegenerateMaze = false;
+	 
+        var gameLevel = 1;
+        var levelDisplayCounter = 0;
+
+        var goalX;
+        var goalY;
+        var goalTile;
+
+        var playerX;
+        var playerY;
+        var playerObject;
+
+	    var redrawGrid = true;
+
+        
+	 
+		//	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-    	
+	    // Wait for PhoneGap to load
+	    function onLoad() 
+	    {
+	        $(document).bind("mobileinit", function(){
+                $.mobile.defaultPageTransition = "none";
+            });
+            
+	        document.addEventListener("deviceready", onDeviceReady, false);
+
+            $('#playgame').live('pageshow',function(event, ui){
+  				startMainGame();
+			});
+
+			$('#playgame').live('pagehide',function(event, ui){
+  				endMainGame();
+			});
+
+            createKeyboardEvents();
+	        
+	        initializeCanvas();	        
+	        
+            createGameObjects();
+	    }
+	    
+		
+		//	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	    // PhoneGap is ready
+	    function onDeviceReady() {
+	  		console.log('onDeviceReady Triggered');
+	    }
+	    	
+	    
+	    //	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+        //  GAME OBJECTS
+		function createGameObjects(){
+            console.log("createGameObjects");
+
+            //Create Canvas Event Handler
+			theCanvasEventHandler = new CanvasEventHandler();
+
+            playerObject = new PlayerObj();
+            finaleObject = new FinaleObj();
+            finaleObject.initializeObject();
+
+		}
+
+        function createMazeObject(){
+            var tempObject;
+
+            for (var x=0; x <= 20; x++) {
+                mazeArray[x] = new Array(11);
+
+                for (var y=0; y <= 11; y++) {
+                    tempObject = new Tile();
+                    tempObject.initializeObject(x,y);
+                    mazeArray[x][y] = tempObject;
+                }
+            }
+        }
+
+
+
+        function regenerateMaze(){
+            console.log("regenerateMaze");
+
+            for (var x=0; x < 20; x++) {
+                //console.log("X " + x);
+                for (var y=0; y < 11; y++) {
+                   //console.log("Y " + y);
+                   // console.log("OBJ " + mazeArray[x][y]);
+                    mazeArray[x][y].updateTileState();
+                }
+            }
+
+            flagRegenerateMaze = false;
+            redrawGrid = true;
+        }
+
+           function createGoalStart(){
+               //CREATE GOAL
+
+               goalX = Math.round(0 + Math.random()*(19-0));
+               goalY = Math.round(0 + Math.random()*(10-0));
+               console.log("CREATEGOALSTART " + goalX + ":" + goalY);
+               mazeArray[goalX][goalY].setToGoalState();
+
+           }
+
+        function createPlayerStart() {
+            playerX = Math.abs(19 - goalY);
+            playerY = Math.abs(11 - goalY);
+
+            do {
+                //console.log("try again player");
+                playerX  = Math.round(0 + Math.random()*(19-0));
+                playerY  = Math.round(0 + Math.random()*(10-0));
+            } while (mazeArray[playerX][playerY].tileState != 0)
+
+
+            //console.log("createPlayerStart " + playerX + ":" + playerY);
+               playerObject.initializeObject(playerX, playerY);
+        }
+
+        function createPermanentWall(){
+
+            var tempX = Math.round(0 + Math.random()*(19-0));
+            var tempY = Math.round(0 + Math.random()*(10-0));
+            mazeArray[tempX][tempY].setToPermanentWallState();
+        }
+
+        function createANewMonster() {
+
+            var tempObj;
+            tempObj = new MonsterObj();
+
+            do {
+                var tempX  = Math.round(0 + Math.random()*(19-0));
+                var tempY  = Math.round(0 + Math.random()*(10-0));
+            } while (mazeArray[tempX][tempY].tileState != 0)
+
+            tempObj.initializeObject(tempX, tempY);
+            tempObj.initializeSprite();
+            //tempObj.setMonsterType();
+            //tempObj.setMonsterUpdateTimer();
+
+            monsterArray.push(tempObj);
+        }
+
+
+        function levelUp(){
+            var increaseDifficulty = Math.round(0 + Math.random()*(10-0));
+            //console.log(increaseDifficulty);
+
+            if (increaseDifficulty > 5){
+                createPermanentWall();
+            } else {
+                createANewMonster();
+            }
+
+            for (var i=0; i < monsterArray.length; i++) {
+
+                do {
+                    var tempX  = Math.round(0 + Math.random()*(19-0));
+                    var tempY  = Math.round(0 + Math.random()*(10-0));
+                } while (mazeArray[tempX][tempY].tileState != 0)
+
+                monsterArray[i].initializeObject(tempX, tempY);
+            }
+        }
+		
+		
+		//	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+		//	CANVAS FUNCTIONS
+		function canvasSupport () {
+			return Modernizr.canvas;
+		}
+
+	 	function initializeCanvas(){
+	 		console.log("initializeCanvas");
+
+             if (!canvasSupport()) {
+                 console.log("NO CANVAS FOUND");
+				return;
+			};
+
+	 		theCanvas = document.getElementById("playgameCanvas");
+			theContext = theCanvas.getContext("2d");
+
+			if ("ontouchstart" in document.documentElement){
+	          touchEnabled  = true;
+	          createCanvasTouchEvents();
+	        } else {
+	          touchEnabled = false;
+	          createCanvasMouseEvents();
+	        };
+
+           // console.log("initializeCanvas DONE");
+	 	}
+		
+		
+		//	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+        //  TOUCH EVENTS
+
+		//-- NOTES
+		//var touch = event.touches[0];
+		//gamePath.setCoords(touch.pageX, touch.pageY);
+		
+		function createCanvasTouchEvents() {
+
+			theCanvas.addEventListener("touchstart",  function(event) {		
+		        theCanvasEventHandler.TriggerCanvasEvent(event, "touchstart");
+		    }, false);
+
+			theCanvas.addEventListener("touchmove",  function(event) {
+				if (trackMoveEvents) {
+		        	theCanvasEventHandler.TriggerCanvasEvent(event, "touchmove");
+	        	};
+		    }, false);
+			
+			
+			theCanvas.addEventListener("touchend",  function(event) {
+				theCanvasEventHandler.TriggerCanvasEvent(event, "touchend");
+		    }, false);  
+		}
+		
+		
+		
+		//	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+		// MOUSE EVENTS
+		function createCanvasMouseEvents(){
+			theCanvas.addEventListener("mousedown",  function(event) {		        
+		        theCanvasEventHandler.TriggerCanvasEvent(event, "mousedown");
+		    }, false);
+			
+			theCanvas.addEventListener("mousemove",  function(event) {
+				//LIMIT MOUSEMOVE CHECKS TO SPECIFIC GAMESTATES - LESS CPU
+		        if (gameState == "GAME_ACTIVE_TrackMoveEvents") {
+		        	theCanvasEventHandler.TriggerCanvasEvent(event, "mousemove");
+		        };
+		    }, false);
+
+			theCanvas.addEventListener("mouseup",  function(event) {
+		        theCanvasEventHandler.TriggerCanvasEvent(event, "mouseup");
+		    }, false);   
+		}
+        
+		//	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+		//  KEYBOARD EVENTS
+
+        function createKeyboardEvents(){
+            document.onkeydown = function(e){
+                //console.log("KEYDOWN KEYCODE " + e.keyCode);
+                e = e?e:window.event;
+                keyPressList[e.keyCode] = true;
+
+                keyPressTrack = e.keyCode;
+            }
+
+            document.onkeyup = function(e) {
+                e = e?e:window.event;
+                keyPressList[e.keyCode] = false;
+
+                //FORCE THE FLAG OUTSIDE OF GAME LOOP
+                if (e.keyCode == 27){
+                    flagRegenerateMaze = true;
+                }
+            }
+
+            // up    38
+            // left  37
+            // down  40
+            // right 39
+            // space 32
+
+        }
+
+
+		
+		
+		//	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+		function startMainGame() {
+			gameState = "GAME_LEVEL";
+            gameLevel = 1;
+            createMazeObject();
+            regenerateMaze();
+            createGoalStart();
+            createPlayerStart();
+            activateGameLevel();
+			mainGameLoop();
+		}
+
+		function mainGameLoop() {
+			gameLoopTimer = setInterval(drawScreen, 100);
+		}
+		
+		
+		//	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+		function endMainGame() {
+			gameState = "GAME_INACTIVE";
+            mazeArray = [];
+			endGameLoop();
+			clearCanvas();
+		}
+        
+		function endGameLoop() {
+			clearInterval(gameLoopTimer);
+            clearInterval(monsterUpdateTimer);
+		}
+
+
+        //	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+        function activateGameLevel(){
+            gameState = "GAME_LEVEL";
+            clearInterval(monsterUpdateTimer);
+            gameStateTimer = setInterval(activateGameState, 2000);
+        }
+
+		function activateGameState(){
+            monsterUpdateTimer = setInterval(updateMonsterArray, 500);
+            clearInterval(gameStateTimer);
+            gameState = "GAME_ACTIVE";
+        }
+
+
+        function updateMonsterArray(){
+            if (monsterArray.length > 0) {
+                for (var i=0; i < monsterArray.length; i++) {
+                    monsterArray[i].updateMonster();
+                }
+            }
+        }
+
+        //	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+		function drawScreen() {
+
+            if(gameState == "GAME_LEVEL") {
+
+                    theContext.fillStyle = '#000000';
+                    theContext.fillRect (0, 0, 800, 480);
+
+                    theContext.font= "70px Calibri";
+                    theContext.fillStyle = "#99C4E7";
+                    theContext.fillText("LEVEL " + gameLevel, 285,235);
+
+            } else if(gameState == "GAME_ACTIVE") {
+
+                    if(flagRegenerateMaze){
+                        regenerateMaze();
+                    }
+
+                    playerObject.updatePlayer();
+
+
+
+
+
+                
+                    theContext.save();
+
+                    for (var x=0; x < 20; x++) {
+                        for (var y=0; y < 11; y++) {
+                            mazeArray[x][y].drawSprite();
+                        }
+                    }
+
+                    if (monsterArray.length > 0) {
+                        for (var i=0; i < monsterArray.length; i++) {
+                            monsterArray[i].drawSprite();
+                        }
+                    }
+
+                    playerObject.drawSprite();
+
+                    theContext.restore();
+
+                
+                    //check for monster collision
+                    if (monsterArray.length > 0) {
+                        for (var i=0; i < monsterArray.length; i++) {
+                            if((playerObject.spriteX >= monsterArray[i].spriteX) && (playerObject.spriteX < monsterArray[i].spriteX + 40) && (playerObject.spriteY >= monsterArray[i].spriteY) && (playerObject.spriteY < monsterArray[i].spriteY + 40)){
+                                console.log("MONSTER COLLISION");
+                                createPlayerStart();
+                            }
+                        }
+                    }
+
+                    //check for win
+                    if (playerObject.spriteX == mazeArray[goalX][goalY].spriteX) {
+                        if (playerObject.spriteY == mazeArray[goalX][goalY].spriteY) {
+
+                            console.log(" -- NEW LEVEL -- ");
+                            if (gameLevel == 20){
+                                endMainGame();
+                                console.log("YOU ARE THE WEINER!");
+                                
+                                this.finaleTimer = setInterval(renderTheFinale, 100);
+                                
+                            } else {
+                                gameLevel += 1;
+                                mazeArray[goalX][goalY].resetToNormalState();
+
+                                regenerateMaze();
+
+                                createGoalStart();
+                                levelUp();
+                                activateGameLevel();
+                            }
+                        }
+                    }
+            }
+		}
+
+        function renderTheFinale() {
+            finaleObject.resizeFinaleSprite();
+            finaleObject.drawFinaleSprite();
+		}
+
+		function clearCanvas() {
+  			theContext.clearRect(0, 0, theCanvas.width, theCanvas.height);
+  			var w = theCanvas.width;
+  			theCanvas.width = 1;
+  			theCanvas.width = w;
+		}
+
+
+
+
+
+
+	</script>
+	
+	
+	
+	
+</head>
+
+	<body onload="onLoad()">
+	  
+		<div data-role="page" id="home">
+			<div data-role="content">
+                <div>
+				    <A HREF="#playgame" id="home_logo"><img width="100%" src="sprites/TheESCapeLogo.png" role=�button�/></A>
+                </div>
+                <div>
+  		    	    <A href="#help" data-theme="a" data-role="button" id="home_btn_help" >Help</A>
+  		    	    <A href="#about" data-theme="a" data-role="button" id="home_btn_about">About</A>
+                </div>
+  		    </div>
+	  	</div>
+
+
+		<div data-role="page" id="help">
+	  		<div data-role="content">
+                 <img src="sprites/help.png">
+  		    </div> 
+	  	</div>
+
+
+		<div data-role="page" id="about">
+	  		<div data-role="content">
+                <img class="bck" src="sprites/black_40x40.png"/>
+                <p style="color: white; position:absolute;">Created by Matt Perrin for the Ludum Dare 21 Compo</p>
+                 <p></p>
+                  <p>A huge "Thank You!" to my wonderful wife and awesome kids for</p>
+                  <p>letting me build this over the weekend!</p>
+                  <p></p>
+                 <p style="color: white; position:absolute;">http://www.twitter.com/mattperrin</p>
+                 <p style="color: white; position:absolute;">http://www.gplus.to/mattperrin</p>
+                <p style="color: white; position:absolute;">Copyright 2011 / All Rights Reserved</p>
+  		    </div> 
+	  	</div>
+
+	  	
+		<div data-role="page" id="playgame">
+	  		<div data-role="content">
+				<canvas id="playgameCanvas" width="800" height="440" style="z-index:1; position:absolute; left:0px; top:0px;">Your browser does not support HTML5 Canvas</canvas>
+            </div>
+	  	</div>
+
+
+
+
+
+
+	</body>
+</html>

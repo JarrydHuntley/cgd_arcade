@@ -1,0 +1,27 @@
+#home_logo{
+    position:absolute;
+    left:0px;
+	top:0px;
+}
+
+#home_btn_help{
+	position:absolute;
+	left:400px;
+	top:380px;
+    width: 150px;
+}
+
+#home_btn_about{
+	position:absolute;
+    left:570px;
+	top:380px;
+    width:150px;
+}
+
+.bck{
+    position:absolute;
+    left:0px;
+	top:0px;
+    width:100%;
+    height:100%;
+}

@@ -15,6 +15,11 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.IO;
 
+using System.Diagnostics;
+using System.Runtime.InteropServices;
+
+
+
 namespace CGDArcade_WPF
 {
     /// <summary>
@@ -25,6 +30,9 @@ namespace CGDArcade_WPF
         GenericArcadeEntity entity;
         MainWindow mainWindow;
         private Process gameProcess;
+
+        [DllImport("User32")]
+        private static extern int ShowWindow(int hwnd, int nCmdShow);
 
 
         public EntryDetailWindow(MainWindow mainWindow)
@@ -59,6 +67,11 @@ namespace CGDArcade_WPF
                     this.mainWindow.selectionChangeSFX.Play();
                     CloseThisWindow();
                     break;
+
+                case Key.Enter:
+                    this.mainWindow.selectionMadeSFX.Play();
+                    Image_MouseDown_1(null, null);
+                    break;
             }
         }
 
@@ -74,9 +87,16 @@ namespace CGDArcade_WPF
 
             this.entityMediaElement.Source = new Uri(this.entity.logoImgPath.Replace(@"\\EXEPATH\", exePath));
 
-            if (this.entity.img1Path != "") { this.entityMedia1.Source = new Uri(this.entity.img1Path.Replace(@"\\EXEPATH\", exePath)); }
-            if (this.entity.img2Path != "") { this.entityMedia2.Source = new Uri(this.entity.img2Path.Replace(@"\\EXEPATH\", exePath)); }
-            if (this.entity.img3Path != "") { this.entityMedia3.Source = new Uri(this.entity.img3Path.Replace(@"\\EXEPATH\", exePath)); }
+            try
+            {
+                if (this.entity.img1Path != "") { this.entityMedia1.Source = new Uri(this.entity.img1Path.Replace(@"\\EXEPATH\", exePath)); }
+                if (this.entity.img2Path != "") { this.entityMedia2.Source = new Uri(this.entity.img2Path.Replace(@"\\EXEPATH\", exePath)); }
+                if (this.entity.img3Path != "") { this.entityMedia3.Source = new Uri(this.entity.img3Path.Replace(@"\\EXEPATH\", exePath)); }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString());
+            }
 
             string tempString = this.entity.entityTitle;
             this.lbl_Title.Text = tempString.Replace(@"\\r\\n", System.Environment.NewLine);
@@ -108,7 +128,9 @@ namespace CGDArcade_WPF
                 this.gameProcess.EnableRaisingEvents = true;
                 //this.gameProcess.Exited += new EventHandler(gameProcess_Exited);
                 this.gameProcess.Start();
-                this.gameProcess.WaitForExit();
+                //this.gameProcess.WaitForExit();
+                //int hWnd = this.gameProcess.MainWindowHandle.ToInt32();
+                //ShowWindow(hWnd, 3);
             }
             catch (Exception ex)
             {
@@ -117,7 +139,7 @@ namespace CGDArcade_WPF
         }
 
 
-        // Handle Exited event and display process information. 
+        /* Handle Exited event and display process information. 
         private void gameProcess_Exited(object sender, System.EventArgs e)
         {
 
@@ -128,7 +150,7 @@ namespace CGDArcade_WPF
             //    "Exit code:    {1}\r\nElapsed time: {2}", myProcess.ExitTime, myProcess.ExitCode, elapsedTime);
 
             MessageBox.Show("TEST OK");
-        }
+        }*/
 
 
 
