@@ -1,4 +1,5 @@
 ﻿using CGDArcade_CommonLibrary;
+using CGDArcade_WPF.UIControls;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -30,6 +31,7 @@ namespace CGDArcade_WPF
         GenericArcadeEntity entity;
         MainWindow mainWindow;
         private Process gameProcess;
+        MP3Player mediaCtrl;
 
         [DllImport("User32")]
         private static extern int ShowWindow(int hwnd, int nCmdShow);
@@ -39,7 +41,7 @@ namespace CGDArcade_WPF
         {
             InitializeComponent();
             this.mainWindow = mainWindow;
-            AddHandler(Keyboard.KeyDownEvent, (KeyEventHandler)KeyPressed);
+            //AddHandler(Keyboard.KeyDownEvent, (KeyEventHandler)KeyPressed);
         }
 
         private void img_btn_GridLayout_MouseDown(object sender, MouseButtonEventArgs e)
@@ -53,6 +55,12 @@ namespace CGDArcade_WPF
             this.mainWindow.Focus();
             this.Hide();
             this.Close();
+        }
+
+
+        private void Window_PreviewKeyUp_1(object sender, KeyEventArgs e)
+        {
+            KeyPressed(sender, e);
         }
 
         private void KeyPressed(object sender, KeyEventArgs e)
@@ -108,12 +116,43 @@ namespace CGDArcade_WPF
             this.lbl_Description.Text = tempString.Replace(@"\\r\\n", System.Environment.NewLine);
         }
 
+
+
+
         private void Image_MouseDown_1(object sender, MouseButtonEventArgs e)
         {
             this.mainWindow.selectionChangeSFX.Play();
 
-            this.gameProcess = new Process();
+            if (this.entity.startWithMusicPlayer == "Y")
+            {
+                SpawnMP3Player();
+            }
+            else
+            {
+                SpawnChildProcess();
+            }
+        }
 
+
+        private void SpawnMP3Player()
+        {
+            string exePath = AppDomain.CurrentDomain.BaseDirectory;
+            string tempString = this.entity.playPath;
+            tempString = tempString.Replace(@"\\EXEPATH\", exePath);
+
+            this.mediaCtrl = new MP3Player(this);
+            DetailGrid.Children.Add(this.mediaCtrl);
+
+            
+            //this.mediaCtrl.Margin = new Thickness(0, 0, 836, 40);
+
+            this.mediaCtrl.LaunchMP3Player(this.lbl_Title.Text, this.lbl_Author.Text, this.entityMediaElement.Source.ToString(), @tempString);
+        }
+
+        private void SpawnChildProcess()
+        {
+
+            this.gameProcess = new Process();
             try
             {
                 string exePath = AppDomain.CurrentDomain.BaseDirectory;
@@ -131,12 +170,30 @@ namespace CGDArcade_WPF
                 //this.gameProcess.WaitForExit();
                 //int hWnd = this.gameProcess.MainWindowHandle.ToInt32();
                 //ShowWindow(hWnd, 3);
+
+                SetForegroundWindow(this.gameProcess.MainWindowHandle);
+
+                //Process.GetProcessesByName(this.gameProcess.ProcessName);
             }
             catch (Exception ex)
             {
                 MessageBox.Show(string.Format("An error occurred trying to launch game. {0} :\n {1}" + ex.Message, this.entity.playPath));
             }
         }
+
+
+        private void ClickToPlay_MouseDown_1(object sender, MouseButtonEventArgs e)
+        {
+            Image_MouseDown_1(null, null);
+        }
+
+        public void CloseMP3Player()
+        {
+            this.mediaCtrl.StopMusic();
+            this.mediaCtrl.Visibility = Visibility.Collapsed;
+            this.RemoveLogicalChild(this.mediaCtrl);
+        }
+
 
 
         /* Handle Exited event and display process information. 
@@ -153,7 +210,14 @@ namespace CGDArcade_WPF
         }*/
 
 
+        [DllImport("user32.dll")]
+        static extern bool SetForegroundWindow(IntPtr hWnd);
 
+        // SetFocus will just focus the keyboard on your application, but not bring your process to front.
+        // You don't need it here, SetForegroundWindow does the same.
+        // Just for documentation.
+        [DllImport("user32.dll")]
+        static extern IntPtr SetFocus(HandleRef hWnd);
 
     }
 }

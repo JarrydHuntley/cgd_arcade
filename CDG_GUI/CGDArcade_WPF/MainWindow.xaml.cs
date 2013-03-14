@@ -196,6 +196,8 @@ namespace CGDArcade_WPF
 
         private void img_btn_PagedLayout_MouseDown(object sender, MouseButtonEventArgs e)
         {
+
+
             this.selectionMadeSFX.Play();
             EntryDetailWindow win = new EntryDetailWindow(this);
             win.Show();
@@ -219,7 +221,7 @@ namespace CGDArcade_WPF
             }
         }
 
-        private void Window_PreviewKeyDown_1(object sender, KeyEventArgs e)
+        private void Window_PreviewKeyUp_1(object sender, KeyEventArgs e)
         {
             KeyPressed(sender, e);
         }

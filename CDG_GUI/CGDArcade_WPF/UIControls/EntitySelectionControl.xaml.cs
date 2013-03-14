@@ -59,8 +59,16 @@ namespace CGDArcade_WPF.UIControls
 
         public void entityControl_MouseUp(object sender, MouseButtonEventArgs e)
         {
-            this.mainWindow.SwapActiveEntity(this);
 
+            //EPILEPSY WARNING HERE
+            if (this.arcadeEntity.epilepsyWarning == "Y")
+            {
+                MessageBoxResult result = MessageBox.Show("WARNING - This game contains flashing lights which may not be suitable for photosensitive epilepsy. Do you wish to continue?",
+                    "EPILEPSY WARNING", MessageBoxButton.YesNo, MessageBoxImage.Exclamation);
+                if (result == MessageBoxResult.No) { return; }
+            }
+
+            this.mainWindow.SwapActiveEntity(this);
             EntryDetailWindow win = new EntryDetailWindow(this.mainWindow);
             
             win.Show();
@@ -74,5 +82,10 @@ namespace CGDArcade_WPF.UIControls
 
 
 
+
+        private void entityControl_MouseEnter(object sender, MouseEventArgs e)
+        {
+            this.mainWindow.SwapActiveEntity(this);
+        }
     }
 }

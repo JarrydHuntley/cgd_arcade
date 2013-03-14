@@ -394,6 +394,102 @@
     <Content Include="Games\HH\hh.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Games\Ian2012\Ian Faleer - Global Game Jam 2012 %28Cleveland Game Developers%29 - 01 Back To Where I%27ve Gone.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Ian2012\Ian Faleer - Global Game Jam 2012 %28Cleveland Game Developers%29 - 02 Bus To Oblivion.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Ian2012\Ian Faleer - Global Game Jam 2012 %28Cleveland Game Developers%29 - 03 The Sound Wall.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Ian2012\Ian Faleer - Global Game Jam 2012 %28Cleveland Game Developers%29 - 04 Cave Voices.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Ian2012\Ian Faleer - Global Game Jam 2012 %28Cleveland Game Developers%29 - 05 Bus To Oblivion %28Version 2%29.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Ian2012\cover.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Ian2012\qrggj2012.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Ian2013\Ian Faleer - Global Game Jam 2013 %28Cleveland Game Developers%29 - 01 This Is All Just A Dance %28from The Line%29.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Ian2013\Ian Faleer - Global Game Jam 2013 %28Cleveland Game Developers%29 - 02 Cardiofunkular %28from Cardio 54%29.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Ian2013\Ian Faleer - Global Game Jam 2013 %28Cleveland Game Developers%29 - 03 Step On It %28from Slambulance%29.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Ian2013\Ian Faleer - Global Game Jam 2013 %28Cleveland Game Developers%29 - 04 Jack the Elf Pugilist  %28from HeartBeater%29.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Ian2013\Ian Faleer - Global Game Jam 2013 %28Cleveland Game Developers%29 - 05 Pulse - Original Version %28from Dodge%29.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Ian2013\Ian Faleer - Global Game Jam 2013 %28Cleveland Game Developers%29 - 06 Pulse - Gameplay Version %28from Dodge%29.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Ian2013\Ian Faleer - Global Game Jam 2013 %28Cleveland Game Developers%29 - 07 Fever Dream %28from Whack-A-Telltale Heart%29.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Ian2013\Ian Faleer - Global Game Jam 2013 %28Cleveland Game Developers%29 - 08 Game Start! %28from The Cube%29.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Ian2013\Ian Faleer - Global Game Jam 2013 %28Cleveland Game Developers%29 - 09 Victory and Kill Screen %28from The Cube%29.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Ian2013\Ian Faleer - Global Game Jam 2013 %28Cleveland Game Developers%29 - cover.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\Ian2013\qrggj2013.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 01 Life, Moving - Extended Version %28from Karyote, 09-2012%29.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 02 Life, Moving - Gameplay Version %28from Karyote, 09-2012%29.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 03 At The Carnies%27 Midnight Ball %2804-2012%29.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 04 The Tinker In The Drawing Room %28from Violet%27s Lock-pick Game, 11-2011%29.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 05 The Open Road %2803-2012%29.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 06 Thrusters Are Go! %2809-2011%29.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 07 Toy Piano %2811-2011%29.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 08 Polarity No. 1 %28from Polarity Project, 05-2011%29.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 09 Topsy Turvy %28from Polarity Project,  07-2011%29.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 10 Just Keep Walking %28from Runthki, 03-2012%29.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 11 Suddenly, A Light Ahead %28from Runthki, 04-2012%29.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 12 Jacob%27s Ladder %28from Runthki, 11-2011%29.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - cover.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\IanSketches\qrsketches.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Games\Karyote\Karyote 1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

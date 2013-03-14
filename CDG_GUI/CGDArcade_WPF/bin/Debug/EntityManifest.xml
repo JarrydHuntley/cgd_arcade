@@ -207,7 +207,7 @@
 	  logoImgPath="\\EXEPATH\Games\Life\lifelogo.png" />
 	  
   
-	  <Entity entityTitle="ESCape (Ludum Dare 21 - Escape)" 
+	  <Entity entityTitle="ESCape\\r\\n(Ludum Dare 21 - Escape)" 
 	  entityAuthor="Matt Perrin" 
 	  entityDescription="You are an 'Idea', a white block navigating a 'thought' maze. The player can use the arrow keys to navigate the maze and by pressing the Escape key, 'change their mind'. As the Idea travels into the thought maze, new obstacles such as grey permanent walls, 'Beliefs' (a 'beliefs set in stone') and red 'Doubts' that randomly toss the Idea into another part of the maze. Once the player gets through the game, they get a message that in my own heavy handed way, I was trying to convey." 
 	  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe" 
@@ -217,7 +217,7 @@
 	  img3Path=""
 	  logoImgPath="\\EXEPATH\Games\ESCape\elogo.png" />
 	  
-	  <Entity entityTitle="Nanobot Adventures (Ludum Dare 23 - Tiny World)" 
+	  <Entity entityTitle="Nanobot Adventures\\r\\n(Ludum Dare 23 - Tiny World)" 
 	  entityAuthor="Matt Perrin" 
 	  entityDescription="NanoBot Adventures is an old-school style 'viewport' adventure game. Players are a 'NERD', or NanoBot Emergency Repair Drone, and are tasked with navigating a system looking for a broken CPU Chip. The game randomly generates a system to explore and one of the dark grey 'Chips' on your mini-map must be Repaired to restore it to working order. In your way are other NanoBots that have gone rogue due to the defective Chip. You can fight, stun or attempt to flee the squishy MiniBot, the imposing GorillaBot or the all-mighty TankBot. Players can heal their NERD by traveling on the circuit traces in the system." 
 	  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe" 
@@ -227,7 +227,7 @@
 	  img3Path="\\EXEPATH\Games\Nanobot\n3.jpg"
 	  logoImgPath="\\EXEPATH\Games\Nanobot\nanologo.jpg" />
 	  
-	  <Entity entityTitle="Tiny Dungeon (#0Hour Game Jam)" 
+	  <Entity entityTitle="Tiny Dungeon\\r\\n(#0Hour Game Jam)" 
 	  entityAuthor="Matt Perrin" 
 	  entityDescription="A simple dungeon RPG game made in an hour for the #0Hour Game Jam." 
 	  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe" 
@@ -237,8 +237,10 @@
 	  img3Path=""
 	  logoImgPath="\\EXEPATH\Games\TinyDungeon\tinydungeonlogo.jpg" />
 	  
-	  <Entity entityTitle="ASCIIBoros (Global Game Jam 2012)" 
+	  <Entity 
+	  entityTitle="ASCIIBoros\\r\\n(Global Game Jam 2012)" 
 	  entityAuthor="Chris Sanyk" 
+	  epilepsyWarning="Y"
 	  entityDescription="YOU are trapped in a BYTE REGISTER. Keep moving! The BIT REFRESH will crash if it tries to read the bit you're stored in. You don't want to know what will happen in that event.The BIT REFRESH chases you through the register, one BIT at a time, reading the current VALUE stored in the bit and refreshing its value.In each bit, YOU can change its value, by flipping a SWITCH." 
 	  playPath="\\EXEPATH\Games\ASCIIBoros\ASCIIBoros2.exe" 
 	  pathArgs=""  
@@ -247,7 +249,7 @@
 	  img3Path=""
 	  logoImgPath="\\EXEPATH\Games\ASCIIBoros\asciilogo.png" />
 	  
-	  <Entity entityTitle="Orbrs (Global Game Jam 2012)" 
+	  <Entity entityTitle="Orbrs\\r\\n(Global Game Jam 2012)" 
 	  entityAuthor="Stephanie Frankiewicz, Eagan Rackley, Elijah Rackley" 
 	  entityDescription="Click the pulses to stay alive... but is it really worth it?" 
 	  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe" 
@@ -258,7 +260,7 @@
 	  logoImgPath="\\EXEPATH\Games\Orbrs\orbrs.png" />
 	  	  
 	  
-	  <Entity entityTitle="A Short Tail (Global Game Jam 2012)" 
+	  <Entity entityTitle="A Short Tail\\r\\nGlobal Game Jam 2012)" 
 	  entityAuthor="Philip Hoyt, Heather Lynn, Justin Demetroff" 
 	  entityDescription="An image assisted text based game." 
 	  playPath="\\EXEPATH\Games\AShortTail\A Short Tail.exe" 
@@ -269,7 +271,16 @@
 	  logoImgPath="\\EXEPATH\Games\AShortTail\tail1.jpg" />
 	  
 	  
-	  
+	  <Entity entityTitle="Global Game Jam 2012\\r\\n( Music )" 
+	  entityAuthor="Ian Faleer" 
+	  startWithMusicPlayer="Y"
+	  entityDescription="This album is a compilation of the music tracks I composed with fellow members of the Cleveland Game Developers organization for the 2012 Global Game Jam.\\r\\nAvailable at ianfaleer.bandcamp.com" 
+	  playPath="\\EXEPATH\Games\Ian2012" 
+	  pathArgs="" 
+	  img1Path="\\EXEPATH\Games\Ian2012\qrggj2012.png"
+	  img2Path=""
+	  img3Path=""
+	  logoImgPath="\\EXEPATH\Games\Ian2012\cover.png" />
 	  
 	  
 	  

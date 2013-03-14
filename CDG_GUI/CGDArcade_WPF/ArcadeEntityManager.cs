@@ -172,6 +172,10 @@ namespace CGDArcade_WPF
             newEntity.entityAuthor = XmlUtilities.RetrieveAttributeFromXMLNode(tempNode, "entityAuthor");
             newEntity.entityDescription = XmlUtilities.RetrieveAttributeFromXMLNode(tempNode, "entityDescription");
 
+            newEntity.epilepsyWarning = XmlUtilities.RetrieveAttributeFromXMLNode(tempNode, "epilepsyWarning");
+            newEntity.startWithMusicPlayer = XmlUtilities.RetrieveAttributeFromXMLNode(tempNode, "startWithMusicPlayer");
+            
+
             newEntity.playPath = XmlUtilities.RetrieveAttributeFromXMLNode(tempNode, "playPath");
             newEntity.pathArgs = XmlUtilities.RetrieveAttributeFromXMLNode(tempNode, "pathArgs");
 

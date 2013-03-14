@@ -365,3 +365,38 @@ C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\AShortTail\world\title.j
 C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\AShortTail\world\wakeup.jpg
 C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\Orbrs\orbrs.png
 C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\Orbrs\SheepLogo.png
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\Ian2012\Ian Faleer - Global Game Jam 2012 (Cleveland Game Developers) - 01 Back To Where I've Gone.mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\Ian2012\Ian Faleer - Global Game Jam 2012 (Cleveland Game Developers) - 02 Bus To Oblivion.mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\Ian2012\Ian Faleer - Global Game Jam 2012 (Cleveland Game Developers) - 03 The Sound Wall.mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\Ian2012\Ian Faleer - Global Game Jam 2012 (Cleveland Game Developers) - 04 Cave Voices.mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\Ian2012\Ian Faleer - Global Game Jam 2012 (Cleveland Game Developers) - 05 Bus To Oblivion (Version 2).mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\Ian2013\Ian Faleer - Global Game Jam 2013 (Cleveland Game Developers) - 01 This Is All Just A Dance (from The Line).mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\Ian2013\Ian Faleer - Global Game Jam 2013 (Cleveland Game Developers) - 02 Cardiofunkular (from Cardio 54).mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\Ian2013\Ian Faleer - Global Game Jam 2013 (Cleveland Game Developers) - 03 Step On It (from Slambulance).mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\Ian2013\Ian Faleer - Global Game Jam 2013 (Cleveland Game Developers) - 04 Jack the Elf Pugilist  (from HeartBeater).mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\Ian2013\Ian Faleer - Global Game Jam 2013 (Cleveland Game Developers) - 05 Pulse - Original Version (from Dodge).mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\Ian2013\Ian Faleer - Global Game Jam 2013 (Cleveland Game Developers) - 06 Pulse - Gameplay Version (from Dodge).mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\Ian2013\Ian Faleer - Global Game Jam 2013 (Cleveland Game Developers) - 07 Fever Dream (from Whack-A-Telltale Heart).mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\Ian2013\Ian Faleer - Global Game Jam 2013 (Cleveland Game Developers) - 08 Game Start! (from The Cube).mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\Ian2013\Ian Faleer - Global Game Jam 2013 (Cleveland Game Developers) - 09 Victory and Kill Screen (from The Cube).mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\Ian2013\Ian Faleer - Global Game Jam 2013 (Cleveland Game Developers) - cover.png
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\Ian2012\qrggj2012.png
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\Ian2013\qrggj2013.png
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\IanSketches\Ian Faleer - Sketches & Notes & Compositions- Year One - 01 Life, Moving - Extended Version (from Karyote, 09-2012).mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\IanSketches\Ian Faleer - Sketches & Notes & Compositions- Year One - 02 Life, Moving - Gameplay Version (from Karyote, 09-2012).mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\IanSketches\Ian Faleer - Sketches & Notes & Compositions- Year One - 03 At The Carnies' Midnight Ball (04-2012).mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\IanSketches\Ian Faleer - Sketches & Notes & Compositions- Year One - 04 The Tinker In The Drawing Room (from Violet's Lock-pick Game, 11-2011).mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\IanSketches\Ian Faleer - Sketches & Notes & Compositions- Year One - 05 The Open Road (03-2012).mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\IanSketches\Ian Faleer - Sketches & Notes & Compositions- Year One - 06 Thrusters Are Go! (09-2011).mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\IanSketches\Ian Faleer - Sketches & Notes & Compositions- Year One - 07 Toy Piano (11-2011).mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\IanSketches\Ian Faleer - Sketches & Notes & Compositions- Year One - 08 Polarity No. 1 (from Polarity Project, 05-2011).mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\IanSketches\Ian Faleer - Sketches & Notes & Compositions- Year One - 09 Topsy Turvy (from Polarity Project,  07-2011).mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\IanSketches\Ian Faleer - Sketches & Notes & Compositions- Year One - 10 Just Keep Walking (from Runthki, 03-2012).mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\IanSketches\Ian Faleer - Sketches & Notes & Compositions- Year One - 11 Suddenly, A Light Ahead (from Runthki, 04-2012).mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\IanSketches\Ian Faleer - Sketches & Notes & Compositions- Year One - 12 Jacob's Ladder (from Runthki, 11-2011).mp3
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\IanSketches\Ian Faleer - Sketches & Notes & Compositions- Year One - cover.png
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\IanSketches\qrsketches.png
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\bin\Debug\Games\Ian2012\cover.png
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\obj\Debug\UIControls\MP3Player.g.cs
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_WPF\obj\Debug\UIControls\MP3Player.baml

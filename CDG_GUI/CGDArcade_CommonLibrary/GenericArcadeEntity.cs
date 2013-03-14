@@ -31,5 +31,8 @@ namespace CGDArcade_CommonLibrary
         public string img2Path;
         public string img3Path;
         public string logoImgPath;
+
+        public string epilepsyWarning;
+        public string startWithMusicPlayer;
     }
 }

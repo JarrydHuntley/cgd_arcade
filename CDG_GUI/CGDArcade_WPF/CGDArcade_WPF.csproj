@@ -65,6 +65,9 @@
     <Compile Include="UIControls\EntitySelectionControl.xaml.cs">
       <DependentUpon>EntitySelectionControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UIControls\MP3Player.xaml.cs">
+      <DependentUpon>MP3Player.xaml</DependentUpon>
+    </Compile>
     <Page Include="ArcadeSettings.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -91,6 +94,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UIControls\EntitySelectionControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UIControls\MP3Player.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -165,6 +172,7 @@
     <Resource Include="Assets\UI\ClickToPlayWithTransparencies.png" />
     <Resource Include="EntityManifest.bck.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Resource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

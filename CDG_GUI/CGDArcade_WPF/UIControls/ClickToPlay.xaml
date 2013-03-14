@@ -1,4 +1,4 @@
-﻿<UserControl Name="ClickToPlayBtn"
+﻿<UserControl x:Name="ClickToPlayBtn"
              x:Class="CGDArcade_WPF.UIControls.ClickToPlay"
              xmlns:local="clr-namespace:CGDArcade_WPF.UIControls"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -7,41 +7,38 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
              d:DesignHeight="287" d:DesignWidth="206">
+    <Viewbox>
     <Grid>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop x:Name="stop1" Color="#FF6C0F00" Offset="0"/>
-                <GradientStop x:Name="stop2" Color="#FFB60D06" Offset="0.52"/>
-                <GradientStop x:Name="stop3" Color="#FFFB0C0C" Offset="1"/>
-                
-            </LinearGradientBrush>
+                    <GradientStop Color="#FF320700" Offset="0.024"/>
+                    <GradientStop x:Name="stop1" Color="#FFF93B3B" Offset="0.318"/>
+                    <GradientStop Color="#FF510D02" Offset="0.534"/>
+                    <GradientStop x:Name="stop2" Color="#FFF93B3B" Offset="0.804"/>
+                    <GradientStop Color="#FF320700" Offset="0.997"/>
+                </LinearGradientBrush>
         </Grid.Background>
         <Grid.Triggers>
             <EventTrigger RoutedEvent="Grid.Loaded">
                 <BeginStoryboard>
                     <Storyboard RepeatBehavior="Forever">
-
                         <ColorAnimation Storyboard.TargetName="stop1" Storyboard.TargetProperty="Color" 
-                         From="#FF6C0F00" To="#FFB60D06" Duration="0:0:1" BeginTime="0:0:0"/>
+                       From="#FF320700" To="#FFB60D06" Duration="0:0:1" BeginTime="0:0:0"/>
                         <ColorAnimation Storyboard.TargetName="stop1" Storyboard.TargetProperty="Color" 
-                       From="#FFB60D06" To="#FFFB0C0C" Duration="0:0:1" BeginTime="0:0:0.5"/>
+                       From="#FFB60D06" To="#FFF72D2D" Duration="0:0:1" BeginTime="0:0:0.5"/>
                         <ColorAnimation Storyboard.TargetName="stop1" Storyboard.TargetProperty="Color" 
-                       From="#FFFB0C0C" To="#FF6C0F00" Duration="0:0:1" BeginTime="0:0:1"/>
-
+                       From="#FFF72D2D" To="#FF320700" Duration="0:0:1" BeginTime="0:0:1"/>
                         <ColorAnimation Storyboard.TargetName="stop2" Storyboard.TargetProperty="Color" 
-                         From="#FF6C0F00" To="#FFB60D06" Duration="0:0:1" BeginTime="0:0:0"/>
+                       From="#FF320700" To="#FFB60D06" Duration="0:0:1" BeginTime="0:0:0"/>
                         <ColorAnimation Storyboard.TargetName="stop2" Storyboard.TargetProperty="Color" 
-                       From="#FFB60D06" To="#FFFB0C0C" Duration="0:0:1" BeginTime="0:0:0.5"/>
+                       From="#FFB60D06" To="#FFF72D2D" Duration="0:0:1" BeginTime="0:0:0.5"/>
                         <ColorAnimation Storyboard.TargetName="stop2" Storyboard.TargetProperty="Color" 
-                       From="#FFFB0C0C" To="#FF6C0F00" Duration="0:0:1" BeginTime="0:0:1"/>
-                       
-                    </Storyboard>
+                       From="#FFF72D2D" To="#FF320700" Duration="0:0:1" BeginTime="0:0:1"/>
+                        </Storyboard>
                 </BeginStoryboard>
             </EventTrigger>
         </Grid.Triggers>
-        
-        
         <Image HorizontalAlignment="Left" Height="290" VerticalAlignment="Top" Width="208" Source="/CGDArcade_WPF;component/Assets/UI/ClickToPlayWithTransparencies.png"/>
-
     </Grid>
+    </Viewbox>
 </UserControl>
