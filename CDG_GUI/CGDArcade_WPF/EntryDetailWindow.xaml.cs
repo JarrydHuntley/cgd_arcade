@@ -57,6 +57,8 @@ namespace CGDArcade_WPF
                 this.mediaCtrl.StopMusic();
             }
 
+            CloseGameProcess();
+
             this.mainWindow.Focus();
             this.Hide();
             this.Close();
@@ -195,7 +197,13 @@ namespace CGDArcade_WPF
             this.RemoveLogicalChild(this.mediaCtrl);
         }
 
-
+        public void CloseGameProcess()
+        {
+            if ((this.gameProcess != null) && (!this.gameProcess.HasExited))
+            {
+                this.gameProcess.Kill();
+            }
+        }
 
         /* Handle Exited event and display process information. 
         private void gameProcess_Exited(object sender, System.EventArgs e)
@@ -219,6 +227,54 @@ namespace CGDArcade_WPF
         // Just for documentation.
         [DllImport("user32.dll")]
         static extern IntPtr SetFocus(HandleRef hWnd);
+
+
+
+
+
+        private void entityMediaElement_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            DisplayLargeImgPreview(entityMediaElement.Source);
+        }
+
+        private void entityMedia1_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            DisplayLargeImgPreview(entityMedia1.Source);
+        }
+
+        private void entityMedia2_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            DisplayLargeImgPreview(entityMedia2.Source);
+        }
+
+        private void entityMedia3_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            DisplayLargeImgPreview(entityMedia3.Source);
+        }
+
+        private void img_LargePreview_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            img_LargePreviewBck.Visibility = Visibility.Collapsed;
+            img_LargePreview.Visibility = Visibility.Collapsed;
+        }
+
+        private void DisplayLargeImgPreview(Uri sourceImg)
+        {
+            img_LargePreview.Width = this.Width;
+            img_LargePreview.Height = this.Height;
+            img_LargePreview.Source = new BitmapImage(sourceImg);
+
+            img_LargePreviewBck.Width = this.Width;
+            img_LargePreviewBck.Height = this.Height;            
+
+            img_LargePreviewBck.Visibility = Visibility.Visible;
+            img_LargePreview.Visibility = Visibility.Visible;
+        }
+
+
+
+
+
 
     }
 }

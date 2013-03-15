@@ -8,10 +8,12 @@ img2Path="\\EXEPATH\Games\TheCubeWeb\TheCube2.jpg"
 img3Path=""
 logoImgPath="\\EXEPATH\Games\TheCubeWeb\TheCube.jpg" />
 
+
+
   <Entity entityTitle="Heartbeater\\r\\n(Global Game Jam 2013)" entityAuthor="Mike Geig, Matt Seifert, Matt Muzzy"
   entityDescription="The theme this year was the sound of a heartbeat. It just so happens that Jack likes to do 2 things: chop down trees, and liberate hearts from the tyranny of elven chest cavities. You must protect your manliness to win. Left or RIght arrow keys: Move Left or Right Mouse Button: Beat Hearts"
-  playPath="\\EXEPATH\Games\Heartbeater\HEARTBEATER.exe"
-  pathArgs=""
+  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
+  pathArgs="--app=http://fixbyproximity.com/HeartBeater.html -start-maximized"
   img1Path="\\EXEPATH\Games\Heartbeater\Icon2_0.jpg"
   img2Path="\\EXEPATH\Games\Heartbeater\bronana_0.png"
   img3Path=""
@@ -207,7 +209,7 @@ logoImgPath="\\EXEPATH\Games\TheCubeWeb\TheCube.jpg" />
   logoImgPath="\\EXEPATH\Games\Life\lifelogo.png" />
 
 
-  <Entity entityTitle="ESCape (Ludum Dare 21 - Escape)"
+  <Entity entityTitle="ESCape\\r\\n(Ludum Dare 21 - Escape)"
   entityAuthor="Matt Perrin"
   entityDescription="You are an 'Idea', a white block navigating a 'thought' maze. The player can use the arrow keys to navigate the maze and by pressing the Escape key, 'change their mind'. As the Idea travels into the thought maze, new obstacles such as grey permanent walls, 'Beliefs' (a 'beliefs set in stone') and red 'Doubts' that randomly toss the Idea into another part of the maze. Once the player gets through the game, they get a message that in my own heavy handed way, I was trying to convey."
   playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
@@ -217,7 +219,7 @@ logoImgPath="\\EXEPATH\Games\TheCubeWeb\TheCube.jpg" />
   img3Path=""
   logoImgPath="\\EXEPATH\Games\ESCape\elogo.png" />
 
-  <Entity entityTitle="Nanobot Adventures (Ludum Dare 23 - Tiny World)"
+  <Entity entityTitle="Nanobot Adventures\\r\\n(Ludum Dare 23 - Tiny World)"
   entityAuthor="Matt Perrin"
   entityDescription="NanoBot Adventures is an old-school style 'viewport' adventure game. Players are a 'NERD', or NanoBot Emergency Repair Drone, and are tasked with navigating a system looking for a broken CPU Chip. The game randomly generates a system to explore and one of the dark grey 'Chips' on your mini-map must be Repaired to restore it to working order. In your way are other NanoBots that have gone rogue due to the defective Chip. You can fight, stun or attempt to flee the squishy MiniBot, the imposing GorillaBot or the all-mighty TankBot. Players can heal their NERD by traveling on the circuit traces in the system."
   playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
@@ -227,7 +229,7 @@ logoImgPath="\\EXEPATH\Games\TheCubeWeb\TheCube.jpg" />
   img3Path="\\EXEPATH\Games\Nanobot\n3.jpg"
   logoImgPath="\\EXEPATH\Games\Nanobot\nanologo.jpg" />
 
-  <Entity entityTitle="Tiny Dungeon (#0Hour Game Jam)"
+  <Entity entityTitle="Tiny Dungeon\\r\\n(#0Hour Game Jam)"
   entityAuthor="Matt Perrin"
   entityDescription="A simple dungeon RPG game made in an hour for the #0Hour Game Jam."
   playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
@@ -237,8 +239,10 @@ logoImgPath="\\EXEPATH\Games\TheCubeWeb\TheCube.jpg" />
   img3Path=""
   logoImgPath="\\EXEPATH\Games\TinyDungeon\tinydungeonlogo.jpg" />
 
-  <Entity entityTitle="ASCIIBoros (Global Game Jam 2012)"
+  <Entity
+  entityTitle="ASCIIBoros\\r\\n(Global Game Jam 2012)"
   entityAuthor="Chris Sanyk"
+  epilepsyWarning="Y"
   entityDescription="YOU are trapped in a BYTE REGISTER. Keep moving! The BIT REFRESH will crash if it tries to read the bit you're stored in. You don't want to know what will happen in that event.The BIT REFRESH chases you through the register, one BIT at a time, reading the current VALUE stored in the bit and refreshing its value.In each bit, YOU can change its value, by flipping a SWITCH."
   playPath="\\EXEPATH\Games\ASCIIBoros\ASCIIBoros2.exe"
   pathArgs=""
@@ -247,7 +251,7 @@ logoImgPath="\\EXEPATH\Games\TheCubeWeb\TheCube.jpg" />
   img3Path=""
   logoImgPath="\\EXEPATH\Games\ASCIIBoros\asciilogo.png" />
 
-  <Entity entityTitle="Orbrs (Global Game Jam 2012)"
+  <Entity entityTitle="Orbrs\\r\\n(Global Game Jam 2012)"
   entityAuthor="Stephanie Frankiewicz, Eagan Rackley, Elijah Rackley"
   entityDescription="Click the pulses to stay alive... but is it really worth it?"
   playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
@@ -258,7 +262,7 @@ logoImgPath="\\EXEPATH\Games\TheCubeWeb\TheCube.jpg" />
   logoImgPath="\\EXEPATH\Games\Orbrs\orbrs.png" />
 
 
-  <Entity entityTitle="A Short Tail (Global Game Jam 2012)"
+  <Entity entityTitle="A Short Tail\\r\\nGlobal Game Jam 2012)"
   entityAuthor="Philip Hoyt, Heather Lynn, Justin Demetroff"
   entityDescription="An image assisted text based game."
   playPath="\\EXEPATH\Games\AShortTail\A Short Tail.exe"
@@ -268,25 +272,99 @@ logoImgPath="\\EXEPATH\Games\TheCubeWeb\TheCube.jpg" />
   img3Path=""
   logoImgPath="\\EXEPATH\Games\AShortTail\tail1.jpg" />
 
+  <Entity entityTitle="Realms of Fortune\\r\\n(Windows, Android)"
+  entityAuthor="Clayton Lilly"
+  entityDescription="Realms of Fortune is a first person open world RPG set in an era similar to our own Age of Discovery. However, instead of sailing in ships across the ocean, adventurers use a network of portals called gatestones to explore a distant land full of magic, treasure, and ancient secrets. The terrain and all of the dungeons are procedurally generated, meaning each new character you create will have an entirely new world to explore."
+  playPath="\\EXEPATH\Games\ROF\rof.exe"
+  pathArgs=""
+  img1Path="\\EXEPATH\Games\ROF\rof12dungeon.jpg"
+  img2Path="\\EXEPATH\Games\ROF\rof12camp.jpg"
+  img3Path="\\EXEPATH\Games\ROF\qerof.png"
+  logoImgPath="\\EXEPATH\Games\ROF\Resources\assets\title256.png" />
 
 
 
 
-
-
-
-
-
-
-  <Entity entityTitle="EMPTY\\r\\n(Ludum Dare 24 - Evolution)"
-  entityAuthor=""
-  entityDescription=""
+  <Entity entityTitle="Electron Tank"
+  entityAuthor="Scott Baker"
+  entityDescription="Destroy enemy based in each level before the enemies overun you. INSTRUCTIONS Arrows to move, W A S D to fire, X to fire straight"
   playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
-  pathArgs="--app=http://csanyk.com/cs/releases/games/LD48-24_Karyote/enhanced -start-maximized"
-  img1Path="\\EXEPATH\Games\"
-  img2Path="\\EXEPATH\Games\"
-  img3Path="\\EXEPATH\Games\"
-  logoImgPath="\\EXEPATH\Games\" />
+  pathArgs="--app=http://www.stbaker.net/games/electrontank/ -start-maximized"
+  img1Path="\\EXEPATH\Games\ElectronTank\1.png"
+  img2Path="\\EXEPATH\Games\ElectronTank\2.png"
+  img3Path="\\EXEPATH\Games\ElectronTank\3.png"
+  logoImgPath="\\EXEPATH\Games\ElectronTank\electronlogo.jpg" />
+
+  <Entity entityTitle="Tiny Neutrino\\r\\n(Ludum Dare 23 - Tiny World)"
+  entityAuthor="Scott Baker"
+  entityDescription="Use arrow keys to control your particle. Crash into other particles to break down to the tiny neutrino and travel through walls"
+  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe"
+  pathArgs="--app=http://www.allusiondesign.com/games/tinyworld/ -start-maximized"
+  img1Path="\\EXEPATH\Games\TinyNeutrino\tinyneutrino1.jpg"
+  img2Path="\\EXEPATH\Games\TinyNeutrino\tinyneutrino2.jpg"
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\TinyNeutrino\tinyneutrinologo.jpg" />
+
+  <Entity entityTitle="Shoy Schot v2"
+  entityAuthor="Thaddeus Coleman"
+  entityDescription="Shoy Schot is a strategic card game where the objective is to own as many panels on the field as possible. Players take turns putting cards from their hands on the field and taking ownership of that space. Players can also try flipping the other Players card thus taking ownership of their panel and card. The game ends when all positions on the field have been filled. The winner is the Player with the most panels in their possession."
+  playPath="\\EXEPATH\Games\ShoySchot\Shoy Schot StandAlone Edition v2.exe"
+  pathArgs=""
+  img1Path="\\EXEPATH\Games\ShoySchot\ss1.png"
+  img2Path="\\EXEPATH\Games\ShoySchot\ss2.png"
+  img3Path="\\EXEPATH\Games\ShoySchot\ss3.png"
+  logoImgPath="\\EXEPATH\Games\ShoySchot\title.png" />
+
+  <Entity entityTitle="Still Here..."
+  entityAuthor="Thaddeus Coleman, Mary Block, Andy Kimble"
+  entityDescription="Still Here... is a horror, text-based adventure game. The Player finds themselves locked in a old hotel without any memory of how they got there; solve puzzles and avoid danger as you piece together your recent past and a way out of the hotel."
+  playPath="\\EXEPATH\Games\StillHere\Still Here After Wednesday Night.exe"
+  pathArgs=""
+  img1Path="\\EXEPATH\Games\StillHere\sh1.png"
+  img2Path="\\EXEPATH\Games\StillHere\sh2.png"
+  img3Path="\\EXEPATH\Games\StillHere\sh3.png"
+  logoImgPath="\\EXEPATH\Games\StillHere\stillherelogo.jpg" />
+
+
+
+
+
+
+
+
+
+  <Entity entityTitle="Global Game Jam 2012\\r\\n( Music )"
+  entityAuthor="Ian Faleer"
+  startWithMusicPlayer="Y"
+  entityDescription="This album is a compilation of the music tracks I composed with fellow members of the Cleveland Game Developers organization for the 2012 Global Game Jam.\\r\\nAvailable at ianfaleer.bandcamp.com"
+  playPath="\\EXEPATH\Games\Ian2012"
+  pathArgs=""
+  img1Path="\\EXEPATH\Games\Ian2012\qrggj2012.png"
+  img2Path=""
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\Ian2012\cover.png" />
+
+  <Entity entityTitle="Global Game Jam 2013\\r\\n( Music )"
+  entityAuthor="Ian Faleer"
+  startWithMusicPlayer="Y"
+  entityDescription="This album is a compilation of the music tracks I composed with fellow members of the Cleveland Game Developers organization for the 2013 Global Game Jam.\\r\\nAvailable at ianfaleer.bandcamp.com"
+  playPath="\\EXEPATH\Games\Ian2013"
+  pathArgs=""
+  img1Path="\\EXEPATH\Games\Ian2013\qrggj2013.png"
+  img2Path=""
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\Ian2013\cover.png" />
+
+  <Entity entityTitle="Sketches &amp; Notes &amp; Compositions: Year One\\r\\n( Music )"
+  entityAuthor="Ian Faleer"
+  startWithMusicPlayer="Y"
+  entityDescription="This album is a compilation of most of the significant work in my first year as a game music composer. These tracks have been streaming on my site for some time, but they are now available for purchase both individually and as an entire collection. This work illustrates dramatic growth in my confidence as an artist from my first experiments in May 2011 to my work on the game Karyote in September of 2012.\\r\\nAvailable at ianfaleer.bandcamp.com"
+  playPath="\\EXEPATH\Games\IanSketches"
+  pathArgs=""
+  img1Path="\\EXEPATH\Games\IanSketches\qrsketches.png"
+  img2Path=""
+  img3Path=""
+  logoImgPath="\\EXEPATH\Games\IanSketches\cover.png" />
 
 </Manifest>
 

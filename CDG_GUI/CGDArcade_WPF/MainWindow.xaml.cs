@@ -148,8 +148,6 @@ namespace CGDArcade_WPF
 
         private void MoveActiveEntityMarker(int vertical, int horizontal)
         {
-
-
             this.selectionChangeSFX.Play();
 
             if (this.readyToDisplayEntities)

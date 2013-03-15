@@ -2,19 +2,21 @@
         Title="EntryDetailWindow" Height="700" Width="1000"
         WindowState="Maximized" WindowStartupLocation="CenterScreen" WindowStyle="None" PreviewKeyUp="Window_PreviewKeyUp_1">
     <Window.Background>
-        <ImageBrush ImageSource="Assets/Textures/Backgrounds/0.jpg"/>
+        <ImageBrush ImageSource="pack://siteoforigin:,,,/Assets/Textures/Backgrounds/0.jpg"/>
     </Window.Background>
     <Viewbox>
         <Grid x:Name="DetailGrid">
-            <MediaElement x:Name="entityMediaElement" HorizontalAlignment="Center" Height="227" VerticalAlignment="Top" Width="400" Margin="23,55,569,0"/>
-            <MediaElement x:Name="entityMedia1" HorizontalAlignment="Center" Height="147" VerticalAlignment="Top" Width="259" Margin="23,535,710,0"/>
-            <MediaElement x:Name="entityMedia2" HorizontalAlignment="Center" Height="147" VerticalAlignment="Top" Width="259" Margin="302,535,431,0"/>
-            <MediaElement x:Name="entityMedia3" HorizontalAlignment="Center" Height="147" VerticalAlignment="Top" Width="259" Margin="581,535,152,0"/>
+            <MediaElement x:Name="entityMediaElement" HorizontalAlignment="Center" Height="227" VerticalAlignment="Top" Width="400" Margin="23,55,569,0" MouseDown="entityMediaElement_MouseDown"/>
+            <MediaElement x:Name="entityMedia1" HorizontalAlignment="Center" Height="147" VerticalAlignment="Top" Width="259" Margin="23,535,710,0" MouseDown="entityMedia1_MouseDown"/>
+            <MediaElement x:Name="entityMedia2" HorizontalAlignment="Center" Height="147" VerticalAlignment="Top" Width="259" Margin="302,535,431,0" MouseDown="entityMedia2_MouseDown"/>
+            <MediaElement x:Name="entityMedia3" HorizontalAlignment="Center" Height="147" VerticalAlignment="Top" Width="259" Margin="581,535,152,0" MouseDown="entityMedia3_MouseDown"/>
             <TextBlock x:Name="lbl_Title" TextWrapping="Wrap" Text="TITLE HERE" HorizontalAlignment="Left" Margin="444,55,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="/CGDArcade_WPF;component/Assets/Fonts/#Atari Font Full Version" FontSize="24" Width="538" Height="109"/>
             <TextBlock x:Name="lbl_Author" TextWrapping="Wrap" Text="AUTHOR HERE" HorizontalAlignment="Left" Margin="444,169,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="/CGDArcade_WPF;component/Assets/Fonts/#Atari Font Full Version" FontSize="24" Width="538" Height="113"/>
             <TextBlock x:Name="lbl_Description" TextWrapping="Wrap" Text="DESCRIPTION HERE" HorizontalAlignment="Left" Margin="23,329,0,0" VerticalAlignment="Top" Height="169" Width="959" Foreground="White" FontFamily="/CGDArcade_WPF;component/Assets/Fonts/#Atari Font Full Version" FontSize="16"/>
             <Image x:Name="img_btn_GridLayout" Height="40" Width="40" Margin="0,10,10,0" HorizontalAlignment="Right" VerticalAlignment="Top" Source="Assets/UI/UIbtn_GridLayout.png" MouseDown="img_btn_GridLayout_MouseDown"/>
             <UIControls:ClickToPlay HorizontalAlignment="Left" VerticalAlignment="Top" Margin="881,530,0,0" Height="147" Width="101" MouseUp="Image_MouseDown_1"/>
+            <Rectangle x:Name="img_LargePreviewBck" Width="25" Height="25" Fill="Black" Canvas.Top="100" Canvas.Left="100"  Stretch="UniformToFill" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed"/>
+            <Image x:Name="img_LargePreview" HorizontalAlignment="Center" Height="100"  VerticalAlignment="Center" Width="100" Stretch="Uniform" MouseDown="img_LargePreview_MouseDown" Visibility="Collapsed"/>
         </Grid>
     </Viewbox>
 </Window>

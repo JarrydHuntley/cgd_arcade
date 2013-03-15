@@ -1,0 +1,5 @@
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_CommonLibrary\bin\Release\MySql.Data.dll
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_CommonLibrary\bin\Release\CGDArcade_CommonLibrary.dll
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_CommonLibrary\bin\Release\CGDArcade_CommonLibrary.pdb
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_CommonLibrary\obj\Release\CGDArcade_CommonLibrary.dll
+C:\DEV\cgd_arcade\CDG_GUI\CGDArcade_CommonLibrary\obj\Release\CGDArcade_CommonLibrary.pdb

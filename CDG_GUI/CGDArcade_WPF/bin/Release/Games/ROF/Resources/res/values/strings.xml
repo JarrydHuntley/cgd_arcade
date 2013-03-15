@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ROFAndroid!</string>
+    <string name="app_name">Realms of Fortune</string>
+    <string name="load_title">Load Checkpoint</string>
+    <string name="delete_title">Delete Checkpoint</string>
+    <string name="loadsd_title">Import From SD</string>
+    <string name="savesd_title">Export to SD</string>
+</resources>
