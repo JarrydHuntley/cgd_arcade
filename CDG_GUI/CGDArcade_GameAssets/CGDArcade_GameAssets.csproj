@@ -394,19 +394,19 @@
     <Content Include="Games\HH\hh.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\Ian2012\Ian Faleer - Global Game Jam 2012 %28Cleveland Game Developers%29 - 01 Back To Where I%27ve Gone.mp3">
+    <Content Include="Games\Ian2012\01 Back To Where I%27ve Gone.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\Ian2012\Ian Faleer - Global Game Jam 2012 %28Cleveland Game Developers%29 - 02 Bus To Oblivion.mp3">
+    <Content Include="Games\Ian2012\02 Bus To Oblivion.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\Ian2012\Ian Faleer - Global Game Jam 2012 %28Cleveland Game Developers%29 - 03 The Sound Wall.mp3">
+    <Content Include="Games\Ian2012\03 The Sound Wall.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\Ian2012\Ian Faleer - Global Game Jam 2012 %28Cleveland Game Developers%29 - 04 Cave Voices.mp3">
+    <Content Include="Games\Ian2012\04 Cave Voices.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\Ian2012\Ian Faleer - Global Game Jam 2012 %28Cleveland Game Developers%29 - 05 Bus To Oblivion %28Version 2%29.mp3">
+    <Content Include="Games\Ian2012\05 Bus To Oblivion %28Version 2%29.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Games\Ian2012\cover.png">
@@ -415,76 +415,76 @@
     <Content Include="Games\Ian2012\qrggj2012.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\Ian2013\Ian Faleer - Global Game Jam 2013 %28Cleveland Game Developers%29 - 01 This Is All Just A Dance %28from The Line%29.mp3">
+    <Content Include="Games\Ian2013\01 This Is All Just A Dance %28from The Line%29.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\Ian2013\Ian Faleer - Global Game Jam 2013 %28Cleveland Game Developers%29 - 02 Cardiofunkular %28from Cardio 54%29.mp3">
+    <Content Include="Games\Ian2013\02 Cardiofunkular %28from Cardio 54%29.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\Ian2013\Ian Faleer - Global Game Jam 2013 %28Cleveland Game Developers%29 - 03 Step On It %28from Slambulance%29.mp3">
+    <Content Include="Games\Ian2013\03 Step On It %28from Slambulance%29.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\Ian2013\Ian Faleer - Global Game Jam 2013 %28Cleveland Game Developers%29 - 04 Jack the Elf Pugilist  %28from HeartBeater%29.mp3">
+    <Content Include="Games\Ian2013\04 Jack the Elf Pugilist  %28from HeartBeater%29.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\Ian2013\Ian Faleer - Global Game Jam 2013 %28Cleveland Game Developers%29 - 05 Pulse - Original Version %28from Dodge%29.mp3">
+    <Content Include="Games\Ian2013\05 Pulse - Original Version %28from Dodge%29.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\Ian2013\Ian Faleer - Global Game Jam 2013 %28Cleveland Game Developers%29 - 06 Pulse - Gameplay Version %28from Dodge%29.mp3">
+    <Content Include="Games\Ian2013\06 Pulse - Gameplay Version %28from Dodge%29.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\Ian2013\Ian Faleer - Global Game Jam 2013 %28Cleveland Game Developers%29 - 07 Fever Dream %28from Whack-A-Telltale Heart%29.mp3">
+    <Content Include="Games\Ian2013\07 Fever Dream %28from Whack-A-Telltale Heart%29.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\Ian2013\Ian Faleer - Global Game Jam 2013 %28Cleveland Game Developers%29 - 08 Game Start! %28from The Cube%29.mp3">
+    <Content Include="Games\Ian2013\08 Game Start! %28from The Cube%29.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\Ian2013\Ian Faleer - Global Game Jam 2013 %28Cleveland Game Developers%29 - 09 Victory and Kill Screen %28from The Cube%29.mp3">
+    <Content Include="Games\Ian2013\09 Victory and Kill Screen %28from The Cube%29.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\Ian2013\Ian Faleer - Global Game Jam 2013 %28Cleveland Game Developers%29 - cover.png">
+    <Content Include="Games\Ian2013\cover.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Games\Ian2013\qrggj2013.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 01 Life, Moving - Extended Version %28from Karyote, 09-2012%29.mp3">
+    <Content Include="Games\IanSketches\01 Life, Moving - Extended Version %28from Karyote, 09-2012%29.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 02 Life, Moving - Gameplay Version %28from Karyote, 09-2012%29.mp3">
+    <Content Include="Games\IanSketches\02 Life, Moving - Gameplay Version %28from Karyote, 09-2012%29.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 03 At The Carnies%27 Midnight Ball %2804-2012%29.mp3">
+    <Content Include="Games\IanSketches\03 At The Carnies%27 Midnight Ball %2804-2012%29.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 04 The Tinker In The Drawing Room %28from Violet%27s Lock-pick Game, 11-2011%29.mp3">
+    <Content Include="Games\IanSketches\04 The Tinker In The Drawing Room %28from Violet%27s Lock-pick Game, 11-2011%29.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 05 The Open Road %2803-2012%29.mp3">
+    <Content Include="Games\IanSketches\05 The Open Road %2803-2012%29.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 06 Thrusters Are Go! %2809-2011%29.mp3">
+    <Content Include="Games\IanSketches\06 Thrusters Are Go! %2809-2011%29.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 07 Toy Piano %2811-2011%29.mp3">
+    <Content Include="Games\IanSketches\07 Toy Piano %2811-2011%29.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 08 Polarity No. 1 %28from Polarity Project, 05-2011%29.mp3">
+    <Content Include="Games\IanSketches\08 Polarity No. 1 %28from Polarity Project, 05-2011%29.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 09 Topsy Turvy %28from Polarity Project,  07-2011%29.mp3">
+    <Content Include="Games\IanSketches\09 Topsy Turvy %28from Polarity Project,  07-2011%29.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 10 Just Keep Walking %28from Runthki, 03-2012%29.mp3">
+    <Content Include="Games\IanSketches\10 Just Keep Walking %28from Runthki, 03-2012%29.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 11 Suddenly, A Light Ahead %28from Runthki, 04-2012%29.mp3">
+    <Content Include="Games\IanSketches\11 Suddenly, A Light Ahead %28from Runthki, 04-2012%29.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - 12 Jacob%27s Ladder %28from Runthki, 11-2011%29.mp3">
+    <Content Include="Games\IanSketches\12 Jacob%27s Ladder %28from Runthki, 11-2011%29.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Games\IanSketches\Ian Faleer - Sketches &amp; Notes &amp; Compositions- Year One - cover.png">
+    <Content Include="Games\IanSketches\cover.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Games\IanSketches\qrsketches.png">
@@ -647,6 +647,1128 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Games\Orbrs\SheepLogo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\awt.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\axbridge.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\client\jvm.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\client\Xusage.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\cmm.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\dcpr.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\deploy.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\dtplugin\deployJava1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\dtplugin\npdeployJava1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\dt_shmem.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\dt_socket.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\eula.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\fontmanager.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\hpi.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\hprof.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\instrument.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\ioser12.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\j2pcsc.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\j2pkcs11.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\jaas_nt.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\java-rmi.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\java.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\java.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\javacpl.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\javaw.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\javaws.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\java_crw_demo.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\jawt.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\jbroker.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\JdbcOdbc.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\jdwp.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\jkernel.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\jli.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\jp2iexp.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\jp2launcher.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\jp2native.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\jp2ssv.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\jpeg.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\jpicom.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\jpiexp.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\jpinscp.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\jpioji.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\jpishare.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\jqs.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\jqsnotify.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\jsound.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\jsoundds.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\keytool.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\kinit.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\klist.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\ktab.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\management.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\mlib_image.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\msvcr71.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\msvcrt.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\net.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\nio.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\npjpi160_39.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\npoji610.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\npt.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\orbd.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\pack200.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\plugin2\msvcr71.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\plugin2\npjp2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\policytool.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\regutils.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\rmi.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\rmid.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\rmiregistry.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\servertool.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\splashscreen.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\ssv.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\ssvagent.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\sunmscapi.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\tnameserv.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\unicows.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\unpack.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\unpack200.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\verify.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\w2k_lsa_auth.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\wsdetect.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\bin\zip.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\charsets.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\deploy.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\deploy\jqs\ff\chrome\content\overlay.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\deploy\jqs\ie\jqs_plugin.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\deploy\lzma.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\deploy\splash.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\ext\dnsns.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\ext\localedata.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\ext\sunjce_provider.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\ext\sunmscapi.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\ext\sunpkcs11.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\images\cursors\invalid32x32.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\images\cursors\win32_CopyDrop32x32.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\images\cursors\win32_CopyNoDrop32x32.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\images\cursors\win32_LinkDrop32x32.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\images\cursors\win32_LinkNoDrop32x32.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\images\cursors\win32_MoveDrop32x32.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\images\cursors\win32_MoveNoDrop32x32.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\im\indicim.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\im\thaiim.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\javaws.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\jce.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\jsse.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\jvm.hprof.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\management-agent.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\plugin.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\resources.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\rt.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\security\local_policy.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\security\US_export_policy.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\servicetag\jdk_header.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\lib\servicetag\registration.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\LICENSE.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\README.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\THIRDPARTYLICENSEREADME.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\jre6_32\Welcome.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\native_lib_32\gluegen-rt.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\native_lib_32\gluegen-rt.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\native_lib_32\jogl.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\native_lib_32\jogl.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\native_lib_32\jogl_awt.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\native_lib_32\jogl_cg.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\amoeba.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\anvil.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\arcticbear.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\AxeTexture.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\bark.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\bark16.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\barrel.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\bear128.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\beartent.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\black.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\block.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\blood.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\blue.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\BoneColor.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\books.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\boulder.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\buf.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\captain.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\chest.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\clear.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\clear2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\ClubTexture.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\column.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\coral.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\crosshair.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\crumbleStatue.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\cryoslime.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\deathcupflower.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\deathfade.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\debuf.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\deer128.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\delay.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\dmgNumbers.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\dmgNumbers_old.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\drainlife.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\draugr.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\fatherwight.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\fatpine128.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\fire.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\fireball.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\firemaille.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\firewood.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\fish128.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\fishblue128.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\fishbrown128.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\fishgreen128.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\fishlight128.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\fishpink128.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\FrostSpider.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\ghost.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\ghostdeer128.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\giant.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\glass1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\glass2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\glass3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\glass4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\Goblin256.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\GoblinGrunt.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\GoblinShaman.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\gradient.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\grass64.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\grasspatch.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\grasspatch2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\grasspatch3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\green.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\greenpotion.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\grizzly.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\HADagger.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\HAGun.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\HandArm.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\HASword.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\hudall.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\ice.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\iceball.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\icecave.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\icemaille.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\initiate.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\jelly.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\jobboard.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\knight.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\kobold.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\lich.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\lightning2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\lightning3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\litmaille.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\marker.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\mback.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\menuhelper.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\mfront.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\mist.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\mleft.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\morningsunflower.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\moveBtn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\mright.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\mtop.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\mushrooms.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\nethersparkle.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\oback7.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\ofront7.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\oleft7.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\ore.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\oright7.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\otop7.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\pine128.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\pine64.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\pinebranch.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\pinebranch2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\planks.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\planks.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\poison.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\purpleflower.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\radioactive.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\radioactive2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\red.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\redbulbflower.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\redflower.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\ribcage.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\ripple.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\RockBrickMap01.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\rot.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\RubbleBase.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\Ruins_Walls256.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\rune.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\rusty128.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\salt.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\sand.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\SandSpider.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\SandTexture.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\Sarcophagus.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\SeaSpider.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\seaweedflower.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\shade.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\Shield_color.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\slime.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\SlimeMonster.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\smoke.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\smokepuff.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\sniper64.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\snow.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\snowflake.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\snowgrass1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\snowgrass2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\snowgrass3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\snowgrass4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\snowgrass5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\snowgrass6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\snowgrass7.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\snowgrass8.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\snowgrass9.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\snowmaidenflower.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\snowpatch.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\sparkle.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\sparkledmg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\Spider.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\StaffTexture.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\statue.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\stone.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\stone1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\stone10.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\stone11.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\stone12.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\stone13.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\stone14.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\stone15.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\stone2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\stone3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\stone4.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\stone5.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\stone6.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\stone7.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\stone8.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\stone9.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\StoneChest_Texture.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\StoneChest_Texture2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\stonewall64.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\strings.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\SwordTexture.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\table.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\technician.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\tent.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\thrall.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\title256.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\tower.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\water64.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\web2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\white.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\Wight.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\wind.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\WinterWolfSkin.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\WolfSkin.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\worker.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\wortflower.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\yellow.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\yellowflower.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\yellowpotion.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\zombieBear.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\assets\zombieWolf.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\drawable-hdpi\roficon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\drawable-ldpi\bg.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\drawable-ldpi\exit.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\drawable-ldpi\icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\drawable-ldpi\ic_launcher.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\drawable-ldpi\logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\drawable-ldpi\reginfo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\drawable-ldpi\register.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\drawable-ldpi\title.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\drawable-ldpi\txt_checkpoints.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\drawable-ldpi\txt_continue.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\drawable-ldpi\txt_delete_checkpoint.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\drawable-ldpi\txt_export.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\drawable-ldpi\txt_import.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\drawable-ldpi\txt_load_checkpoint.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\drawable-ldpi\txt_main_menu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\drawable-ldpi\txt_new_game.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\layout\main.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\layout\shell.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\baitsplash.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\battle.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\bear.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\bones.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\bubbling.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\chest.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\chimes.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\coldwind.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\death.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\ding.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\epic.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\fireball.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\flowerpick.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\forest.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\hiss.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\lightning.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\loudlightning.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\main.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\musket.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\overworld.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\pop.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\pop2.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\repair.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\rubble.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\splash.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\stoneslide.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\sword.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\raw\underworld.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\Resources\res\values\strings.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\rof.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\rof.jar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\rof12camp.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\rof12dungeon.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Games\ROF\unins000.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Games\Slambulance\new_logo.png">
@@ -1015,6 +2137,2097 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Games\Nanobot\LD23.ogg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\bin\client\classes.jsa">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\bin\javacpl.cpl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\COPYRIGHT">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\audio\soundbank.gm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\calendars.properties">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\classlist">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\cmm\CIEXYZ.pf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\cmm\GRAY.pf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\cmm\LINEAR_RGB.pf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\cmm\PYCC.pf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\cmm\sRGB.pf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\content-types.properties">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\deploy\ffjcext.zip">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\deploy\jqs\ff\chrome.manifest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\deploy\jqs\ff\chrome\content\overlay.xul">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\deploy\jqs\ff\install.rdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\deploy\jqs\jqs.conf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\deploy\jqs\jqsmessages.properties">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\deploy\messages.properties">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\deploy\messages_de.properties">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\deploy\messages_es.properties">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\deploy\messages_fr.properties">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\deploy\messages_it.properties">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\deploy\messages_ja.properties">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\deploy\messages_ko.properties">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\deploy\messages_pt_BR.properties">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\deploy\messages_sv.properties">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\deploy\messages_zh_CN.properties">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\deploy\messages_zh_HK.properties">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\deploy\messages_zh_TW.properties">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\ext\meta-index">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\flavormap.properties">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\fontconfig.98.bfc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\fontconfig.98.properties.src">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\fontconfig.bfc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\fontconfig.properties.src">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\fonts\LucidaBrightDemiBold.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\fonts\LucidaBrightDemiItalic.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\fonts\LucidaBrightItalic.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\fonts\LucidaBrightRegular.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\fonts\LucidaSansDemiBold.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\fonts\LucidaSansRegular.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\fonts\LucidaTypewriterBold.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\fonts\LucidaTypewriterRegular.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\i386\jvm.cfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\images\cursors\cursors.properties">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\logging.properties">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\management\jmxremote.access">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\management\jmxremote.password.template">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\management\management.properties">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\management\snmp.acl.template">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\meta-index">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\net.properties">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\psfont.properties.ja">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\psfontj2d.properties">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\security\blacklist">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\security\cacerts">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\security\java.policy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\security\java.security">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\security\javaws.policy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\security\trusted.libraries">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\sound.properties">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\tzmappings">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Abidjan">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Accra">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Addis_Ababa">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Algiers">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Asmara">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Bamako">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Bangui">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Banjul">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Bissau">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Blantyre">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Brazzaville">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Bujumbura">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Cairo">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Casablanca">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Ceuta">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Conakry">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Dakar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Dar_es_Salaam">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Djibouti">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Douala">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\El_Aaiun">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Freetown">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Gaborone">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Harare">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Johannesburg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Juba">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Kampala">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Khartoum">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Kigali">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Kinshasa">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Lagos">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Libreville">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Lome">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Luanda">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Lubumbashi">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Lusaka">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Malabo">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Maputo">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Maseru">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Mbabane">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Mogadishu">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Monrovia">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Nairobi">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Ndjamena">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Niamey">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Nouakchott">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Ouagadougou">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Porto-Novo">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Sao_Tome">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Tripoli">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Tunis">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Africa\Windhoek">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Adak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Anchorage">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Anguilla">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Antigua">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Araguaina">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Argentina\Buenos_Aires">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Argentina\Catamarca">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Argentina\Cordoba">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Argentina\Jujuy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Argentina\La_Rioja">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Argentina\Mendoza">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Argentina\Rio_Gallegos">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Argentina\Salta">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Argentina\San_Juan">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Argentina\San_Luis">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Argentina\Tucuman">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Argentina\Ushuaia">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Aruba">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Asuncion">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Atikokan">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Bahia">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Bahia_Banderas">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Barbados">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Belem">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Belize">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Blanc-Sablon">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Boa_Vista">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Bogota">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Boise">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Cambridge_Bay">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Campo_Grande">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Cancun">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Caracas">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Cayenne">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Cayman">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Chicago">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Chihuahua">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Costa_Rica">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Creston">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Cuiaba">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Curacao">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Danmarkshavn">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Dawson">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Dawson_Creek">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Denver">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Detroit">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Dominica">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Edmonton">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Eirunepe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\El_Salvador">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Fortaleza">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Glace_Bay">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Godthab">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Goose_Bay">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Grand_Turk">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Grenada">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Guadeloupe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Guatemala">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Guayaquil">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Guyana">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Halifax">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Havana">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Hermosillo">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Indiana\Indianapolis">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Indiana\Knox">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Indiana\Marengo">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Indiana\Petersburg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Indiana\Tell_City">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Indiana\Vevay">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Indiana\Vincennes">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Indiana\Winamac">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Inuvik">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Iqaluit">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Jamaica">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Juneau">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Kentucky\Louisville">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Kentucky\Monticello">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\La_Paz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Lima">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Los_Angeles">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Maceio">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Managua">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Manaus">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Martinique">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Matamoros">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Mazatlan">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Menominee">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Merida">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Metlakatla">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Mexico_City">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Miquelon">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Moncton">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Monterrey">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Montevideo">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Montreal">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Montserrat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Nassau">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\New_York">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Nipigon">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Nome">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Noronha">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\North_Dakota\Beulah">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\North_Dakota\Center">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\North_Dakota\New_Salem">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Ojinaga">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Panama">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Pangnirtung">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Paramaribo">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Phoenix">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Port-au-Prince">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Porto_Velho">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Port_of_Spain">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Puerto_Rico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Rainy_River">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Rankin_Inlet">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Recife">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Regina">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Resolute">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Rio_Branco">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Santarem">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Santa_Isabel">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Santiago">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Santo_Domingo">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Sao_Paulo">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Scoresbysund">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Sitka">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\St_Johns">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\St_Kitts">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\St_Lucia">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\St_Thomas">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\St_Vincent">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Swift_Current">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Tegucigalpa">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Thule">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Thunder_Bay">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Tijuana">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Toronto">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Tortola">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Vancouver">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Whitehorse">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Winnipeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Yakutat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\America\Yellowknife">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Antarctica\Casey">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Antarctica\Davis">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Antarctica\DumontDUrville">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Antarctica\Macquarie">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Antarctica\Mawson">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Antarctica\McMurdo">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Antarctica\Palmer">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Antarctica\Rothera">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Antarctica\Syowa">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Antarctica\Vostok">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Aden">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Almaty">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Amman">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Anadyr">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Aqtau">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Aqtobe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Ashgabat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Baghdad">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Bahrain">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Baku">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Bangkok">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Beirut">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Bishkek">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Brunei">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Choibalsan">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Chongqing">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Colombo">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Damascus">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Dhaka">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Dili">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Dubai">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Dushanbe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Gaza">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Harbin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Hebron">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Hong_Kong">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Hovd">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Ho_Chi_Minh">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Irkutsk">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Jakarta">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Jayapura">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Jerusalem">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Kabul">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Kamchatka">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Karachi">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Kashgar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Kathmandu">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Kolkata">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Krasnoyarsk">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Kuala_Lumpur">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Kuching">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Kuwait">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Macau">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Magadan">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Makassar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Manila">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Muscat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Nicosia">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Novokuznetsk">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Novosibirsk">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Omsk">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Oral">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Phnom_Penh">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Pontianak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Pyongyang">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Qatar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Qyzylorda">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Rangoon">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Riyadh">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Riyadh87">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Riyadh88">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Riyadh89">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Sakhalin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Samarkand">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Seoul">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Shanghai">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Singapore">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Taipei">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Tashkent">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Tbilisi">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Tehran">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Thimphu">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Tokyo">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Ulaanbaatar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Urumqi">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Vientiane">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Vladivostok">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Yakutsk">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Yekaterinburg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Asia\Yerevan">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Atlantic\Azores">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Atlantic\Bermuda">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Atlantic\Canary">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Atlantic\Cape_Verde">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Atlantic\Faroe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Atlantic\Madeira">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Atlantic\Reykjavik">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Atlantic\South_Georgia">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Atlantic\Stanley">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Atlantic\St_Helena">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Australia\Adelaide">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Australia\Brisbane">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Australia\Broken_Hill">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Australia\Currie">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Australia\Darwin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Australia\Eucla">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Australia\Hobart">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Australia\Lindeman">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Australia\Lord_Howe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Australia\Melbourne">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Australia\Perth">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Australia\Sydney">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\CET">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\CST6CDT">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\EET">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\EST">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\EST5EDT">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT+1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT+10">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT+11">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT+12">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT+2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT+3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT+4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT+5">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT+6">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT+7">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT+8">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT+9">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT-1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT-10">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT-11">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT-12">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT-13">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT-14">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT-2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT-3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT-4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT-5">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT-6">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT-7">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT-8">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\GMT-9">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\UCT">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Etc\UTC">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Amsterdam">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Andorra">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Athens">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Belgrade">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Berlin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Brussels">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Bucharest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Budapest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Chisinau">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Copenhagen">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Dublin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Gibraltar">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Helsinki">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Istanbul">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Kaliningrad">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Kiev">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Lisbon">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\London">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Luxembourg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Madrid">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Malta">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Minsk">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Monaco">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Moscow">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Oslo">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Paris">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Prague">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Riga">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Rome">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Samara">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Simferopol">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Sofia">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Stockholm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Tallinn">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Tirane">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Uzhgorod">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Vaduz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Vienna">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Vilnius">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Volgograd">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Warsaw">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Zaporozhye">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Europe\Zurich">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\GMT">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\HST">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Indian\Antananarivo">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Indian\Chagos">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Indian\Christmas">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Indian\Cocos">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Indian\Comoro">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Indian\Kerguelen">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Indian\Mahe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Indian\Maldives">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Indian\Mauritius">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Indian\Mayotte">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Indian\Reunion">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\MET">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\MST">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\MST7MDT">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Apia">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Auckland">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Chatham">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Chuuk">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Easter">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Efate">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Enderbury">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Fakaofo">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Fiji">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Funafuti">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Galapagos">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Gambier">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Guadalcanal">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Guam">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Honolulu">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Johnston">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Kiritimati">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Kosrae">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Kwajalein">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Majuro">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Marquesas">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Midway">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Nauru">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Niue">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Norfolk">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Noumea">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Pago_Pago">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Palau">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Pitcairn">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Pohnpei">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Port_Moresby">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Rarotonga">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Saipan">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Tahiti">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Tarawa">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Tongatapu">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Wake">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\Pacific\Wallis">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\PST8PDT">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\SystemV\AST4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\SystemV\AST4ADT">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\SystemV\CST6">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\SystemV\CST6CDT">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\SystemV\EST5">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\SystemV\EST5EDT">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\SystemV\HST10">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\SystemV\MST7">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\SystemV\MST7MDT">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\SystemV\PST8">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\SystemV\PST8PDT">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\SystemV\YST9">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\SystemV\YST9YDT">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\WET">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\lib\zi\ZoneInfoMappings">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\jre6_32\LICENSE">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\anvil.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\axe.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\barrel.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\bear.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\beartrap.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\beartrap2.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\bigbarrel.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\boat.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\books.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\bpbone01.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\bpbone02.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\bpbone03.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\bpbone04.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\bpbone05.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\bpdirt.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\castleruins.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\castleruins_col.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave10_0.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave10_180.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave10_270.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave10_90.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave1_0.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave1_180.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave1_270.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave1_90.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave2_0.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave2_180.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave2_270.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave2_90.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave3_0.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave3_180.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave3_270.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave3_90.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave4_0.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave4_180.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave4_270.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave4_90.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave5_0.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave5_180.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave5_270.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave5_90.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave6_0.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave6_180.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave6_270.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave6_90.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave7_0.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave7_180.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave7_270.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave7_90.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave8_0.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave8_180.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave8_270.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cave8_90.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cavearch.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cavecolumn.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\chest.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\closedChest.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\club.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\column.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\coral.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\crumbleStatue.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\crumbleStatue_col.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\cube.obj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\deadTree.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\deer.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\drift.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\exclamation.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\firewood.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\fish.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\gatestone.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\goblin.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\HADagger.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\HAGun.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\HAGunLeft.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\HandArm.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\HandArmLeft.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\HASword.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\initiate.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\jobboard.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\lich.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\mushrooms.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\ore.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\outdoorStatue.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\outdoorStatue_col.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\pine.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\plainclub.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\player.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\playerSword.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\potion.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\pressureplate.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\ribcage.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room10_0.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room10_180.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room10_270.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room10_90.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room11_0.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room11_180.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room11_270.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room11_90.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room12_0.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room12_180.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room12_270.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room12_90.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room1_0.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room1_180.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room1_270.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room1_90.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room2_0.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room2_180.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room2_270.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room2_90.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room3_0.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room3_180.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room3_270.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room3_90.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room4_0.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room4_180.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room4_270.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room4_90.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room5_0.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room5_180.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room5_270.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room5_90.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room6_0.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room6_180.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room6_270.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room6_90.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room7_0.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room7_180.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room7_270.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room7_90.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room8_0.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room8_180.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room8_270.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room8_90.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room9_0.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room9_180.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room9_270.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\room9_90.binroom">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\root.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\rubble01.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\rubble02.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\rubble03.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\rubble04.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\rubble05.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\rubble06.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\rubblebase.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\saltstone.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\sarcophagus.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\shield.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\slime.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\spider.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\staff.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\staff.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\stalactite.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\stalagmite.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\statue.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\statuePieces.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\statueStump.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\statueStump_col.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\stonechest.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\stonelid.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\stormdevil.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\strings.txt.bak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\sword.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\table.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\technician.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\technician.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\tent.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\tipcol.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\tombstone.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\tombstone_col.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\tower.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\tower_col.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\wight.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\wightjar.binobj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\wolf.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\Resources\assets\worker.gama3d">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Games\ROF\unins000.dat">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Games\SpindleSun\operetta 11 march 2013_Data\mainData">

@@ -52,6 +52,11 @@ namespace CGDArcade_WPF
 
         private void CloseThisWindow()
         {
+            if (this.mediaCtrl != null)
+            {
+                this.mediaCtrl.StopMusic();
+            }
+
             this.mainWindow.Focus();
             this.Hide();
             this.Close();
@@ -68,7 +73,7 @@ namespace CGDArcade_WPF
             switch (e.Key)
             {
                 case Key.F1:
-                    KillThisApp();
+                    //KillThisApp();
                     break;
 
                 case Key.Escape:
@@ -142,10 +147,6 @@ namespace CGDArcade_WPF
 
             this.mediaCtrl = new MP3Player(this);
             DetailGrid.Children.Add(this.mediaCtrl);
-
-            
-            //this.mediaCtrl.Margin = new Thickness(0, 0, 836, 40);
-
             this.mediaCtrl.LaunchMP3Player(this.lbl_Title.Text, this.lbl_Author.Text, this.entityMediaElement.Source.ToString(), @tempString);
         }
 

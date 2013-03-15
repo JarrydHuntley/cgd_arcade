@@ -1,25 +1,19 @@
 ﻿<Window x:Class="CGDArcade_WPF.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="CGD Arcade" Height="700" Width="1000" WindowState="Maximized" WindowStartupLocation="CenterScreen" WindowStyle="None" SizeChanged="Window_SizeChanged_1" PreviewKeyUp="Window_PreviewKeyUp_1">
+        Title="CGD Arcade" Height="700" Width="1000" WindowState="Maximized" WindowStartupLocation="CenterScreen" WindowStyle="None" SizeChanged="Window_SizeChanged_1" 
+        PreviewKeyUp="Window_PreviewKeyUp_1">
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="/Assets/Textures/Backgrounds/BlackLights1440x900.jpg"/>
+            <ImageBrush x:Name="GridBackground" ImageSource="pack://siteoforigin:,,,/Assets/Textures/Backgrounds/0.jpg"/>
         </Grid.Background>
+        <!--<Image x:Name="BackgroundImg" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Source="Assets/UI/split-cross.png" Stretch="Fill"/>-->
         <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="0,112,0,0">
             <WrapPanel Name="mainWrapPanel" HorizontalAlignment="Center" Margin="20,0,20,20" VerticalAlignment="Top"/>
         </ScrollViewer >
         <Label x:Name="debugLog" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="972" Foreground="White"/>
-        <Image x:Name="btn_Close" HorizontalAlignment="Right" Height="40" Margin="952,0,0,0" VerticalAlignment="Top" Width="40" Source="Assets/UI/split-cross.png" MouseDown="btn_Close_MouseDown">
-            <Image.OpacityMask>
-                <ImageBrush ImageSource="Assets/UI/split-cross.png"/>
-            </Image.OpacityMask>
-        </Image>
+        <Image x:Name="btn_Close" HorizontalAlignment="Right" Height="40" Margin="952,0,0,0" VerticalAlignment="Top" Width="40" Source="Assets/UI/split-cross.png" MouseDown="btn_Close_MouseDown"/>
         <Image x:Name="btn_Settings" HorizontalAlignment="Right" Height="40" Margin="0,0,40,0" VerticalAlignment="Top" Width="40" Source="Assets/UI/gears.png" MouseDown="btn_Settings_MouseDown"/>
-        <Image HorizontalAlignment="Center" Height="100" Margin="307,7,307,0" VerticalAlignment="Top" Width="378" Source="Assets/UI/cgd_white.gif">
-            <Image.OpacityMask>
-                <ImageBrush ImageSource="Assets/UI/cgd_white.gif"/>
-            </Image.OpacityMask>
-        </Image>
+        <Image HorizontalAlignment="Center" Height="100" Margin="307,7,307,0" VerticalAlignment="Top" Width="378" Source="Assets/UI/cgd_white.gif"/>
     </Grid>
 </Window>

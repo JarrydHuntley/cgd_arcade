@@ -11,5 +11,14 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sfx/blip_select12.wav")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sfx/pickup_coin10.wav")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/sfx/pickup_coin17.wav")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/textures/backgrounds/10.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/textures/backgrounds/11.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/textures/backgrounds/12.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/textures/backgrounds/14.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/textures/backgrounds/15.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/textures/backgrounds/16.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/textures/backgrounds/17.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/textures/backgrounds/18.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/textures/backgrounds/19.jpg")]
 
 

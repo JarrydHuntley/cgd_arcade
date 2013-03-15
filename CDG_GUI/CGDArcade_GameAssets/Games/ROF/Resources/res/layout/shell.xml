@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent" android:orientation="vertical" android:layout_width="fill_parent">
+
+
+<TextView android:text=" " android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<Button android:id="@+id/New" android:layout_height="wrap_content" android:text="New Game" android:layout_width="fill_parent"></Button>
+<Button android:id="@+id/Load" android:layout_height="wrap_content" android:text="Load Checkpoint" android:layout_width="fill_parent"></Button>
+
+<Button
+    android:id="@+id/Delete"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Delete Checkpoint" />
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=" " />
+
+<Button
+    android:id="@+id/LoadSD"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Load From SD" />
+
+<Button
+    android:id="@+id/SaveSD"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Copy To SD" />
+
+<TextView android:text=" " android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="The game is automatically saved whenever you exit. Pressing 'Continue' will allow you to resume right where you left off."></TextView><Button android:id="@+id/Continue" android:layout_height="wrap_content" android:text="Continue" android:layout_width="fill_parent"></Button>
+
+</LinearLayout>

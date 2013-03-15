@@ -5,7 +5,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             mc:Ignorable="d" Height="459.6" Width="776.4">
+             mc:Ignorable="d" Height="540" Width="958">
     <Grid Background="#FF2B547E" Margin="0,0,-184,-140" HorizontalAlignment="Left" Width="958">
         <ListBox x:Name="listbox_TrackList" HorizontalAlignment="Left" Height="540" Margin="35,26,0,0" VerticalAlignment="Top" Width="415" SelectionChanged="listbox_TrackList_SelectionChanged" Background="#FF98AFC7"/>
         <Label Content="Tracklist" HorizontalAlignment="Left" Margin="35,2,0,0" VerticalAlignment="Top" Foreground="White"/>

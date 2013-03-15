@@ -8,10 +8,12 @@
 	  img3Path="" 
 	  logoImgPath="\\EXEPATH\Games\TheCubeWeb\TheCube.jpg" />
 	  
+	  
+	  
 	  <Entity entityTitle="Heartbeater\\r\\n(Global Game Jam 2013)" entityAuthor="Mike Geig, Matt Seifert, Matt Muzzy" 
 	  entityDescription="The theme this year was the sound of a heartbeat. It just so happens that Jack likes to do 2 things: chop down trees, and liberate hearts from the tyranny of elven chest cavities. You must protect your manliness to win. Left or RIght arrow keys: Move Left or Right Mouse Button: Beat Hearts" 
-	  playPath="\\EXEPATH\Games\Heartbeater\HEARTBEATER.exe" 
-	  pathArgs="" 
+	  playPath="C:\Users\Matt\AppData\Local\Google\Chrome\Application\chrome.exe" 
+	  pathArgs="--app=http://fixbyproximity.com/HeartBeater.html -start-maximized" 
 	  img1Path="\\EXEPATH\Games\Heartbeater\Icon2_0.jpg" 
 	  img2Path="\\EXEPATH\Games\Heartbeater\bronana_0.png" 
 	  img3Path="" 
@@ -270,6 +272,20 @@
 	  img3Path=""
 	  logoImgPath="\\EXEPATH\Games\AShortTail\tail1.jpg" />
 	  
+	  <Entity entityTitle="Realms of Fortune\\r\\n(Windows, Android)" 
+	  entityAuthor="Clayton Lilly" 
+	  entityDescription="Realms of Fortune is a first person open world RPG set in an era similar to our own Age of Discovery. However, instead of sailing in ships across the ocean, adventurers use a network of portals called gatestones to explore a distant land full of magic, treasure, and ancient secrets. The terrain and all of the dungeons are procedurally generated, meaning each new character you create will have an entirely new world to explore." 
+	  playPath="\\EXEPATH\Games\ROF\rof.exe" 
+	  pathArgs="" 
+	  img1Path="\\EXEPATH\Games\ROF\rof12dungeon.jpg"
+	  img2Path="\\EXEPATH\Games\ROF\rof12camp.jpg"
+	  img3Path=""
+	  logoImgPath="\\EXEPATH\Games\ROF\Resources\assets\title256.png" />
+	  
+	  
+	  
+	  
+	  
 	  
 	  <Entity entityTitle="Global Game Jam 2012\\r\\n( Music )" 
 	  entityAuthor="Ian Faleer" 
@@ -282,7 +298,27 @@
 	  img3Path=""
 	  logoImgPath="\\EXEPATH\Games\Ian2012\cover.png" />
 	  
+	  <Entity entityTitle="Global Game Jam 2013\\r\\n( Music )" 
+	  entityAuthor="Ian Faleer" 
+	  startWithMusicPlayer="Y"
+	  entityDescription="This album is a compilation of the music tracks I composed with fellow members of the Cleveland Game Developers organization for the 2013 Global Game Jam.\\r\\nAvailable at ianfaleer.bandcamp.com" 
+	  playPath="\\EXEPATH\Games\Ian2013" 
+	  pathArgs="" 
+	  img1Path="\\EXEPATH\Games\Ian2013\qrggj2013.png"
+	  img2Path=""
+	  img3Path=""
+	  logoImgPath="\\EXEPATH\Games\Ian2013\cover.png" />
 	  
+	  <Entity entityTitle="Sketches &amp; Notes &amp; Compositions: Year One\\r\\n( Music )" 
+	  entityAuthor="Ian Faleer" 
+	  startWithMusicPlayer="Y"
+	  entityDescription="This album is a compilation of most of the significant work in my first year as a game music composer. These tracks have been streaming on my site for some time, but they are now available for purchase both individually and as an entire collection. This work illustrates dramatic growth in my confidence as an artist from my first experiments in May 2011 to my work on the game Karyote in September of 2012.\\r\\nAvailable at ianfaleer.bandcamp.com" 
+	  playPath="\\EXEPATH\Games\IanSketches" 
+	  pathArgs="" 
+	  img1Path="\\EXEPATH\Games\IanSketches\qrsketches.png"
+	  img2Path=""
+	  img3Path=""
+	  logoImgPath="\\EXEPATH\Games\IanSketches\cover.png" />
 	  
 	  
 	  

@@ -2,7 +2,7 @@
         Title="EntryDetailWindow" Height="700" Width="1000"
         WindowState="Maximized" WindowStartupLocation="CenterScreen" WindowStyle="None" PreviewKeyUp="Window_PreviewKeyUp_1">
     <Window.Background>
-        <ImageBrush ImageSource="Assets/Textures/Backgrounds/BlackLights1440x900.jpg"/>
+        <ImageBrush ImageSource="Assets/Textures/Backgrounds/0.jpg"/>
     </Window.Background>
     <Viewbox>
         <Grid x:Name="DetailGrid">

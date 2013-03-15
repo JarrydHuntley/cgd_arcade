@@ -1,0 +1,653 @@
+# Prepare for Adventure
+
+prepare for adventure title: 
+Preparations
+
+prepare for adventure desc: 
+New treasure hunters are required to stay near camp until they have acclimated to the new realms. Come back and see me when you are ready and I'll ask the Governor to extend your confinement zone.
+
+prepare for adventure turnin:
+The Governor has extended your confinement zone, allowing you to explore further. Good luck out there!
+
+# A Delicate Matter
+
+delicate matter title: 
+A Delicate Matter
+
+delicate matter desc: 
+I have a task that you might be able to help me with, but let's wait until you are ready.
+
+delicate matter turnin:
+I believe you are ready now.
+
+# Big Game Hunting
+
+big game title: 
+Big Game Hunting
+
+big game desc: 
+From Niklas: I've heard there are unusually large animals living in the wasteland to the south-east. I'd love to have some megaceras and short-faced bear skulls for my collection.
+
+big game turnin:
+Thank you. Here is your reward.
+
+# Intel Lost Ruins
+
+intel lost ruins msg title: 
+Lost Ruins Notes
+
+intel lost ruins msg text: 
+From the Professor: My friend's journal doesn't have much information on these ruins, however, he felt that he would need the elemental shield spell in order to retrieve the book. His research indicated there might be some sort of periodic energy burst coming from the core of the dungeon.
+
+# Intel Draugr Lair
+
+intel draugr lair msg title: 
+Saltmarsh Lair Notes
+
+intel draugr lair msg text: 
+From the Professor: There are stories of strange creatures called draugr inhabiting the flooded ruins in this region. Their presence is said to drive nearby animals mad, and some say the draugr can even control the tides. That last part is probably just an old wives tale, but keep a water breathing potion ready just in case. 
+
+# Intel Goblin Lair
+
+intel goblin lair msg title: 
+Goblin Lair Notes
+
+intel goblin lair msg text: 
+From the Professor: The goblins have set up their hideout in an ancient ruin. Rumor has it the goblin chief has a pet wolf named bloodfang. It might be safest to take the wolf out first.
+
+# Intel Frozen Palace
+
+intel frozen palace msg title: 
+Frozen Palace Notes
+
+intel frozen palace msg text: 
+From the Professor: My friend's journal indicated that there may be evil spirits lurking deep within these ruins. Remember, semi-incorporeal beings are resistant to physical damage. Fully incorporeal beings are immune to physical damage.
+
+# Corosive Damage
+
+corode msg title: 
+Corosive Damage
+
+corode msg text: 
+Many types of slimes are highly corosive. When you take corosive damage, all equipped armor will take additional damage to its durability. When you strike a slime with a blade, the blade will take damage to its durability.
+
+# Challenge complete
+
+challenge msg title: 
+Challenge Complete
+
+challenge msg text: 
+You have just completed a challenge! To see a list of other challenges, look in your quest journal.
+
+# Purchase Game
+
+purchase game msg title: 
+Purchase Game
+
+purchase game msg text: 
+NO TEXT
+
+# Rings in Fish
+
+fish rings msg title: 
+Fishing for Treasure
+
+fish rings msg text: 
+Occasionally you will find treasure inside the fish you catch such as a few gold coins or even a magic ring. Some rare fish will also grant you permanent bonuses (boons) when eaten.
+
+# Low level kill
+
+low level kill msg title: 
+Low Level Kill
+
+low level kill msg text: 
+Killing lower level creatures will earn you less experience points. The amount of experience will be halved for each level below you that the creature is.
+
+# Low Stamina Message
+
+low stamina msg title: 
+Low Stamina
+
+low stamina msg text: 
+When your stamina is too low (below the notch on your stamina bar), you will do 50% less damage and have a 0% chance of critical hit.
+
+# Broken Weapon Message
+
+broken weapon msg title: 
+Broken Weapon
+
+broken weapon msg text: 
+Your blades and firearms take damage every time you use them. When their durability reaches 0, they become less effective. You can repair them at the workbench back at camp.
+
+# Broken Armor Message
+
+broken armor msg title: 
+Broken Armor
+
+broken armor msg text: 
+Your armor takes damage each time you are hit by an enemy. When your armor's durability reaches zero, it will be less effective. You can repair it at the workbench back at camp.
+
+# Cold Weather Message
+
+cold weather msg title: 
+Cold Weather
+
+cold weather msg text: 
+The mountains in the New Realms can be bitter cold. You will receive periodic cold damage whenever you at a high elevation.
+
+# Thank You Message
+
+thankyou msg title: 
+Thank You
+
+thankyou msg text: 
+Thank You for purchasing Realms of Fortune! 
+
+# Damaged Pelt Message
+
+damaged pelt msg title: 
+Damaged Pelt
+
+damaged pelt msg text: 
+To avoid damaging a deer pelt, you must kill the deer with a single shot to the head. If your rifle has any elemental effects, the pelt will be damaged regardless of where you hit it.
+
+# Epilogue
+
+epilogue msg title: 
+Epilogue
+
+epilogue msg text: 
+After defeating the Governor you try to return home to Winterhall, but discover that the gatestone on the other end must have been blocked. You are now trapped in the New Realms, thousands, maybe even millions, of miles from home. How should you spend your time while you search for another way back? Perhaps read a book ... to be continued.
+
+# Sextant of Cirestia
+
+sextant title: 
+The Sextant
+
+sextant desc: 
+From Friedrich: I am looking for an artifact called the Sextant of Cirestia. The last owner was a man named Captain Blythe, one of the earliest explorers in the New Realm. I believe I have discovered the location of his ship. If you bring me the sextant, I'll give you a reward and let you keep any other treasure you might find.
+
+sextant turnin:
+It's always a pleasure doing business with you.
+
+# Ancient Bones
+
+ancient bones title: 
+Ancient Bones
+
+ancient bones desc: 
+From Johannes: I've heard rumors that you might be exploring the saltmarsh to the south. If you are, I'd greatly appreciate it if you could bring me back some ancient bones found in any of the dungeons there.
+
+ancient bones turnin:
+Thank you. Here is some special tea I've prepared that is in no way related to the items you just gave me.
+
+# Glowstones
+
+glowstones title: 
+Glowstones
+
+glowstones desc: 
+From Johannes: If you are in the wasteland to the east, could you collect some of the strange glowing rocks found in that region? They burn when you pick them up, so be careful. I'll give you a fire resistance potion to help you out, and two more when you complete the task.
+
+glowstones turnin:
+Thank you, here is the reward I promised.
+
+# Royal Silk
+
+royal silk title: 
+Royal Silk
+
+royal silk desc: 
+From Niklas: The caves high in the mountains are inhabited by Frostbite Spiders. I've heard that the queen spiders can produce a special silk with amazing properties. If you bring me the silk gland from such a spider, I could create some special armor for you.
+
+royal silk turnin:
+Thank you, here is your reward.
+
+# Dire Wolf
+
+dire wolf title: 
+Dire Wolf Hide
+
+dire wolf desc: 
+From Niklas: I've heard rumors that there is a dire wolf in the mountains to the east. If you could bring me its hide I'll turn some of it into a pair of boots and gloves for you.
+
+dire wolf turnin:
+Thank you, here is your reward.
+
+# Crown of the Infallible
+
+infallible title: 
+The Crown
+
+infallible desc: 
+From Friedrich: I'm looking for an artifact called the Crown of the Infallible, and I believe I've located the cave where it was lost long ago. If you could retrieve it for my collection I will give you a reward.
+
+infallible turnin:
+Thank you, here is your reward.
+
+# Radiant Astrolabe
+
+astrolabe title: 
+Radiant Astrolabe
+
+astrolabe desc: 
+From Friedrich: I'm looking for an artifact called the Radiant Astrolabe, and I believe I've located the cave where it was lost long ago. If you could retrieve it for my collection I will give you a reward.
+
+astrolabe turnin:
+Thank you, here is your reward.
+
+# Tools of Vivisection 
+
+vivisection title: 
+Vivisection
+
+vivisection desc: 
+From Friedrich: I'm looking for a set of artifacts called the Implements of Vivisection, and I believe I've located the dungeon where they are hidden. If you could retrieve it for my collection I will give you a reward.
+
+vivisection turnin:
+Thank you, here is your reward.
+
+# Urn of the Fallen 
+
+urn title: 
+Urn of the Fallen
+
+urn desc: 
+From Friedrich: I'm looking for an artifact called the Urn of the Fallen, and I believe I've located the dungeon where it is hidden. If you could retrieve it for my collection I will give you a reward.
+
+urn turnin:
+Thank you, here is your reward.
+
+# Pearls of Zinzeruna
+
+pearl title: 
+Zinzeruna
+
+pearl desc: 
+From Friedrich: I'm looking for a set of artifacts called the Pearls of Zinzeruna, and I believe I've located the dungeon where they are hidden. If you could retrieve them for my collection I will turn one of them into a ring for you.
+
+pearl turnin:
+Thank you, here is your reward.
+
+# Lost Sword
+
+lost sword title: 
+Lost Sword
+
+lost sword desc: 
+From Jurgen: I lost my sword in a nearby cave. I was ambushed by 3 ... no 5 bears, and I dropped my Dad's ... I mean my sword ... while fighting them. I can reward you handsomely if you fetch it for me. I'd do it myself, but such a task is beneath me. 
+
+lost sword turnin:
+Thank you, here is your reward. Please don't tell my dad.
+
+# Emerald Dagger
+
+emerald dagger title: 
+Emerald Teardrop
+
+emerald dagger desc: 
+From Friedrich: There is an artifact called the the Emerald Teardrop burried in a nearby dungeon. If you could retrieve it for my collection I will reward you with gold.
+
+emerald dagger turnin:
+Thank you, here is your reward.
+
+# Bonegrip Pistol
+
+bonegrip pistol title: 
+Bonegrip Pistol
+
+bonegrip pistol desc: 
+From Friedrich: There is a pistol called "Bonegrip" burried in a nearby dungeon. I am only interested in the inscription on it. You may keep the pistol as your reward.
+
+bonegrip pistol turnin:
+Thank you, here is your reward.
+
+# Tapestry
+
+tapestry title: 
+The Tapestry
+
+tapestry desc: 
+From Friedrich: There is a tapestry depicting the Batlle of Rodor that I would like for my collection. Bring it to me and I will reward you with gold.
+
+tapestry turnin:
+Thank you, here is your reward.
+
+# Deathmask
+
+death mask title: 
+Death Mask
+
+death mask desc: 
+From Friedrich: There is an artifact called the Death Mask of General Ghorhukk that I would like for my collection. Bring it to me and I will reward you with gold.
+
+death mask turnin:
+Thank you, here is your reward.
+
+# Greetings
+
+campmaster greeting:
+Greetings, I trust your long gatejump from Winterhall was not too unpleasant. I see you've purchased the exploration and salvage rights for the area east of the camp. The governor probably already explained this to you, but I'll go over it again. The glyphs that were tattooed onto your body will prevent you from exploring any area outside of your charter. The glyphs are tied to a network of devices set up by the governor's men. I've marked this confinement zone on your map. This is to keep you treasure hunters honest. Good luck!
+
+campmaster advice:
+As you gain experience as a treasure hunter, be sure that your equipment is keeping pace, especially your armor and primary weapon. You can upgrade your equipment at the workbench, or buy new equipment. Some of the best gear, however, is found in the dungeons. You will also need to keep improving your spells, but that's the professor's area of expertise. 
+
+professor greeting:
+Hello, and welcome to the new realms. I sell a variety of spells and formulas to aid treasure hunters, and can identify any items that you might find. As you gain experience, I can also help you improve your spells.
+
+professor advice:
+If you need money, try collecting plants and using your alchemy kit to brew potions. These potions can then be sold to myself or the campmaster.
+
+# Deadeye
+
+deadeye title:
+Sniper
+
+deadeye desc:
+Kill goblins with a single headshot from a distance of 60 meters or more.
+
+deadeye turnin:
+Congratulations! 
+
+# Headhunter
+
+headhunter title:
+Headhunter
+
+headhunter desc:
+Kill goblins with a single headshot from a distance of 80 meters or more.
+
+headhunter turnin:
+Congratulations! 
+
+# Angel of Death
+
+angel of death title:
+Angel of Death
+
+angel of death desc:
+Kill goblins with a single headshot from a distance of 100 meters or more.
+
+angel of death turnin:
+Congratulations! 
+
+# Daredevil
+
+daredevil title:
+Daredevil
+
+daredevil desc:
+This challenge has two parts. For "Freediver" you must dive below 35 meters and stay down until you run out of air. For "Deathwish" you must attack a creature two levels higher than you at close range.
+
+daredevil turnin:
+Congratulations! 
+
+# Spider Blood
+
+spider blood title:
+Spider Blood
+
+spider blood desc:
+Gain some immunity to poison by getting bitten enough times.
+
+spider blood turnin:
+Congratulations! 
+
+# Feed The Camp
+
+feed camp title:
+Feed The Camp
+
+feed camp desc:
+We could use some more food around here. I would really appreciate it if you could catch some fish and sell them to me. If you are new to fishing, there's a pond due north with some smaller fish that are easy to catch.
+
+feed camp turnin:
+Thank you, this extra food will really help me out. Now the Professor and the other treasure hunters can stop pestering me about the food supply. 
+
+# Tent Repair
+
+tent repair title:
+Tent Repair
+
+tent repair desc:
+Some of the tents are getting a little worn out, and campers are complaining about the drafts. If you could sell me some deer pelts, it would be a big help. You'll probably need to purchase a rifle first and also add a scope to it using the workbench. The deer pelt will be more valuable if you can take the animal down with a single shot to the head.
+
+tent repair turnin:
+Thank you, now I can repair the tents. 
+
+# Goblin Patrol
+
+goblin patrol title: 
+Goblin Patrol
+
+goblin patrol desc: 
+From The Governor: I hear the goblins near the camp are becoming a real problem. Killing a few of them would really help everyone out.
+
+goblin patrol turnin:
+Thank you, that should make the camp a little safer.
+
+# Press the Attack
+
+press attack title: 
+Press the Attack
+
+press attack desc: 
+From The Governor: The goblin elites are the real problem, we need to take some of them out.
+
+press attack turnin:
+Thank you, that should make the camp a little safer.
+
+# Strange Request (Ogre noses)
+
+strange request title: 
+Strange Request
+
+strange request desc: 
+From Johannes: I have a reward for anyone able to get me five ogre noses. I know that the eastern mountain range is off limits, but I won't ask how you got'em if you don't ask why I need'em.
+
+strange request turnin:
+Thank you, this will be our little secret.
+
+# Shade Residue
+
+shade residue title: 
+Shade Residue
+
+shade residue desc: 
+From Johannes: I am very interested in the shades that inhabit the subterranean regions of the wasteland. If you could get me some samples of the residue they leave behind, I might be able to create a potion to help you out.
+
+shade residue turnin:
+Thank you very much, here are your potions.
+
+# Adaro Gland
+
+adaro gland title: 
+Adaro Gland
+
+adaro gland desc: 
+From Johannes: I am working on an improved water breathing potion, and I think the adaro have a special gland that may be the key. If you can get me five of these glands, I might share some of my potion.
+
+adaro gland turnin:
+Thank you very much, here are a few of the potions. I'll keep the formula for myself.
+
+# Erntedankfest (elk, mushroom, snow maiden)
+
+erntedankfest title: 
+Erntedankfest
+
+erntedankfest desc: 
+It's almost time for Erntedankfest! Most people around here can't afford the gatejump back to winterhall so I've decided to cook a traditional feast for the whole camp. If you would like to help out, I still need a few more ingredients.
+
+erntedankfest turnin:
+Wonderful! This will be an Erntedankfest to remember.
+
+# Diver's Guild (20m, bladderwort)
+
+divers guild title: 
+Diver's Guild
+
+divers guild desc: 
+When you join the diver's guild, you will be allowed to use some of our equipment. However, you must first pass a test.
+
+divers guild turnin:
+Congratulations! Welcome to the diver's guild.
+
+# Explorer (map 15% area)
+
+explorers guild title: 
+Explorer
+
+explorers guild desc: 
+You must explore vast areas of the New Realms.
+
+explorers guild turnin:
+Congratulations!
+
+# Trailblazer (map 40% area)
+
+trailblazers guild title: 
+Trailblazer
+
+trailblazers guild desc: 
+You must discover more of the New Realms.
+
+trailblazers guild turnin:
+Congratulations!
+
+# Cartographer (map 80% area)
+
+cartographers guild title: 
+Cartographer
+
+cartographers guild desc: 
+You must map out even more of the New Realms.
+
+cartographers guild turnin:
+Congratulations!
+
+# Botanists' Guild
+
+botanists guild title: 
+Botanist
+
+botanists guild desc: 
+You must pick one of each of the flowers listed.
+
+botanists guild turnin:
+Congratulations!
+
+# Rangers' Guild
+
+rangers guild title: 
+Ranger
+
+rangers guild desc: 
+You must show you are at home in the wilderness.
+
+rangers guild turnin:
+Congratulations!
+
+# Brewmaster
+
+brewmaster title: 
+Brewmaster
+
+brewmaster desc: 
+Brew potions to improve your alchemy skill.
+
+brewmaster turnin:
+Congratulations!
+
+# Goblin Slayer
+
+goblin slayer title: 
+Goblin Slayer
+
+goblin slayer desc: 
+Show the enemy no mercy!
+
+goblin slayer turnin:
+Congratulations!
+
+# Journal
+
+recover journal:
+You have proven yourself to be a superb fighter and a skilled archaeologist. You may be able to help me out. The previous treasure hunter working this region was a friend of mine. He confided to me that he was very close to finding something big. Sadly, I believe he was killed by the local goblin chief before he could complete his work. I could make it worth your while if you could retrieve my friend's journal. I can't remove the magical glyphs that the governor tattooed onto your body, but I can secretly alter your confinement zone and let you explore as far as the goblin's lair. Tell no one of our deal. I've updated your map with the lair's location.
+
+recover journal turnin:
+Thank you so much for returning it. You have shown yourself to be someone I can trust. I will read over this journal and tell you what I find.
+
+# Tablet
+
+recover tablet:
+It seems my friend was preparing for an expedition to the mountains in the east. He was searching for some sort of tablet, and his journal already contains the key to decode it. I'll expand your confinement zone further and update your map with the location where he believed the tablet to be.
+
+recover tablet turnin:
+Excellent work. I will decode the tablet using the key in my friends journal.
+
+# Onyx Key
+
+recover key:
+This is big, really big. The tablet is a direct clue to finding something known as "The Book of Ancient Lies". I've seen it mentioned in some of my other research, and I believe it is a spellbook, or possibly a manual for constructing powerful ancient technology. We can not go to the governor with this information, he will betray us. I've known the governor since the Gatestone Wars. He is a cruel man with an insatiable lust for power. He is also a spellcaster of unmatched abilities. I will keep working on expanding your confinement zone while you search for the next piece of the puzzle, an onyx "key". I have marked a probable location on your map.
+
+recover key turnin:
+Excellent work. I will examine this artifact.
+
+# Recover Book
+
+recover book:
+The onyx key you found will allow me to open a remote gatestone near the the location of the book we are seeking. I strongly advise against reading from this book on your own. When other ancient texts refer to something as "The Book of Ancient Lies", I'm guessing there is more to it then we are prepared for. Wait until we are in a proper laboratory environment. Also, here is a formula from my friend's journal called "Cure Disease" and a spell called "Elemental Shield". They will be important to recovering the book.
+
+recover book turnin:
+...
+
+read book:
+You decide to read through the book. The actual title is "Combined Knowledge of Nations Seeking Peace". Most of it is well beyond your skill level, but you do manage to learn a new formula called "Create Wight". Another item of interest is something called a "Difference Engine" which appears to be a mechanical computing device used for military tactical planning. There is also a more complex version of "Create Wight" called "Create Father Wight". If you make it through this alive, it will be exciting to try out everything this book has to offer.
+
+# Defeat Governor
+
+defeat governor:
+... cough ... my friend ... cough ... we were betrayed by the campmaster. I'm afraid you've walked into a trap. Your confinement zone was just reduced to the area around this camp site. The campmaster is fetching the governor now, and he'll be here any minute. Don't let him have the book! Do whatever you must to defeat him! Perhaps ... cough ... there is something in the book that could save you. (Professor dies)
+
+# Info Buttons
+
+ActionItemMenu.info:
+To equip an item for use, touch one of the six action slots on left or right.
+
+# Help
+
+trialversion:
+The trial version limits your character to level 4. Purchasing the full version will remove the level cap, but you will need to complete certain quests in order to explore the entire map.
+
+trialversion.mk:
+The trial version limits your character to level 4. Purchasing the full version will remove the level cap, but you will need to complete certain quests in order to explore the entire map.
+
+help.firearms:
+All firearms require black powder to fire and the more powerful it is, the more powder it will require. Pistols can fire multiple shots, and will reload automatically when empty. To force the firearm to reload, press the "shots remaining" counter in the upper right hand corner.
+
+help.mk.firearms:
+All firearms require black powder to fire and the more powerful it is, the more powder it will require. Pistols can fire multiple shots, and will reload automatically when empty. To force the firearm to reload, press 'R'.
+
+help.gatestone:
+Gatestones provide a faster way of traveling. To activate a gatestone that you have found, approach it and press the crystal icon when it appears. Once it is activated, press the crystal icon again and a map will be displayed. You can travel to any other activated gatestone by touching it on the map. Activated gatestones are represented by blue squares.
+
+help.mk.gatestone:
+Gatestones provide a faster way of traveling. To activate a gatestone that you have found, approach it and click the right mouse button when the crystal icon appears. Once it is activated, click the right mouse button again and a map will be displayed. You can travel to any other activated gatestone by left clicking it on the map. Activated gatestones are represented by blue squares.
+
+help.map:
+To use the map, simply press the map icon on the left side of the screen. A light red square is an unexplorered dungeon, a dark red square is an explorered dungeon, a dark gray square is a completed dungeon, a blue square is an activated gatestone, and the white square is base camp. You can touch a dungeon marker to view its name.
+
+help.mk.map:
+To open the map, press 'C' for compass. A light red square is an unexplorered dungeon, a dark red square is an explorered dungeon, a dark gray square is a completed dungeon, a blue square is an activated gatestone, and the white square is base camp. You can left click a dungeon marker to view its name.
+
+help.fishing:
+Find a body of water in which you see some fish. Look at a spot on the water's surface, and a fishing icon should appear. Touch the icon to cast your line. Keep in mind that you can not cast your line on a spot that is too far or too shallow. Once your line is in, wait for a fish to approach. You will feel your phone vibrate when it starts to nibble. At that moment press the hook button to reel it in.
+
+help.mk.fishing:
+Find a body of water in which you see some fish. Look at a spot on the water's surface, and a fishing icon should appear. Right click to cast your line. Keep in mind that you can not cast your line on a spot that is too far or too shallow. Once your line is in, wait for a fish to approach. You will see the line jump when it starts to nibble. At that moment right click to reel it in.
+
+help.more: 
+For additional help, visit "www.realmsoffortune.com"
+
+help.potions:
+To create a potion you will first need to buy a formula from the professor. Your formula will then appear in your Alchemy Kit as either a healing or poison formula. Next, you will need to gather all the ingredients required for the potion by picking plants that you find. Finally, go to the formula detail page and select "Create". Your potion will now be available in your inventory.

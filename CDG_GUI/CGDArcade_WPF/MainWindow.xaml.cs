@@ -2,6 +2,7 @@
 using CGDArcade_WPF.UIControls;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Media;
 using System.Text;
@@ -26,8 +27,11 @@ namespace CGDArcade_WPF
         bool readyToDisplayEntities = false;
         ArcadeEntityManager arcadeEntityManager;
         public EntitySelectionControl activeEntity;
-        int activeRow;
-        int activeCol;
+        List<string> bckFilePaths;
+        int escCount = 0;
+
+        // int activeRow;
+        //int activeCol;
 
         int panelRows;
         int panelCols;
@@ -45,6 +49,9 @@ namespace CGDArcade_WPF
 
             this.selectionChangeSFX = new SoundPlayer("Assets\\Sfx\\Pickup_Coin17.wav");
             this.selectionMadeSFX = new SoundPlayer("Assets\\Sfx\\Blip_Select12.wav");
+
+            RetrieveBackgrounds();
+            CreateBackgroundChangeTimer();
         }
 
 
@@ -66,8 +73,8 @@ namespace CGDArcade_WPF
             {
                 this.activeEntity = this.mainWrapPanel.Children[0] as EntitySelectionControl;
                 this.activeEntity.SetAsActiveEntity();
-                this.activeRow = 1;
-                this.activeCol = 1;
+                //this.activeRow = 1;
+                //this.activeCol = 1;
                 this.readyToDisplayEntities = true;
             }
             else
@@ -88,8 +95,15 @@ namespace CGDArcade_WPF
                       break;
 
                   case Key.Escape:
-                      KillThisApp();
-                      break;
+
+                      this.escCount += 1;
+
+                      if (this.escCount > 3)
+                      {
+                          KillThisApp();
+                      }
+                      return;
+                      //break;
 
                   case Key.F1:
                       this.selectionChangeSFX.Play();
@@ -113,15 +127,17 @@ namespace CGDArcade_WPF
                       break;
                   
                   case Key.Left:
-                      debugLog.Content = "LEFT!";
+                      //debugLog.Content = "LEFT!";
                       MoveActiveEntityMarker(0, -1);
                       break;
             
                   case Key.Right:
-                      debugLog.Content = "RIGHT!";
+                      //debugLog.Content = "RIGHT!";
                       MoveActiveEntityMarker(0, 1);
                       break;
               }
+
+              this.escCount = 0;
         }
 
         private void DiagnosticStuff(string debugmsg)
@@ -244,6 +260,45 @@ namespace CGDArcade_WPF
             KillThisApp();
         }
 
-        
+
+
+
+
+
+
+        private void RetrieveBackgrounds()
+        {
+            this.bckFilePaths = new List<string>();
+
+            string exePath = AppDomain.CurrentDomain.BaseDirectory;
+            string searchPath = exePath + "Assets\\Textures\\Backgrounds";
+            string[] filePaths = Directory.GetFiles(searchPath);
+
+            foreach (string path in filePaths)
+            {
+                this.bckFilePaths.Add(path);
+            }
+        }
+
+
+        private void CreateBackgroundChangeTimer()
+        {
+            System.Windows.Threading.DispatcherTimer dispatcherTimer = new System.Windows.Threading.DispatcherTimer();
+            dispatcherTimer.Tick += new EventHandler(ChangeBackground);
+            dispatcherTimer.Interval = new TimeSpan(0,0,60);
+            dispatcherTimer.Start();
+        }
+
+        private void ChangeBackground(object sender, EventArgs e)
+        {
+            Console.WriteLine("CHANGE");
+            Random rnd = new Random(); 
+            int randomValue = rnd.Next(0, this.bckFilePaths.Count - 1);
+
+            GridBackground.ImageSource = new BitmapImage(new Uri(this.bckFilePaths[randomValue]));
+        }
+
+
+
     }
 }
