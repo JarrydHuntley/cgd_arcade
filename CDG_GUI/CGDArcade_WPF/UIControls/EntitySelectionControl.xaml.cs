@@ -38,7 +38,7 @@ namespace CGDArcade_WPF.UIControls
 
             if (this.arcadeEntity.logoImgPath != "")
             {
-                this.entityMediaElement.Source = new Uri(this.arcadeEntity.logoImgPath.Replace(@"\\EXEPATH\", exePath)); //TODO ACCESS IT LIKE THIS
+                this.entityMediaElement.Source = new BitmapImage(new Uri(this.arcadeEntity.logoImgPath.Replace(@"\\EXEPATH\", exePath))); //TODO ACCESS IT LIKE THIS
             }
             
             string tempString = this.arcadeEntity.entityTitle;

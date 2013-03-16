@@ -33,7 +33,9 @@ namespace CGDArcade_WPF.UIControls
 
             InitializeComponent();
             this.mplayer = new MediaPlayer();
+            this.mplayer.MediaEnded += new EventHandler(NextTrack);
         }
+
 
 
         public void LaunchMP3Player(string albumTitle, string albumArtist, string albumLogoPath, string albumBasePath)
@@ -114,6 +116,16 @@ namespace CGDArcade_WPF.UIControls
             {
                 listbox_TrackList.SelectedIndex = index + 1;
             }
+            else
+            {
+                listbox_TrackList.SelectedIndex = 0;
+            }
+
+        }
+
+        private void NextTrack(object sender, EventArgs e)
+        {
+            btn_Next_Click(null, null);
         }
 
 

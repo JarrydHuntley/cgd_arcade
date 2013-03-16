@@ -2,6 +2,7 @@ C:\DEV\cgd_arcade\CDG_GUI\CDG_GUI\bin\Release\gameData.sdf
 C:\DEV\cgd_arcade\CDG_GUI\CDG_GUI\bin\Release\CDG_GUI.exe.config
 C:\DEV\cgd_arcade\CDG_GUI\CDG_GUI\bin\Release\CDG_GUI.exe
 C:\DEV\cgd_arcade\CDG_GUI\CDG_GUI\bin\Release\CDG_GUI.pdb
+C:\DEV\cgd_arcade\CDG_GUI\CDG_GUI\obj\Release\CDG_GUI.csprojResolveAssemblyReference.cache
 C:\DEV\cgd_arcade\CDG_GUI\CDG_GUI\obj\Release\CDG_GUI.Form1.resources
 C:\DEV\cgd_arcade\CDG_GUI\CDG_GUI\obj\Release\CDG_GUI.Properties.Resources.resources
 C:\DEV\cgd_arcade\CDG_GUI\CDG_GUI\obj\Release\CDG_GUI.csproj.GenerateResource.Cache
